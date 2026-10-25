@@ -1,0 +1,16 @@
+{
+  "name": "croatia-skills",
+  "owner": {
+    "name": "jpavlinic"
+  },
+  "metadata": {
+    "description": "Croatia-related skills for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "croatia",
+      "source": "./",
+      "description": "Croatian language, law, business, data and market skills. Not legal, tax or financial advice."
+    }
+  ]
+}

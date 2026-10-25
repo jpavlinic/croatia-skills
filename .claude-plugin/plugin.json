@@ -1,0 +1,23 @@
+{
+  "name": "croatia",
+  "version": "0.1.0",
+  "description": "Croatia skills for Claude: Croatian language, legal compliance (not legal advice), identifiers (OIB, IBAN, HUB-3), localization, calendar, brands, fiscalization, business admin, payroll, tourism rentals, local SEO, real estate and EU funding.",
+  "author": {
+    "name": "jpavlinic"
+  },
+  "homepage": "https://github.com/jpavlinic/croatia-skills",
+  "repository": "https://github.com/jpavlinic/croatia-skills",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": [
+    "croatia",
+    "hrvatska",
+    "croatian",
+    "hrvatski",
+    "legal",
+    "gdpr",
+    "oib",
+    "fiskalizacija",
+    "localization",
+    "seo"
+  ]
+}

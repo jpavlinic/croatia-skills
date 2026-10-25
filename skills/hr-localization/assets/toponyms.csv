@@ -1,0 +1,237 @@
+name,type,county,genitive,locative,from_form,ethnic_m,ethnic_f,source,note
+Zagreb,grad,Grad Zagreb,Zagreba,u Zagrebu,iz Zagreba,Zagrepčanin,Zagrepčanka,IHJJ,county seat
+Split,grad,Splitsko-dalmatinska,Splita,u Splitu,iz Splita,Splićanin,Splićanka,IHJJ,county seat
+Rijeka,grad,Primorsko-goranska,Rijeke,u Rijeci,iz Rijeke,Riječanin,Riječanka,IHJJ,county seat; IHJJ allows u/na Rijeci; standard 'u Rijeci'
+Osijek,grad,Osječko-baranjska,Osijeka,u Osijeku,iz Osijeka,Osječanin,Osječanka,IHJJ,county seat
+Zadar,grad,Zadarska,Zadra,u Zadru,iz Zadra,Zadranin,Zadranka,IHJJ,county seat
+Velika Gorica,grad,Zagrebačka,Velike Gorice,u Velikoj Gorici,iz Velike Gorice,Velikogoričanin,Velikogoričanka,IHJJ,
+Pula,grad,Istarska,Pule,u Puli,iz Pule,Puljanin,Puljanka,IHJJ,
+Slavonski Brod,grad,Brodsko-posavska,Slavonskog Broda,u Slavonskom Brodu,iz Slavonskog Broda,Brođanin,Brođanka,IHJJ,county seat
+Karlovac,grad,Karlovačka,Karlovca,u Karlovcu,iz Karlovca,Karlovčanin,Karlovčanka,IHJJ,county seat
+Varaždin,grad,Varaždinska,Varaždina,u Varaždinu,iz Varaždina,Varaždinac,Varaždinka,IHJJ,county seat
+Šibenik,grad,Šibensko-kninska,Šibenika,u Šibeniku,iz Šibenika,Šibenčanin,Šibenčanka,IHJJ,county seat
+Dubrovnik,grad,Dubrovačko-neretvanska,Dubrovnika,u Dubrovniku,iz Dubrovnika,Dubrovčanin,Dubrovčanka/Dubrovkinja,IHJJ,county seat
+Sisak,grad,Sisačko-moslavačka,Siska,u Sisku,iz Siska,Siščanin,Siščanka,IHJJ,county seat
+Kaštela,grad,Splitsko-dalmatinska,Kaštela,u Kaštelima,iz Kaštela,Kaštelanin,Kaštelanka,IHJJ,
+Samobor,grad,Zagrebačka,Samobora,u Samoboru,iz Samobora,Samoborac,Samoborka,IHJJ,
+Bjelovar,grad,Bjelovarsko-bilogorska,Bjelovara,u Bjelovaru,iz Bjelovara,,,rule,county seat
+Vinkovci,grad,Vukovarsko-srijemska,Vinkovaca,u Vinkovcima,iz Vinkovaca,Vinkovčanin,Vinkovčanka,IHJJ,
+Koprivnica,grad,Koprivničko-križevačka,Koprivnice,u Koprivnici,iz Koprivnice,Koprivničanin,Koprivničanka,IHJJ,county seat
+Čakovec,grad,Međimurska,Čakovca,u Čakovcu,iz Čakovca,Čakovčanin,Čakovčanka,IHJJ,county seat
+Solin,grad,Splitsko-dalmatinska,Solina,u Solinu,iz Solina,Solinjanin,Solinjanka,IHJJ,
+Zaprešić,grad,Zagrebačka,Zaprešića,u Zaprešiću,iz Zaprešića,,,rule,
+Đakovo,grad,Osječko-baranjska,Đakova,u Đakovu,iz Đakova,Đakovčanin,Đakovčanka,IHJJ,
+Sinj,grad,Splitsko-dalmatinska,Sinja,u Sinju,iz Sinja,Sinjanin,Sinjanka,IHJJ,
+Vukovar,grad,Vukovarsko-srijemska,Vukovara,u Vukovaru,iz Vukovara,Vukovarac,Vukovarka,IHJJ,county seat
+Požega,grad,Požeško-slavonska,Požege,u Požegi,iz Požege,Požežanin,Požežanka,IHJJ,county seat
+Petrinja,grad,Sisačko-moslavačka,Petrinje,u Petrinji,iz Petrinje,Petrinjac,Petrinjka,IHJJ,
+Kutina,grad,Sisačko-moslavačka,Kutine,u Kutini,iz Kutine,Kutinjanin,Kutinjanka,IHJJ,
+Virovitica,grad,Virovitičko-podravska,Virovitice,u Virovitici,iz Virovitice,Virovitičanin,Virovitičanka,IHJJ,county seat
+Križevci,grad,Koprivničko-križevačka,Križevaca,u Križevcima,iz Križevaca,Križevčanin,Križevčanka,IHJJ,
+Sveta Nedelja,grad,Zagrebačka,Svete Nedelje,u Svetoj Nedelji,iz Svete Nedelje,,,rule,
+Dugo Selo,grad,Zagrebačka,Dugog Sela,u Dugom Selu,iz Dugog Sela,Dugoselac,Dugoselka,IHJJ,
+Poreč,grad,Istarska,Poreča,u Poreču,iz Poreča,Porečanin,Porečanka,IHJJ,
+Metković,grad,Dubrovačko-neretvanska,Metkovića,u Metkoviću,iz Metkovića,Metkovac,Metkovka,IHJJ,
+Sveti Ivan Zelina,grad,Zagrebačka,Svetog Ivana Zeline,u Svetom Ivanu Zelini,iz Svetog Ivana Zeline,,,rule,VERIFY: local usage also 'u Zelini'
+Jastrebarsko,grad,Zagrebačka,Jastrebarskog,u Jastrebarskom,iz Jastrebarskog,Jastrebarščanin,Jastrebarščanka,IHJJ,
+Našice,grad,Osječko-baranjska,Našica,u Našicama,iz Našica,Našičanin,Našičanka,IHJJ,
+Omiš,grad,Splitsko-dalmatinska,Omiša,u Omišu,iz Omiša,Omišanin,Omišanka,IHJJ,
+Makarska,grad,Splitsko-dalmatinska,Makarske,u Makarskoj,iz Makarske,Makaranin,Makaranka,IHJJ,
+Ivanić-Grad,grad,Zagrebačka,Ivanić-Grada,u Ivanić-Gradu,iz Ivanić-Grada,Ivanićanin,Ivanićanka,IHJJ,
+Vrbovec,grad,Zagrebačka,Vrbovca,u Vrbovcu,iz Vrbovca,,,rule,
+Rovinj,grad,Istarska,Rovinja,u Rovinju,iz Rovinja,Rovinjanin,Rovinjanka,IHJJ,
+Ivanec,grad,Varaždinska,Ivanca,u Ivancu,iz Ivanca,Ivančanin,Ivančanka,IHJJ,
+Umag,grad,Istarska,Umaga,u Umagu,iz Umaga,Umažanin,Umažanka,IHJJ,
+Trogir,grad,Splitsko-dalmatinska,Trogira,u Trogiru,iz Trogira,,,rule,
+Ogulin,grad,Karlovačka,Ogulina,u Ogulinu,iz Ogulina,Ogulinac,Ogulinka,IHJJ,
+Novi Marof,grad,Varaždinska,Novog Marofa,u Novom Marofu,iz Novog Marofa,,,rule,
+Nova Gradiška,grad,Brodsko-posavska,Nove Gradiške,u Novoj Gradiški,iz Nove Gradiške,Novogradiščanin,Novogradiščanka,IHJJ,
+Knin,grad,Šibensko-kninska,Knina,u Kninu,iz Knina,Kninjanin,Kninjanka,IHJJ,
+Krapina,grad,Krapinsko-zagorska,Krapine,u Krapini,iz Krapine,Krapinac,Krapinka,IHJJ,county seat
+Slatina,grad,Virovitičko-podravska,Slatine,u Slatini,iz Slatine,,,rule,
+Gospić,grad,Ličko-senjska,Gospića,u Gospiću,iz Gospića,Gospićanin,Gospićanka,IHJJ,county seat
+Novska,grad,Sisačko-moslavačka,Novske,u Novskoj,iz Novske,Novljanin,Novljanka,IHJJ,
+Opatija,grad,Primorsko-goranska,Opatije,u Opatiji,iz Opatije,Opatijac,Opatijka,IHJJ,
+Labin,grad,Istarska,Labina,u Labinu,iz Labina,Labinjanin,Labinjanka,IHJJ,
+Popovača,grad,Sisačko-moslavačka,Popovače,u Popovači,iz Popovače,,,rule,
+Duga Resa,grad,Karlovačka,Duge Rese,u Dugoj Resi,iz Duge Rese,Dugorešanin,Dugorešanka,IHJJ,
+Kastav,grad,Primorsko-goranska,Kastva,u Kastvu,iz Kastva,,,rule,"VERIFY: fleeting a (Kastva, u Kastvu) - check HJP/local usage"
+Daruvar,grad,Bjelovarsko-bilogorska,Daruvara,u Daruvaru,iz Daruvara,,,rule,
+Crikvenica,grad,Primorsko-goranska,Crikvenice,u Crikvenici,iz Crikvenice,Crikveničanin,Crikveničanka,IHJJ,
+Valpovo,grad,Osječko-baranjska,Valpova,u Valpovu,iz Valpova,Valpovčanin,Valpovčanka,IHJJ,
+Benkovac,grad,Zadarska,Benkovca,u Benkovcu,iz Benkovca,Benkovčanin,Benkovčanka,IHJJ,
+Imotski,grad,Splitsko-dalmatinska,Imotskog,u Imotskom,iz Imotskog,Imoćanin,Imoćanka,IHJJ,
+Županja,grad,Vukovarsko-srijemska,Županje,u Županji,iz Županje,Županjac,Županjka,IHJJ,
+Pleternica,grad,Požeško-slavonska,Pleternice,u Pleternici,iz Pleternice,,,rule,
+Belišće,grad,Osječko-baranjska,Belišća,u Belišću,iz Belišća,,,rule,
+Zabok,grad,Krapinsko-zagorska,Zaboka,u Zaboku,iz Zaboka,,,rule,
+Vodice,grad,Šibensko-kninska,Vodica,u Vodicama,iz Vodica,,,rule,
+Garešnica,grad,Bjelovarsko-bilogorska,Garešnice,u Garešnici,iz Garešnice,Gareščanin,Gareščanka,IHJJ,
+Ludbreg,grad,Varaždinska,Ludbrega,u Ludbregu,iz Ludbrega,Ludbrežanin,Ludbrežanka,IHJJ,
+Otočac,grad,Ličko-senjska,Otočca,u Otočcu,iz Otočca,Otočanin,Otočanka,IHJJ,
+Pazin,grad,Istarska,Pazina,u Pazinu,iz Pazina,,,rule,county seat
+Ploče,grad,Dubrovačko-neretvanska,Ploča,u Pločama,iz Ploča,Pločanin,Pločanka,IHJJ,
+Trilj,grad,Splitsko-dalmatinska,Trilja,u Trilju,iz Trilja,,,rule,
+Donji Miholjac,grad,Osječko-baranjska,Donjeg Miholjca,u Donjem Miholjcu,iz Donjeg Miholjca,(Donjo)miholjčanin,(Donjo)miholjčanka,IHJJ,
+Beli Manastir,grad,Osječko-baranjska,Belog Manastira,u Belom Manastiru,iz Belog Manastira,Belomanastirac,Belomanastirka,IHJJ,
+Bakar,grad,Primorsko-goranska,Bakra,u Bakru,iz Bakra,,,rule,"VERIFY: fleeting a (Bakra, u Bakru)"
+Mali Lošinj,grad,Primorsko-goranska,Malog Lošinja,u Malom Lošinju,iz Malog Lošinja,,,rule,
+Đurđevac,grad,Koprivničko-križevačka,Đurđevca,u Đurđevcu,iz Đurđevca,Đurđevčanin,Đurđevčanka,IHJJ,
+Rab,grad,Primorsko-goranska,Raba,u Rabu,iz Raba,Rabljanin,Rabljanka,IHJJ,town; island = na
+Glina,grad,Sisačko-moslavačka,Gline,u Glini,iz Gline,Glinjanin,Glinjanka,IHJJ,
+Pakrac,grad,Požeško-slavonska,Pakraca,u Pakracu,iz Pakraca,Pakračanin,Pakračanka,IHJJ,
+Prelog,grad,Međimurska,Preloga,u Prelogu,iz Preloga,,,rule,
+Lepoglava,grad,Varaždinska,Lepoglave,u Lepoglavi,iz Lepoglave,,,rule,
+Čazma,grad,Bjelovarsko-bilogorska,Čazme,u Čazmi,iz Čazme,,,rule,
+Krk,grad,Primorsko-goranska,Krka,u Krku,iz Krka,Krčanin,Krčanka,IHJJ,town; island = na
+Drniš,grad,Šibensko-kninska,Drniša,u Drnišu,iz Drniša,Drnišanin,Drnišanka,IHJJ,
+Buzet,grad,Istarska,Buzeta,u Buzetu,iz Buzeta,,,rule,
+Senj,grad,Ličko-senjska,Senja,u Senju,iz Senja,Senjanin,Senjanka,IHJJ,
+Pregrada,grad,Krapinsko-zagorska,Pregrade,u Pregradi,iz Pregrade,,,rule,
+Mursko Središće,grad,Međimurska,Murskog Središća,u Murskom Središću,iz Murskog Središća,,,rule,
+Vodnjan,grad,Istarska,Vodnjana,u Vodnjanu,iz Vodnjana,,,rule,
+Ozalj,grad,Karlovačka,Ozlja,u Ozlju,iz Ozlja,,,rule,"VERIFY: fleeting a (Ozlja, u Ozlju)"
+Oroslavje,grad,Krapinsko-zagorska,Oroslavja,u Oroslavju,iz Oroslavja,,,rule,
+Vrgorac,grad,Splitsko-dalmatinska,Vrgorca,u Vrgorcu,iz Vrgorca,,,rule,
+Biograd na Moru,grad,Zadarska,Biograda na Moru,u Biogradu na Moru,iz Biograda na Moru,Biograđanin,Biograđanka,IHJJ,
+Zlatar,grad,Krapinsko-zagorska,Zlatara,u Zlataru,iz Zlatara,,,rule,
+Varaždinske Toplice,grad,Varaždinska,Varaždinskih Toplica,u Varaždinskim Toplicama,iz Varaždinskih Toplica,,,rule,
+Korčula,grad,Dubrovačko-neretvanska,Korčule,u Korčuli,iz Korčule,Korčulanin,Korčulanka,IHJJ,town; island = na
+Grubišno Polje,grad,Bjelovarsko-bilogorska,Grubišnog Polja,u Grubišnom Polju,iz Grubišnog Polja,Grubišnopoljčanin,Grubišnopoljčanka,IHJJ,
+Donja Stubica,grad,Krapinsko-zagorska,Donje Stubice,u Donjoj Stubici,iz Donje Stubice,,,rule,
+Delnice,grad,Primorsko-goranska,Delnica,u Delnicama,iz Delnica,Delničanin,Delničanka,IHJJ,
+Lipik,grad,Požeško-slavonska,Lipika,u Lipiku,iz Lipika,,,rule,
+Ilok,grad,Vukovarsko-srijemska,Iloka,u Iloku,iz Iloka,Iločanin,Iločanka,IHJJ,
+Otok,grad,Vukovarsko-srijemska,Otoka,u Otoku,iz Otoka,,,rule,
+Kutjevo,grad,Požeško-slavonska,Kutjeva,u Kutjevu,iz Kutjeva,,,rule,
+Orahovica,grad,Virovitičko-podravska,Orahovice,u Orahovici,iz Orahovice,,,rule,
+Buje,grad,Istarska,Buja,u Bujama,iz Buja,Bujanin,Bujanka,IHJJ,
+Novi Vinodolski,grad,Primorsko-goranska,Novog Vinodolskog,u Novom Vinodolskom,iz Novog Vinodolskog,,,rule,VERIFY: adjectival declension
+Supetar,grad,Splitsko-dalmatinska,Supetra,u Supetru,iz Supetra,,,rule,VERIFY: fleeting a (Supetra)
+Slunj,grad,Karlovačka,Slunja,u Slunju,iz Slunja,,,rule,
+Kraljevica,grad,Primorsko-goranska,Kraljevice,u Kraljevici,iz Kraljevice,,,rule,
+Hvar,grad,Splitsko-dalmatinska,Hvara,u Hvaru,iz Hvara,Hvaranin,Hvaranka,IHJJ,town; island = na
+Novigrad,grad,Istarska,Novigrada,u Novigradu,iz Novigrada,,,rule,
+Vrbovsko,grad,Primorsko-goranska,Vrbovskog,u Vrbovskom,iz Vrbovskog,,,rule,VERIFY: adjectival declension (u Vrbovskom)
+Novalja,grad,Ličko-senjska,Novalje,u Novalji,iz Novalje,,,rule,
+Obrovac,grad,Zadarska,Obrovca,u Obrovcu,iz Obrovca,,,rule,
+Skradin,grad,Šibensko-kninska,Skradina,u Skradinu,iz Skradina,,,rule,
+Čabar,grad,Primorsko-goranska,Čabra,u Čabru,iz Čabra,,,rule,"VERIFY: fleeting a (Čabra, u Čabru)"
+Pag,grad,Zadarska,Paga,u Pagu,iz Paga,Pažanin,Pažanka,IHJJ,town; island = na
+Opuzen,grad,Dubrovačko-neretvanska,Opuzena,u Opuzenu,iz Opuzena,Opuzenac,Opuzenka,IHJJ,
+Stari Grad,grad,Splitsko-dalmatinska,Starog Grada,u Starom Gradu,iz Starog Grada,,,rule,
+Cres,grad,Primorsko-goranska,Cresa,u Cresu,iz Cresa,Crešanin,Crešanka,IHJJ,town; island = na
+Nin,grad,Zadarska,Nina,u Ninu,iz Nina,,,rule,
+Klanjec,grad,Krapinsko-zagorska,Klanjca,u Klanjcu,iz Klanjca,,,rule,
+Vis,grad,Splitsko-dalmatinska,Visa,u Visu,iz Visa,Višanin,Višanka,IHJJ,town; island = na
+Hrvatska Kostajnica,grad,Sisačko-moslavačka,Hrvatske Kostajnice,u Hrvatskoj Kostajnici,iz Hrvatske Kostajnice,,,rule,
+Vrlika,grad,Splitsko-dalmatinska,Vrlike,u Vrlici,iz Vrlike,,,rule,
+Komiža,grad,Splitsko-dalmatinska,Komiže,u Komiži,iz Komiže,Komižanin,Komižanka,IHJJ,
+Krk,otok,Primorsko-goranska,Krka,na Krku,s Krka,Krčanin,Krčanka,IHJJ,island; town = u
+Cres,otok,Primorsko-goranska,Cresa,na Cresu,s Cresa,Crešanin,Crešanka,IHJJ,island; town = u
+Rab,otok,Primorsko-goranska,Raba,na Rabu,s Raba,Rabljanin,Rabljanka,IHJJ,island; town = u
+Pag,otok,Zadarska / Ličko-senjska,Paga,na Pagu,s Paga,Pažanin,Pažanka,IHJJ,island; town = u
+Hvar,otok,Splitsko-dalmatinska,Hvara,na Hvaru,s Hvara,Hvaranin,Hvaranka,IHJJ,island; town = u
+Vis,otok,Splitsko-dalmatinska,Visa,na Visu,s Visa,Višanin,Višanka,IHJJ,island; town = u
+Korčula,otok,Dubrovačko-neretvanska,Korčule,na Korčuli,s Korčule,Korčulanin,Korčulanka,IHJJ,island; town = u
+Brač,otok,Splitsko-dalmatinska,Brača,na Braču,s Brača,Bračanin,Bračanka,IHJJ,
+Lastovo,otok,Dubrovačko-neretvanska,Lastova,na Lastovu,s Lastova,Lastovac,Lastovka,IHJJ,island; the town: u Lastovu
+Lošinj,otok,Primorsko-goranska,Lošinja,na Lošinju,s Lošinja,Lošinjanin,Lošinjanka,IHJJ,
+Mljet,otok,Dubrovačko-neretvanska,Mljeta,na Mljetu,s Mljeta,Mljećanin,Mljećanka,IHJJ,
+Šolta,otok,Splitsko-dalmatinska,Šolte,na Šolti,sa Šolte,Šoltanin,Šoltanka,IHJJ,
+Dugi otok,otok,Zadarska,Dugog otoka,na Dugom otoku,s Dugog otoka,Dugootočanin,Dugootočanka,IHJJ,
+Pelješac,poluotok,Dubrovačko-neretvanska,Pelješca,na Pelješcu,s Pelješca,Pelješčanin,Pelješčanka,IHJJ,
+Čiovo,otok,Splitsko-dalmatinska,Čiova,na Čiovu,s Čiova,,,rule,
+Murter,otok,Šibensko-kninska,Murtera,na Murteru,s Murtera,,,rule,island; the village: u Murteru
+Ugljan,otok,Zadarska,Ugljana,na Ugljanu,s Ugljana,,,rule,
+Pašman,otok,Zadarska,Pašmana,na Pašmanu,s Pašmana,,,rule,
+Silba,otok,Zadarska,Silbe,na Silbi,sa Silbe,,,rule,
+Olib,otok,Zadarska,Oliba,na Olibu,s Oliba,,,rule,
+Iž,otok,Zadarska,Iža,na Ižu,s Iža,,,rule,
+Molat,otok,Zadarska,Molata,na Molatu,s Molata,,,rule,
+Vir,otok,Zadarska,Vira,na Viru,s Vira,,,rule,
+Susak,otok,Primorsko-goranska,Suska,na Susku,sa Suska,,,rule,VERIFY: fleeting a (Suska)
+Unije,otok,Primorsko-goranska,Unija,na Unijama,s Unija,,,rule,VERIFY: plural (na Unijama)
+Ilovik,otok,Primorsko-goranska,Ilovika,na Iloviku,s Ilovika,,,rule,
+Zlarin,otok,Šibensko-kninska,Zlarina,na Zlarinu,sa Zlarina,,,rule,
+Prvić,otok,Šibensko-kninska,Prvića,na Prviću,s Prvića,,,rule,
+Žirje,otok,Šibensko-kninska,Žirja,na Žirju,sa Žirja,,,rule,
+Krapanj,otok,Šibensko-kninska,Krapnja,na Krapnju,s Krapnja,,,rule,VERIFY: fleeting a (Krapnja)
+Lopud,otok,Dubrovačko-neretvanska,Lopuda,na Lopudu,s Lopuda,,,rule,
+Šipan,otok,Dubrovačko-neretvanska,Šipana,na Šipanu,sa Šipana,,,rule,
+Koločep,otok,Dubrovačko-neretvanska,Koločepa,na Koločepu,s Koločepa,,,rule,
+Biševo,otok,Splitsko-dalmatinska,Biševa,na Biševu,s Biševa,,,rule,
+Brijuni,otok,Istarska,Brijuna,na Brijunima,s Brijuna,,,rule,plural
+Kornati,otok,Šibensko-kninska,Kornata,na Kornatima,s Kornata,,,rule,plural
+Elafiti,otok,Dubrovačko-neretvanska,Elafita,na Elafitima,s Elafita,,,rule,VERIFY: plural (Elafitski otoci)
+Istra,regija,Istarska,Istre,u Istri,iz Istre,Istranin,Istranka,IHJJ,
+Dalmacija,regija,,Dalmacije,u Dalmaciji,iz Dalmacije,Dalmatinac,Dalmatinka,IHJJ,
+Slavonija,regija,,Slavonije,u Slavoniji,iz Slavonije,Slavonac,Slavonka,IHJJ,
+Lika,regija,Ličko-senjska,Like,u Lici,iz Like,Ličanin,Ličanka,IHJJ,
+Baranja,regija,Osječko-baranjska,Baranje,u Baranji,iz Baranje,Baranjac,Baranjka,IHJJ,
+Međimurje,regija,Međimurska,Međimurja,u Međimurju,iz Međimurja,Međimurac,Međimurka,IHJJ,
+Podravina,regija,,Podravine,u Podravini,iz Podravine,Podravac,Podravka,IHJJ,
+Hrvatsko zagorje,regija,Krapinsko-zagorska,Hrvatskog zagorja,u Hrvatskom zagorju,iz Hrvatskog zagorja,Zagorac,Zagorka,IHJJ,
+Gorski kotar,regija,Primorsko-goranska,Gorskog kotara,u Gorskom kotaru,iz Gorskog kotara,Goranin,Goranka,IHJJ,
+Hrvatsko primorje,regija,Primorsko-goranska,Hrvatskog primorja,u Hrvatskom primorju,iz Hrvatskog primorja,Primorac,Primorka,IHJJ,
+Banovina,regija,Sisačko-moslavačka,Banovine,na Banovini,s Banovine,Banovinac,Banovinka,IHJJ,
+Konavle,regija,Dubrovačko-neretvanska,Konavala,u Konavlima,iz Konavala,Konavljanin,Konavljanka,IHJJ,
+Žumberak,regija,Zagrebačka,Žumberka,na Žumberku,sa Žumberka,Žumberčanin,Žumberčanka,IHJJ,
+Cetinska krajina,regija,Splitsko-dalmatinska,Cetinske krajine,u Cetinskoj krajini,iz Cetinske krajine,Cetinjanin,Cetinjanka,IHJJ,
+Ravni kotari,regija,Zadarska,Ravnih kotara,u Ravnim kotarima,iz Ravnih kotara,(Ravno)kotarac,(Ravno)kotarka,IHJJ,
+Neretvanska krajina,regija,Dubrovačko-neretvanska,Neretvanske krajine,u Neretvanskoj krajini,iz Neretvanske krajine,Neretvanin,Neretvanka,IHJJ,
+Župa dubrovačka,regija,Dubrovačko-neretvanska,Župe dubrovačke,u Župi dubrovačkoj,iz Župe dubrovačke,Župljanin,Župljanka,IHJJ,
+Kvarner,regija,Primorsko-goranska,Kvarnera,na Kvarneru,s Kvarnera,,,rule,
+Zagorje,regija,Krapinsko-zagorska,Zagorja,u Zagorju,iz Zagorja,,,rule,
+Moslavina,regija,Sisačko-moslavačka,Moslavine,u Moslavini,iz Moslavine,,,rule,
+Posavina,regija,,Posavine,u Posavini,iz Posavine,,,rule,
+Hrvatska,država,,Hrvatske,u Hrvatskoj,iz Hrvatske,Hrvat,Hrvatica,IHJJ,
+Baška,općina/naselje,Primorsko-goranska,Baške,u Baški,iz Baške,Bašćanin,Bašćanka,IHJJ,
+Blato,općina/naselje,Dubrovačko-neretvanska,Blata,u Blatu,iz Blata,Blaćanin,Blaćanka,IHJJ,town on Korčula
+Vela Luka,općina/naselje,Dubrovačko-neretvanska,Vele Luke,u Veloj Luci,iz Vele Luke,Velolučanin,Velolučanka,IHJJ,
+Ston,općina/naselje,Dubrovačko-neretvanska,Stona,u Stonu,iz Stona,Stonjanin,Stonjanka,IHJJ,
+Klis,općina/naselje,Splitsko-dalmatinska,Klisa,u Klisu,iz Klisa,Klišanin,Klišanka,IHJJ,"IHJJ: centre 'u Klisu', surrounding villages say 'na Klisu'"
+Dugi Rat,općina/naselje,Splitsko-dalmatinska,Dugog Rata,u Dugom Ratu,iz Dugog Rata,Dugoraćanin,Dugoraćanka,IHJJ,
+Sesvete,općina/naselje,Grad Zagreb,Sesveta,u Sesvetama,iz Sesveta,Sesvećanin,Sesvećanka,IHJJ,city district
+Marija Bistrica,općina/naselje,Krapinsko-zagorska,Marije Bistrice,u Mariji Bistrici,iz Marije Bistrice,Bistričanin,Bistričanka,IHJJ,
+Sveti Filip i Jakov,općina/naselje,Zadarska,Svetog Filipa i Jakova,u Svetom Filipu i Jakovu,iz Svetog Filipa i Jakova,Filipljanac,Filipljanka,IHJJ,
+Pučišća,općina/naselje,Splitsko-dalmatinska,Pučišća,u Pučišćima,iz Pučišća,Pučišćanin,Pučišćanka,IHJJ,
+Gradac,općina/naselje,Splitsko-dalmatinska,Gradca,u Gradcu,iz Gradca,Gračanin,Gračanka,IHJJ,
+Gračac,općina/naselje,Zadarska,Gračaca,u Gračacu,iz Gračaca,Gračanin,Gračanka,IHJJ,
+Dvor,općina/naselje,Sisačko-moslavačka,Dvora,u Dvoru,iz Dvora,Dvoranin,Dvoranka,IHJJ,
+Josipdol,općina/naselje,Karlovačka,Josipdola,u Josipdolu,iz Josipdola,Josipdolac,Josipdolka,IHJJ,
+Medulin,općina/naselje,Istarska,Medulina,u Medulinu,iz Medulina,,,rule,
+Fažana,općina/naselje,Istarska,Fažane,u Fažani,iz Fažane,,,rule,
+Vrsar,općina/naselje,Istarska,Vrsara,u Vrsaru,iz Vrsara,,,rule,
+Funtana,općina/naselje,Istarska,Funtane,u Funtani,iz Funtane,,,rule,
+Motovun,općina/naselje,Istarska,Motovuna,u Motovunu,iz Motovuna,,,rule,
+Grožnjan,općina/naselje,Istarska,Grožnjana,u Grožnjanu,iz Grožnjana,,,rule,
+Lovran,općina/naselje,Primorsko-goranska,Lovrana,u Lovranu,iz Lovrana,,,rule,
+Mošćenička Draga,općina/naselje,Primorsko-goranska,Mošćeničke Drage,u Mošćeničkoj Dragi,iz Mošćeničke Drage,,,rule,
+Malinska,općina/naselje,Primorsko-goranska,Malinske,u Malinskoj,iz Malinske,,,rule,VERIFY: adjectival declension (u Malinskoj)
+Punat,općina/naselje,Primorsko-goranska,Punta,u Puntu,iz Punta,,,rule,"VERIFY: fleeting a (Punta, u Puntu)"
+Omišalj,općina/naselje,Primorsko-goranska,Omišlja,u Omišlju,iz Omišlja,,,rule,
+Njivice,općina/naselje,Primorsko-goranska,Njivica,u Njivicama,iz Njivica,,,rule,
+Selce,općina/naselje,Primorsko-goranska,Selca,u Selcu,iz Selca,,,rule,
+Lopar,općina/naselje,Primorsko-goranska,Lopara,u Loparu,iz Lopara,,,rule,
+Starigrad,općina/naselje,Zadarska,Starigrada,u Starigradu,iz Starigrada,,,rule,Starigrad-Paklenica; not Stari Grad on Hvar
+Sukošan,općina/naselje,Zadarska,Sukošana,u Sukošanu,iz Sukošana,,,rule,
+Petrčane,općina/naselje,Zadarska,Petrčana,u Petrčanima,iz Petrčana,,,rule,VERIFY: plural
+Pakoštane,općina/naselje,Zadarska,Pakoštana,u Pakoštanima,iz Pakoštana,,,rule,VERIFY: plural
+Primošten,općina/naselje,Šibensko-kninska,Primoštena,u Primoštenu,iz Primoštena,,,rule,
+Rogoznica,općina/naselje,Šibensko-kninska,Rogoznice,u Rogoznici,iz Rogoznice,,,rule,
+Tisno,općina/naselje,Šibensko-kninska,Tisnog,u Tisnom,iz Tisnog,,,rule,VERIFY: adjectival declension (u Tisnom)
+Pirovac,općina/naselje,Šibensko-kninska,Pirovca,u Pirovcu,iz Pirovca,,,rule,
+Tribunj,općina/naselje,Šibensko-kninska,Tribunja,u Tribunju,iz Tribunja,,,rule,
+Podstrana,općina/naselje,Splitsko-dalmatinska,Podstrane,u Podstrani,iz Podstrane,,,rule,
+Brela,općina/naselje,Splitsko-dalmatinska,Brela,u Brelima,iz Brela,,,rule,VERIFY: plural neuter (u Brelima)
+Baška Voda,općina/naselje,Splitsko-dalmatinska,Baške Vode,u Baškoj Vodi,iz Baške Vode,,,rule,
+Tučepi,općina/naselje,Splitsko-dalmatinska,Tučepa,u Tučepima,iz Tučepa,,,rule,plural
+Podgora,općina/naselje,Splitsko-dalmatinska,Podgore,u Podgori,iz Podgore,,,rule,
+Bol,općina/naselje,Splitsko-dalmatinska,Bola,u Bolu,iz Bola,,,rule,town on Brač
+Milna,općina/naselje,Splitsko-dalmatinska,Milne,u Milni,iz Milne,,,rule,
+Jelsa,općina/naselje,Splitsko-dalmatinska,Jelse,u Jelsi,iz Jelse,,,rule,town on Hvar
+Cavtat,općina/naselje,Dubrovačko-neretvanska,Cavtata,u Cavtatu,iz Cavtata,,,rule,
+Orebić,općina/naselje,Dubrovačko-neretvanska,Orebića,u Orebiću,iz Orebića,,,rule,
+Lumbarda,općina/naselje,Dubrovačko-neretvanska,Lumbarde,u Lumbardi,iz Lumbarde,,,rule,
+Plitvička jezera,općina/naselje,Ličko-senjska,Plitvičkih jezera,na Plitvičkim jezerima,s Plitvičkih jezera,,,rule,national park; also 'na Plitvicama'
