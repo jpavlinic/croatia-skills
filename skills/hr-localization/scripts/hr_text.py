@@ -9,10 +9,10 @@ Subcommands
   sort [FILE]                sort lines (stdin or FILE) in Croatian alphabetical order
   fix-mojibake TEXT|-        repair UTF-8 read as Windows-1252/Latin-1, and (with --legacy) Windows-1250
                              or ISO-8859-2 bytes read as Windows-1252/Latin-1
-  vocative NAME [--gender m|f] [--surname]
+  vocative NAME [--gender m|f] [--surname] [--no-decline-ic]
                              conservative vocative; falls back to the nominative when unsure
   greeting --first F --last L [--gender m|f] [--formal|--informal]
-                             salutation line, e.g. "Poštovani gospodine Horvat,"
+                             salutation line, e.g. "Poštovani gospodine Horvat,", "Poštovani gospodine Babiću,"
   place NAME [--type grad|otok|...]
                              look up genitive, locative (u/na), "from" form and ethnics in assets/toponyms.csv
   --self-test                run the built-in tests
@@ -242,27 +242,38 @@ _MALE_VOC = {
     "Vedran": "Vedrane", "Mladen": "Mladene", "Nenad": "Nenade", "Bojan": "Bojane", "Neven": "Nevene",
     "Slaven": "Slavene", "Boris": "Borise", "Denis": "Denise", "Kristijan": "Kristijane",
     "Gabrijel": "Gabrijele", "Šimun": "Šimune", "Aleksandar": "Aleksandre", "Dragan": "Dragane",
-    "Hrvoje": "Hrvoje", "Tihomir": "Tihomire", "Ivica": "Ivica", "Emanuel": "Emanuele", "David": "Davide",
+    "Hrvoje": "Hrvoje", "Tihomir": "Tihomire", "Emanuel": "Emanuele", "David": "Davide",
     "Adam": "Adame", "Vid": "Vide", "Roko": "Roko", "Edin": "Edine", "Dino": "Dino",
     "Lovro": "Lovro", "Bernard": "Bernarde", "Bartol": "Bartole", "Toma": "Toma",
     "Tin": "Tine", "Patrik": None, "Dominik": None, "Domagoj": None, "Juraj": None,
     "Mirko": "Mirko", "Željko": "Željko",
 }
+# Croatian names in -ica (male and female): the standard vocative ends in -ice (Dragi Ivice, Draga Ankice).
+_ICA_NAMES = {
+    "Ivica", "Jurica", "Perica", "Tomica", "Stipica",
+    "Ankica", "Anica", "Marica", "Ljubica", "Danica", "Dragica", "Katica", "Milica", "Zorica", "Slavica",
+    "Verica", "Ružica", "Štefica", "Jelica", "Barica", "Janica", "Evica",
+}
 _FEMALE_HINT = {"Ines", "Nives", "Karmen", "Dolores", "Doris", "Ruth", "Miriam", "Mirjam", "Ester", "Margit"}
 _PALATAL_END = ("j", "lj", "nj", "č", "ć", "dž", "đ", "š", "ž")
 
 
-def vocative(name, gender=None, surname=False, decline_ic=False):
+def vocative(name, gender=None, surname=False, decline_ic=True):
     """Conservative vocative.
 
     First names:
+      * names in -ica, male and female, from the curated set: -ice (Ivica -> Ivice, Ankica -> Ankice).
+        Any other name in -ica is returned unchanged with confident=False, because foreign names
+        spelled with -ica (Monica, Jessica) are pronounced with k and do not take -ice.
       * female (or name ending in -a, unless known male): unchanged - the neutral, conventional form
         (Ana, Ivana, Marija). The -o forms (Ano, Ivano) are colloquial/marked; never generate them.
       * male ending in a vowel (Marko, Ante, Luka, Mario): unchanged.
       * male consonant-final: only names in the curated table, plus the safe Slavic suffixes
         -mir/-slav (+e) and -ej (+u). Anything else is returned unchanged with confident=False.
-    Surnames (surname=True): unchanged. After "gospodine"/"gospođo" the nominative is accepted in
-    current usage and handbooks; pass decline_ic=True to produce the textbook -iću form for -ić.
+    Surnames (surname=True), after "gospodine"/"doktore": male surnames in -ić are declined
+    (Babić -> Babiću), all other male surnames stay in the nominative (Horvat, Kaliterna), as IHJJ's
+    Jezični savjetnik advises ("profesore Kovačić > profesore Kovačiću"). Pass decline_ic=False to
+    keep -ić surnames in the nominative, which is common in everyday usage.
     Female surnames are never declined.
     """
     name = normalize(name).strip()
@@ -276,6 +287,10 @@ def vocative(name, gender=None, surname=False, decline_ic=False):
         if gender == "m" and decline_ic and name.endswith("ić"):
             return name + "u", True
         return name, gender in ("m", "f")
+    if name in _ICA_NAMES:
+        return name[:-1] + "e", True
+    if name.lower().endswith("ica"):
+        return name, False
     if name in _MALE_VOC and gender != "f":
         v = _MALE_VOC[name]
         return (v, True) if v else (name, False)
@@ -295,9 +310,10 @@ def vocative(name, gender=None, surname=False, decline_ic=False):
 
 
 def greeting(first="", last="", gender=None, formal=True):
-    """Salutation line. Formal: 'Poštovani gospodine Horvat,' / 'Poštovana gospođo Horvat,'.
+    """Salutation line. Formal: 'Poštovani gospodine Horvat,' / 'Poštovani gospodine Babiću,' /
+    'Poštovana gospođo Horvat,'.
     Informal: 'Dragi Ivane,' / 'Draga Ana,'. Unknown gender -> 'Poštovani,' (formal) or
-    'Dobar dan, Ana Horvat,' (informal, nominative full name)."""
+    'Dobar dan,' (informal, no name)."""
     first, last = normalize(first).strip(), normalize(last).strip()
     if formal:
         if gender == "m" and last:
@@ -309,8 +325,7 @@ def greeting(first="", last="", gender=None, formal=True):
         v, ok = vocative(first, gender)
         if ok:
             return ("Dragi %s," if gender == "m" else "Draga %s,") % v
-    full = (first + " " + last).strip()
-    return "Dobar dan, %s," % full if full else "Dobar dan,"
+    return "Dobar dan,"
 
 # ---------------------------------------------------------------------------
 # Place names
@@ -408,20 +423,31 @@ def _self_test():
                     ("Luka", "m", "Luka"), ("Ana", "f", "Ana"), ("Ivana", None, "Ivana"),
                     ("Matej", "m", "Mateju"), ("Krešimir", "m", "Krešimire"), ("Ines", "f", "Ines"),
                     ("Ratimir", "m", "Ratimire"), ("Miroslav", "m", "Miroslave"), ("Dominik", "m", "Dominik"),
-                    ("John", "m", "John"), ("Ivan", None, "Ivane"), ("Ivan-Mario", "m", "Ivane-Mario")]:
+                    ("John", "m", "John"), ("Ivan", None, "Ivane"), ("Ivan-Mario", "m", "Ivane-Mario"),
+                    ("Ivica", "m", "Ivice"), ("Perica", "m", "Perice"), ("Ankica", "f", "Ankice"),
+                    ("Danica", None, "Danice"), ("Monica", "f", "Monica")]:
         eq(vocative(n, g)[0], v, "vocative(%s)" % n)
     eq(vocative("John", "m")[1], False, "vocative John not confident")
     eq(vocative("Dominik", "m")[1], False, "vocative Dominik not confident")
+    eq(vocative("Ivica", "m")[1], True, "vocative Ivica confident")
+    eq(vocative("Monica", "f")[1], False, "vocative Monica not confident")
     eq(vocative("Horvat", "m", surname=True)[0], "Horvat", "surname nominative")
-    eq(vocative("Babić", "m", surname=True, decline_ic=True)[0], "Babiću", "surname -iću")
-    eq(vocative("Babić", "f", surname=True, decline_ic=True)[0], "Babić", "female surname")
+    eq(vocative("Babić", "m", surname=True)[0], "Babiću", "surname -iću")
+    eq(vocative("Babić", "m", surname=True, decline_ic=False)[0], "Babić", "surname -ić kept on request")
+    eq(vocative("Babić", "f", surname=True)[0], "Babić", "female surname")
+    eq(vocative("Horvat-Babić", "m", surname=True)[0], "Horvat-Babiću", "double surname")
     eq(greeting("Ivan", "Horvat", "m"), "Poštovani gospodine Horvat,", "greet m")
+    eq(greeting("Ivan", "Babić", "m"), "Poštovani gospodine Babiću,", "greet m -ić")
+    eq(greeting("Ana", "Babić", "f"), "Poštovana gospođo Babić,", "greet f -ić")
     eq(greeting("Ana", "Kovač", "f"), "Poštovana gospođo Kovač,", "greet f")
     eq(greeting("Ana", "Kovač"), "Poštovani,", "greet unknown formal")
     eq(greeting("Ivan", "Horvat", "m", formal=False), "Dragi Ivane,", "greet informal m")
     eq(greeting("Marija", "Horvat", "f", formal=False), "Draga Marija,", "greet informal f")
-    eq(greeting("Alex", "Horvat", None, formal=False), "Dobar dan, Alex Horvat,", "greet unknown informal")
-    eq(greeting("John", "Smith", "m", formal=False), "Dobar dan, John Smith,", "greet unsure male")
+    eq(greeting("Ankica", "Horvat", "f", formal=False), "Draga Ankice,", "greet informal f -ica")
+    eq(greeting("Ivica", "Horvat", "m", formal=False), "Dragi Ivice,", "greet informal m -ica")
+    eq(greeting("Monica", "Horvat", "f", formal=False), "Dobar dan,", "greet unsure -ica")
+    eq(greeting("Alex", "Horvat", None, formal=False), "Dobar dan,", "greet unknown informal")
+    eq(greeting("John", "Smith", "m", formal=False), "Dobar dan,", "greet unsure male")
 
     # places
     try:
@@ -465,7 +491,9 @@ def main(argv=None):
     a = sub.add_parser("sort"); a.add_argument("file", nargs="?")
     a = sub.add_parser("fix-mojibake"); a.add_argument("text"); a.add_argument("--legacy", action="store_true")
     a = sub.add_parser("vocative"); a.add_argument("name"); a.add_argument("--gender", choices=["m", "f"])
-    a.add_argument("--surname", action="store_true"); a.add_argument("--decline-ic", action="store_true")
+    a.add_argument("--surname", action="store_true")
+    a.add_argument("--decline-ic", dest="decline_ic", action="store_true", default=True)
+    a.add_argument("--no-decline-ic", dest="decline_ic", action="store_false")
     a = sub.add_parser("greeting"); a.add_argument("--first", default=""); a.add_argument("--last", default="")
     a.add_argument("--gender", choices=["m", "f"]); g = a.add_mutually_exclusive_group()
     g.add_argument("--formal", action="store_true", default=True); g.add_argument("--informal", action="store_true")

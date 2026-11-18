@@ -91,7 +91,7 @@ Ask (or infer and state the assumption):
 3. **Run the eligibility checklist** (`eligibility-state-aid.md` §8): applicant, size,
    NKD, location, project, costs, timing, de minimis headroom, exclusions. Quote the UzP
    section for each item.
-4. **Classify the call**: fixed deadline vs **trajni (otvoreni) poziv** (open until funds
+4. **Classify the call**: fixed deadline (privremeni poziv) vs **trajni poziv** (open until funds
    run out, often first come, first served, may be suspended, "privremena obustava"),
    and the assessment method: administrative check only vs scoring with a threshold.
 5. **Report** to the user: call name + reference code, funder, status checked on [date],

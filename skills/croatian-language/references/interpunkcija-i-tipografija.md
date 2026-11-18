@@ -74,8 +74,8 @@ između skupina riječi (klinički psiholog / klinička psihologinja).
 - Znak koji se ne odnosi na navod ide izvan: Jeste li gledali „Krugove”?
 - Dvodijelni navod: „Ta kuća”, rekla mi je Ivana, „pripada mojim
   roditeljima.”
-- Upravni govor uveden crticama, bez navodnika: – Sutra je novi dan – rekla
-  je.
+- Upravni govor uveden crticama, bez navodnika i bez zareza: – Sutra je novi
+  dan. – rekla je moja omiljena glumica.
 
 ## Zarez
 
@@ -211,7 +211,7 @@ stavke bez ikakvih znakova; budi dosljedan unutar teksta.
   dosljedan. Radno vrijeme: „8:00 – 16:00” ili „od 8 do 16 sati”.
 - Strojni formati (ISO 8601, `Intl.DateTimeFormat`): `croatia:hr-localization`.
 
-## Postoci, stupnjevi, jedinice, novac
+## Postotci, stupnjevi, jedinice, novac
 
 ([IHJJ 8.1.](https://pravopis.hr/pravilo/bjelina/54/))
 

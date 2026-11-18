@@ -5,6 +5,16 @@ PREDLOŽAK – nije pravni savjet. Prilagodite ga svom slučaju i dajte ga na pr
 Every snippet you hand to a user as a document or published text keeps the line above at its top until a
 professional has reviewed it. Address one reader with the polite capital Vi/Vaš/Vam.
 
+Public pages with no single addressee (privacy policy, terms, cookie banner) are written with capital Vi in
+these templates, which is a widespread house style. IHJJ keeps the capital for text addressed to one person
+(pravopis 4.1.3; Jezični savjetnik, "Vi i vi"), so lower-case vi/vaš is the form the pravopis gives for such
+pages. Follow the site's existing style, and without one use lower case there. Whichever is chosen, keep it
+the same across the policy, the terms and the banner; e-mails and replies to one customer keep the capital.
+
+Fill placeholders in the case the sentence needs (*Poštovani gospodine [prezime]*, *pri [Gradskom uredu …]*,
+*ponude za [Naziv]*) and make participles agree with the legal form: d.o.o. → *upisano*, obrt → *upisan*,
+udruga → *upisana*. Declension of names and places: `croatia:hr-localization`.
+
 Cross-references: cookie banner / cookie table / newsletter checkbox / marketing footer / soft-opt-in notice /
 B2B cold email / "can I send this email?" decision tree → `references/02-cookies-marketing-contacting.md` §7.
 Impressum (d.o.o. + obrt) → `references/03-consumer-contracts-terms.md` deliverable (d).
@@ -15,9 +25,9 @@ Invoice layout → `references/04-tax-fiscalization-payments.md` §10.
 ## 1. Registration form (B2B service that may also reach consumers)
 
 ```
-[ Ime i prezime ] [ E-adresa ] [ Naziv tvrtke (opcionalno) ] [ Lozinka ]
+[ Ime i prezime ] [ E-adresa ] [ Naziv tvrtke (neobvezno) ] [ Lozinka ]
 
-Voditelj obrade je [Tvrtka], OIB [..]. Podatke obrađujemo radi izvršenja ugovora o korištenju usluge.
+Voditelj obrade je [Tvrtka], OIB [..]. Podatke obrađujemo radi izvršavanja ugovora o korištenju usluge.
 Više o obradi, rokovima čuvanja i Vašim pravima: [Politika privatnosti].
 
 ☐ Prihvaćam [Opće uvjete korištenja] i potvrđujem da imam najmanje 16 godina.        (obvezno, NEoznačeno)
@@ -82,7 +92,7 @@ Ovu poruku primate jer imate korisnički račun na [Naziv]. Riječ je o obavijes
 **Marketing / promotional email** (trial offers, discounts, newsletters, "upgrade" nudges):
 ```
 —
-Ovu poruku šalje [Tvrtka d.o.o.], [adresa], OIB [..], upisan u sudski registar Trgovačkog suda u [..], MBS [..].
+Ovu poruku šalje [Tvrtka d.o.o.], [adresa], OIB [..], upisano u sudski registar Trgovačkog suda u [..], MBS [..].
 Primate je jer ste [koristili probno razdoblje usluge [Naziv] / se prijavili na novosti].
 [Odjava jednim klikom] · [Postavke obavijesti]
 ```

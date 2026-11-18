@@ -9,11 +9,14 @@ IBAN → `croatia:hr-identifiers`.
 Examples published by Hrvatska pošta ("Pravilno adresiranje pošiljaka", posta.hr):
 
 ```text
-gosp. Hrvoje Poštić            Poduzeće d.o.o.            prof Ivan Ivanović
+gosp. Hrvoje Poštić            Poduzeće d.o.o.            prof. Ivan Ivanović
 Maksimirska ulica 72           n/r Mare Primatelj         Jadranovo
 31000 OSIJEK                   Jurišićeva 120             Matije Gupca 10K
                                10000 ZAGREB               51260 CRIKVENICA
 ```
+
+Hrvatska pošta's page prints "prof" without the dot and writes `p.p.` and `d.o.o.` closed up; in
+ordinary text the norm is *prof.*, *p. p.*, *d. o. o.*
 
 Line order:
 

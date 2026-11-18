@@ -5,7 +5,7 @@ Display formatting (spacing, how numbers and addresses look in UI) belongs to
 
 ## 1. Phone numbers – HAKOM numbering plan
 
-Source: HAKOM, *Plan numeriranja*, NN 45/2023 (26.4.2023.), adopted under Zakon o elektroničkim
+Source: HAKOM, *Plan numeriranja*, NN 45/2023 (26. 4. 2023.), adopted under Zakon o elektroničkim
 komunikacijama (NN 76/22): <https://narodne-novine.nn.hr/eli/sluzbeni/2023/45/783/pdf>.
 Primary assignments per operator: data.gov.hr dataset "Popis primarne dodjele numeracija
 operatora elektroničkih komunikacija".

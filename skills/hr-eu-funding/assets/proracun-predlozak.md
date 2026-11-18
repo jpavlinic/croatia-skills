@@ -41,12 +41,12 @@ trošak / 1.720 sati, Uredba 2021/1060 čl. 55). Brojeve piši u hrvatskom forma
 | Izvor / Source | Iznos (EUR) / Amount | Udio / Share |
 |---|---|---|
 | Bespovratna sredstva (prihvatljivi × intenzitet, uz gornju granicu) / Grant | [ ] | [ ] % |
-| Vlastito učešće u prihvatljivim troškovima / Own share of eligible costs | [ ] | [ ] % |
+| Vlastiti udio u prihvatljivim troškovima / Own share of eligible costs | [ ] | [ ] % |
 | Neprihvatljivi troškovi (snosi prijavitelj) / Ineligible costs (applicant) | [ ] | – |
 | PDV ako nije prihvatljiv / Non-eligible VAT | [ ] | – |
 | **Ukupna vrijednost projekta / Total project value** | **[ ]** | |
 
-Izvori vlastitog učešća / Sources of own contribution: [vlastita sredstva / kredit HBOR-a ili banke / zajam HAMAG-BICRO-a]
+Izvori vlastitog udjela / Sources of own contribution: [vlastita sredstva / kredit HBOR-a ili banke / zajam HAMAG-BICRO-a]
 
 ## 4. Novčani tok i predfinanciranje / Cash flow and pre-financing
 

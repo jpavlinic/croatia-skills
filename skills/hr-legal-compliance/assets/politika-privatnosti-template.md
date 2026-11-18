@@ -30,10 +30,10 @@ Na posjetitelje mrežne stranice [domena.hr], korisnike aplikacije [app.domena.h
 
 | Svrha | Podaci | Pravna osnova (GDPR) | Rok čuvanja |
 |---|---|---|---|
-| Otvaranje i vođenje korisničkog računa, pružanje usluge | ime i prezime, e-adresa, lozinka (pohranjena isključivo kao kriptografski sažetak), naziv tvrtke, postavke, sadržaj projekata | čl. 6. st. 1. t. b) – izvršenje ugovora | dok traje ugovor + [30] dana, zatim brisanje (vidi t. 8.) |
+| Otvaranje i vođenje korisničkog računa, pružanje usluge | ime i prezime, e-adresa, lozinka (pohranjena isključivo kao kriptografski sažetak), naziv tvrtke, postavke, sadržaj projekata | čl. 6. st. 1. t. b) – izvršavanje ugovora | dok traje ugovor + [30] dana, zatim brisanje (vidi t. 8.) |
 | Prijava putem vanjskog računa (npr. Google) {AKO} | identifikator pružatelja prijave, e-adresa, ime | čl. 6. st. 1. t. b) | kao korisnički račun |
 | Probno razdoblje i sprječavanje zlouporabe {AKO} | jednosmjerni sažetak (hash) e-adrese, datum dodjele | čl. 6. st. 1. t. f) – legitimni interes sprječavanja višestrukog korištenja besplatnog razdoblja | [24 mjeseca] od dodjele |
-| Naplata, izdavanje i fiskalizacija računa, knjigovodstvo | naziv/ime, adresa, OIB ili PDV ID poslovnog kupca, iznosi, način plaćanja, identifikatori plaćanja | čl. 6. st. 1. t. b) i c) – pravna obveza (Zakon o računovodstvu, Zakon o PDV-u, Zakon o fiskalizaciji, Opći porezni zakon) | 11 godina od kraja poslovne godine; eRačuni 6 godina |
+| Naplata, izdavanje i fiskalizacija računa, knjigovodstvo | naziv/ime, adresa, OIB ili PDV ID poslovnog kupca, iznosi, način plaćanja, identifikatori plaćanja | čl. 6. st. 1. t. b) i c) – pravna obveza (Zakon o računovodstvu, Zakon o porezu na dodanu vrijednost, Zakon o fiskalizaciji, Opći porezni zakon) | 11 godina od kraja poslovne godine; eRačuni 6 godina |
 | Obavijesti o usluzi (sigurnost, promjene uvjeta, istek probnog razdoblja, naplata) | e-adresa, ime | čl. 6. st. 1. t. b) | dok traje ugovor |
 | Izravni marketing (ponude, novosti) | e-adresa, ime, podatak o odjavi | privola (čl. 6. st. 1. t. a) i čl. 50. st. 1. ZEK-a) **ili** za postojeće korisnike čl. 50. st. 2. ZEK-a (vlastite slične usluge, uz mogućnost odjave u svakoj poruci) | do odjave; popis odjavljenih adresa čuvamo dok šaljemo marketinške poruke, samo radi poštivanja odjave |
 | Sigurnost, otkrivanje zlouporaba, dnevnici sustava | IP adresa (skraćena), identifikator korisnika, vrijeme, vrsta zahtjeva, poruke o pogreškama | čl. 6. st. 1. t. f) – legitimni interes sigurnosti mreže i informacija (uvodna izjava 49.) | [30] dana; sigurnosni zapisi do [12] mjeseci |
@@ -54,7 +54,7 @@ Nužne kolačiće i lokalnu pohranu (prijava, sigurnost, jezik, tema) koristimo 
 
 ## 5. Primatelji i izvršitelji obrade
 
-Podatke ne prodajemo. Dijelimo ih samo s izvršiteljima obrade s kojima imamo ugovor prema čl. 28. GDPR-a, s tijelima javne vlasti kad to nalaže zakon (npr. Porezna uprava kroz fiskalizaciju) te s našim knjigovodstvenim servisom.
+Podatke ne prodajemo. Dijelimo ih samo s izvršiteljima obrade s kojima imamo ugovor prema čl. 28. GDPR-a, s tijelima javne vlasti kad to nalaže zakon (npr. s Poreznom upravom pri fiskalizaciji računa) te s našim knjigovodstvenim servisom.
 
 | Izvršitelj / primatelj | Svrha | Lokacija | Zaštitni mehanizam |
 |---|---|---|---|
@@ -76,12 +76,12 @@ Neki izvršitelji obrade nalaze se u SAD-u. Prijenos se temelji na odluci Europs
 
 ## 7. Kako štitimo podatke
 
-Šifrirani prijenos (HTTPS), lozinke pohranjene samo kao sažetak (bcrypt), dvostruka autentifikacija za administratore, ograničen pristup, maskiranje osobnih podataka u dnevnicima, šifrirane sigurnosne kopije [na odvojenoj lokaciji] te evidencija i postupak za povrede podataka.
+Šifrirani prijenos (HTTPS), lozinke pohranjene samo kao sažetak (bcrypt), dvofaktorska autentifikacija za administratore, ograničen pristup, maskiranje osobnih podataka u dnevnicima, šifrirane sigurnosne kopije [na odvojenoj lokaciji] te evidencija i postupak za povrede podataka.
 
 ## 8. Koliko dugo čuvamo podatke
 
 Rokovi su navedeni u tablici u točki 3. Ukratko:
-- **Nakon isteka probnog razdoblja ili prestanka pretplate** sadržaj računa (projekti, datoteke, izvještaji) čuvamo još [30] dana kako biste ga mogli izvesti, a zatim ga brišemo. O brisanju Vas obavještavamo [15, 5 i 1] dan unaprijed.
+- **Nakon isteka probnog razdoblja ili prestanka pretplate** sadržaj računa (projekti, datoteke, izvješća) čuvamo još [30] dana kako biste ga mogli izvesti, a zatim ga brišemo. O brisanju Vas obavještavamo [15, 5 i 1] dan unaprijed.
 - **Kada izbrišete račun**, brišemo profil i sav sadržaj u roku od [30] dana. Zadržavamo samo podatke koje moramo čuvati po zakonu (račune i knjigovodstvene isprave) te zapis o prihvaćanju uvjeta do isteka zastare.
 - **Neaktivne račune** bez pretplate brišemo nakon [12] mjeseci neaktivnosti, uz prethodnu obavijest.
 - **Sigurnosne kopije** se automatski prepisuju u roku od [35] dana.
@@ -100,7 +100,7 @@ Ako smatrate da obrada krši propise, možete podnijeti zahtjev za utvrđivanje 
 
 ## 11. Djeca
 
-Usluga nije namijenjena osobama mlađima od [16 / 18] godina{AKO je usluga namijenjena stručnjacima: i namijenjena je stručnjacima}. Svjesno ne prikupljamo podatke djece.
+Usluga nije namijenjena osobama mlađima od [16 / 18] godina{AKO je usluga namijenjena stručnjacima: i namijenjena je stručnjacima}. Ne prikupljamo svjesno osobne podatke djece.
 
 ## 12. Izmjene politike
 

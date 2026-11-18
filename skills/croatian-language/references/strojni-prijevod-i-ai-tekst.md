@@ -28,6 +28,11 @@ oslanjaju na IHJJ ([pravopis.hr](https://pravopis.hr),
 | **s obzirom da** | | „s obzirom na to da”, „budući da” |
 | **vezano za** | „vezano za Vaš upit” | „u vezi s Vašim upitom” |
 | **da li** | „Da li želite nastaviti?” | „Želite li nastaviti?” |
+| **pleonazam** | „no međutim”, „oko desetak”, „često puta”, „vremensko razdoblje”, „kako i na koji način” | „no” ili „međutim”, „desetak” ili „oko deset”, „često”, „razdoblje”, „kako” |
+
+Pleonazmi su navedeni prema IHJJ-ovu Jezičnom savjetniku („no međutim >
+no/međutim”, „oko desetak > desetak / oko deset”, „često puta > često”,
+„vremensko razdoblje > razdoblje”, „kako i na koji način”).
 
 ## 2. Engleski red riječi i sintaksa
 
@@ -47,7 +52,8 @@ oslanjaju na IHJJ ([pravopis.hr](https://pravopis.hr),
   („Redovito provjeravajte e-poštu”).
 - **Prilog na početku sa zarezom:** „Nakon registracije, dobit ćete…” →
   bez zareza („Nakon registracije dobit ćete…”).
-- **„Kako bi” bez subjekta u kondicionalu:** „Kako bi ste se prijavili” →
+- **„bi ste”, „bi smo” rastavljeno i „bi” za sva lica:** „Kako bi ste se
+  prijavili”, „Kako bi se prijavili, kliknite…” → „Kako biste se prijavili” /
   „Da biste se prijavili” / „Za prijavu…”
 
 ## 3. Tipografija koja odaje engleski predložak
@@ -85,7 +91,7 @@ lokalnim kontekstom.
 
 ## 5. Srpski i bosanski oblici iz višejezičnih modela
 
-Modeli treniraju na hrvatskom, srpskom i bosanskom zajedno, pa se uvlače:
+Modeli se uče na hrvatskim, srpskim i bosanskim tekstovima zajedno, pa se uvlače:
 ekavica (*vreme*), „da + prezent”, *tačno*, *uopšte*, *hiljada*, *nedelja*
 (za tjedan), *bezbednost*, *obezbediti*, *organizovati*, *tokom*, *januar*.
 Vidi `hrvatski-vs-srpski.md`.

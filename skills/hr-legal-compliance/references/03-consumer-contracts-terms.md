@@ -449,7 +449,7 @@ Sample Croatian wording is in deliverable (c).
 
 | Topic | Rule / recommendation | Basis |
 |---|---|---|
-| **Free trial to paid** | Before signup: state "besplatno X dana, zatim €Y/mj. (s PDV-om) dok ne otkažete" (free for X days, then €Y/month incl. VAT until you cancel), the conversion date, how to cancel, minimum term. Not "besplatno" without a qualifier. **Send a reminder ~3–7 days before the first charge** (best practice; national regulators expect it, **VERIFY**). The button at conversion signup must make the payment obligation clear. | ZZP 37 item 26, 60(1)(5),(21),(22), 74 |
+| **Free trial to paid** | Before signup: state "besplatno X dana, zatim Y EUR mjesečno (s PDV-om) dok ne otkažete" (free for X days, then €Y/month incl. VAT until you cancel), the conversion date, how to cancel, minimum term. Not "besplatno" without a qualifier. **Send a reminder ~3–7 days before the first charge** (best practice; national regulators expect it, **VERIFY**). The button at conversion signup must make the payment obligation clear. | ZZP 37 item 26, 60(1)(5),(21),(22), 74 |
 | **Easy cancellation** | Withdrawal function during the 14 days (81.a). Self-service cancel in the account at any time, at least as easy as signup. Effective at end of period. Confirmation email. | ZZP 81.a; 99 by analogy; 54(8),(9) |
 | **Price increases** | ≥30 days' notice on a durable medium, effective from next renewal, free cancellation before. Never mid-period on prepaid annual plans. | ZZP 54(13); DSD Act 20; ZOO 296 |
 | **Refunds** | Withdrawal: pro-rata if early start was requested and acknowledged, otherwise full; within 14 days; same method. Non-conformity: pro-rata reduction or termination with refund of the unused prepaid part. Voluntary policy beyond that is yours, but state it. | ZZP 83, 84(8)-(10); DSD Act 15, 17, 19 |
@@ -598,14 +598,14 @@ All items in Croatian; on the site before the order and repeated on a durable me
 **c2. Order button** (ZZP 74(3)):
 > **[ Naruči s obvezom plaćanja ]**
 
-(Alternative: **"Pretplati se – obveza plaćanja"**. For a trial converting to paid: **"Započni probno razdoblje – nakon 14 dana naplata €X/mj."** is safer than a plain "Započni besplatno".) Directly above the button:
+(Alternative: **"Pretplati se – obveza plaćanja"**. For a trial converting to paid: **"Započni probno razdoblje – nakon 14 dana naplata X EUR mjesečno"** is safer than a plain "Započni besplatno".) Directly above the button:
 > Plan PRO – 29,00 EUR mjesečno (uključen PDV 25 %). Pretplata se automatski produljuje svaki mjesec dok je ne otkažete; otkazati možete u bilo kojem trenutku u postavkama računa, s učinkom na kraju tekućeg obračunskog razdoblja. Nema minimalnog trajanja.
 
 **c3. Withdrawal function labels** (ZZP 81.a):
 - Link or button: **"Raskid ugovora"**
 - Form fields: "Ime i prezime", "Broj narudžbe / e-adresa računa", "E-adresa za potvrdu"
 - Confirm button: **"Potvrditi raskid ugovora"**
-- Automatic email: "Zaprimili smo Vašu izjavu o raskidu ugovora [sadržaj] dana [DD.MM.GGGG.] u [hh:mm]. …"
+- Automatic email: "Zaprimili smo Vašu izjavu o jednostranom raskidu ugovora o pružanju usluge [Naziv], podnesenu [DD. MM. GGGG.] u [hh:mm]. Sadržaj izjave: [..]. …"
 
 **c4. Model withdrawal form** (Prilog 1; matches the CRD Annex I(B) Croatian text; **VERIFY** against the current Pravilnik under ZZP Art 81(6)):
 > **OBRAZAC ZA JEDNOSTRANI RASKID UGOVORA**
@@ -631,14 +631,14 @@ All items in Croatian; on the site before the order and repeated on a durable me
 
 **c7. Liability limitation clause:**
 > **Ograničenje odgovornosti.** (1) Za štetu prouzročenu namjerno ili krajnjom nepažnjom, za štetu zbog smrti, tjelesne ozljede ili oštećenja zdravlja, za odgovornost za neispravan proizvod te u drugim slučajevima u kojima je to propisano prisilnim propisima odgovaramo u punom opsegu.
-> (2) U ostalim slučajevima, prema Poslovnim korisnicima naša ukupna odgovornost po svim osnovama u vezi s Uslugom ograničena je na iznos veći od: (a) ukupnih naknada koje je Poslovni korisnik platio za Uslugu u 12 mjeseci prije štetnog događaja ili (b) [X] EUR. Prema Poslovnim korisnicima ne odgovaramo za izmaklu korist, gubitak poslova ili ugovora, troškove ponovne izrade projekta ni za neizravnu štetu, osim u slučajevima iz stavka 1.
+> (2) U ostalim slučajevima, prema Poslovnim korisnicima naša ukupna odgovornost po svim osnovama u vezi s Uslugom ograničena je na veći od sljedećih iznosa: (a) ukupne naknade koju je Poslovni korisnik platio za Uslugu u 12 mjeseci prije štetnog događaja ili (b) [X] EUR. Prema Poslovnim korisnicima ne odgovaramo za izmaklu korist, gubitak poslova ili ugovora, troškove ponovne izrade projekta ni za neizravnu štetu, osim u slučajevima iz stavka 1.
 > (3) Ništa u ovim Uvjetima ne isključuje niti ograničava prava koja Potrošač ima na temelju prisilnih propisa, osobito prava zbog neusklađenosti digitalne usluge.
 
 **c8. Professional-tool results disclaimer** (only for products whose output users rely on; shown in the T&C, at sign-up, next to each result and on exported reports):
 > **Narav rezultata.** [Naziv] je programski alat koji [kratak opis: izrađuje izračune / izvješća / prijedloge dokumenata] prema propisima, normama i pretpostavkama navedenima u dokumentaciji za pojedinu verziju. Usluga ne predstavlja [stručno / pravno / porezno / medicinsko / inženjersko] savjetovanje i ne zamjenjuje prosudbu stručne osobe. Rezultati ovise o ulaznim podacima i pretpostavkama koje unosi korisnik. Korisnik je dužan provjeriti ispravnost ulaznih podataka i rezultata prije njihove uporabe; za dokument u koji su rezultati uključeni odgovara osoba koja ga izrađuje i potpisuje u skladu s propisima. Ako uočimo pogrešku u izračunu, obavijestit ćemo korisnike i objaviti ispravak. Ova odredba ne ograničava našu odgovornost iz članka [Ograničenje odgovornosti], stavaka 1. i 3.
 
 Footer on exported reports:
-> "Izrađeno alatom [Naziv] v[x.y] ([datum]) prema [propisi / norme / metodologija]. Rezultate provjerava i za njih odgovara osoba koja potpisuje dokument."
+> Izrađeno alatom [Naziv] v[x.y] ([datum]) prema [propisi / norme / metodologija]. Rezultate provjerava i za njih odgovara osoba koja potpisuje dokument.
 
 ---
 
@@ -658,7 +658,7 @@ Footer on exported reports:
 **Obrt** (Zakon o obrtu 19; ZTD 21(4) by analogy; ZET 6):
 > **[NAZIV], obrt za [djelatnost], vl. [Ime Prezime], [Mjesto]** *(tvrtka obrta kako je upisana)*
 > Sjedište: [ulica i broj], [poštanski broj] [grad], Hrvatska
-> Upisan u Obrtni registar pri [Gradski ured / Upravni odjel …], MBO [xxxxxxxx]
+> Upisan u Obrtni registar pri [Gradskom uredu / Upravnom odjelu …], MBO [xxxxxxxx]
 > OIB: [xxxxxxxxxxx] · *[ako je u sustavu PDV-a:]* PDV ID: HR[xxxxxxxxxxx] · *[ako nije:]* Obveznik nije u sustavu PDV-a
 > Poslovni račun: IBAN HR[…] kod [Naziv banke d.d.]
 > Kontakt: [e-adresa] · [telefon]

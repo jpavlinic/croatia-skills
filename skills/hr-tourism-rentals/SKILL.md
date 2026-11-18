@@ -118,7 +118,7 @@ Status: researched 2026-10-25.
    **PDV-ID** (form P-PDV, at least 15 days before receiving the service). File the monthly PDV and
    PDV-S returns by the last day of the following month. A PDV-ID is not VAT registration.
 8. **Receipts**: issue a numbered invoice for every stay (2 copies) unless an agency issues it, and
-   record daily totals in the **EP (evidencija prometa)** book. Porezna uprava states that paušalist
+   record daily totals in the **EP (Evidencija o prometu)** book. Porezna uprava states that paušalist
    renters' invoices **do not need to be fiscalized**. VAT payers, obrti and companies do fiscalize.
 9. **VAT payers** (over €60,000 turnover, or by choice) charge **13% VAT on accommodation** (Zakon o
    PDV-u čl. 38(3)(a)). They lose the flat-rate regime and are taxed on real income.

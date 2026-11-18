@@ -9,6 +9,12 @@ it.
 Google Maps and the local pack are the main local discovery surface in
 Croatia (Google has about 94% of search, see `market-data.md`).
 
+In the Croatian interface the product is called **Profil tvrtke na Googleu**
+(Google's Croatian help centre is titled "Profil tvrtke na Googleu Pomoć",
+support.google.com/business/?hl=hr). *Google moja tvrtka* is the old name
+(Google My Business), which many owners still use. In Croatian copy write
+*profil tvrtke na Googleu*, not "Google Business profil".
+
 **Setup**
 
 - Business name exactly as customers see it on the sign and in the

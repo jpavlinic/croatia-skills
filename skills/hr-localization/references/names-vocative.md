@@ -13,8 +13,11 @@ Croatian has seven cases; the form of a noun depends on its role in the sentence
 | `"Poslano korisniku " + name` | *Poslano korisniku Ana Horvat* | *Poslano korisnici Ani Horvat* (dative, feminine) |
 | `"Dobrodošli, " + name` | *Dobrodošli, Ivan* | *Dobro došli, Ivane* (vocative) — or avoid the name |
 | `"Dostava u " + city` | *Dostava u Zagreb* (accusative = direction) vs *Dostava u Zagrebu* (locative = location) — and *u Hvar* is wrong for the island | look up the form (places.md) |
-| `name + " vam je poslao poruku"` | gender of the verb follows the sender | *Ana Vam je poslala poruku* |
+| `name + " vam je poslao poruku"` | gender of the verb follows the sender | *Ana vam je poslala poruku* |
 | `"Obrisati " + item + "?"` | object in accusative: *Obrisati datoteka?* | *Obrisati datoteku?* |
+
+The greeting is two words (*Dobro došli!*); *dobrodošao* in one word is only the adjective
+(*dobrodošla pomoć*).
 
 Rules for templates:
 
@@ -46,9 +49,9 @@ Past tense, adjectives and many nouns change with the person's gender:
 
 ```text
 {gender, select,
-  male {{name} je komentirao Vašu objavu.}
-  female {{name} je komentirala Vašu objavu.}
-  other {Novi komentar na Vašoj objavi: {name}}
+  male {{name} je komentirao vašu objavu.}
+  female {{name} je komentirala vašu objavu.}
+  other {Novi komentar na vašoj objavi: {name}}
 }
 ```
 
@@ -81,8 +84,14 @@ Put names in the nominative after a colon or as the subject.
 - **First names (male)**: the vocative is used: *Dragi Ivane*, *Poštovani Petre*, *Marko*, *Luka*.
 - **First names (female)**: in conventional, stylistically neutral address the vocative **equals the
   nominative** — *Draga Ana*, *Draga Marija*, *Poštovana Ivana*. Forms in -o (*Ano*, *Marijo*) are
-  emotionally marked/colloquial (jezični-savjetnik.com, "Gotovo sve o vokativu"; Težak–Babić,
+  emotionally marked/colloquial (jezicni-savjetnik.com, "(Gotovo) sve o vokativu", a private
+  language blog, not IHJJ's jezicni-savjetnik.hr; Težak–Babić,
   *Gramatika hrvatskoga jezika*). Never generate the -o form.
+- **Names in -ica (female and male)** are the exception: the standard vocative ends in **-ice** —
+  *Draga Ankice*, *Draga Danice*, *Draga Ljubice*, *Dragi Ivice*, *Dragi Jurice*, *Dragi Perice* (same
+  article, points 6 and 7: "imena na -ica također imaju u vokativu nastavak -e: Danice, Dragice,
+  Ivice, Perice"). The nominative (*Draga Ankica*) is heard, but -ice is the neutral written form.
+  Foreign names spelled with -ica and pronounced with *k* (*Monica*, *Jessica*) do not take it.
 - **Male surnames after a title** (*gospodine*, *profesore*, *doktore*):
   - Older normative view (Težak, Ham, Raguž): surnames have a vocative — *gospodine Horvate*, *Babiću*.
   - Handbooks already allow the **nominative** for many surname types (-ac/-ak/-ek, surnames that are
@@ -92,8 +101,12 @@ Put names in the nominative after a colon or as the subject.
     2022, hrcak.srce.hr/clanak/410750): in *Poštovani gospodine Horvat/Horvate/Horvatu* 94 % chose
     the nominative *Horvat*; the more formal the situation, the more the nominative prevails; even -ić
     surnames (*Kovačić*, *Milić*) are mostly left in the nominative, although handbooks prescribe -iću.
-  - Conclusion for software: **"Poštovani gospodine Horvat," is acceptable and is the safe default.**
-    The textbook form *gospodine Babiću* is also correct; offer it only as an option for -ić surnames.
+  - IHJJ's Jezični savjetnik ("profesore Kovačić > profesore Kovačiću"): in formal address surnames in
+    -ić are declined (*poštovani gospodine Kovačiću*), and the vocative of male surnames that do not
+    end in -ić equals the nominative (*poštovani gospodine Kaliterna / Mimica / Hodak / Horvat*).
+  - Conclusion for software, following IHJJ: **decline -ić surnames (*Poštovani gospodine Babiću,*)
+    and leave all other male surnames in the nominative (*Poštovani gospodine Horvat,*).** The
+    nominative for -ić surnames is common in everyday usage; offer it only as an option.
 - **Female surnames**: never declined: *Poštovana gospođo Kovač*, *Poštovana gospođo Babić*.
 - Do not combine title + first name in formal address (*gospođo Ana* is familiar); use the surname.
 - No abbreviations in the salutation: *Poštovani gospodine Horvat*, not *Poštovani g. Horvat*.
@@ -102,12 +115,12 @@ Put names in the nominative after a colon or as the subject.
 
 | Situation | Use |
 |---|---|
-| Formal, gender known (m) | `Poštovani gospodine {surname},` |
+| Formal, gender known (m) | `Poštovani gospodine {surname},` → *Horvat,* but *Babiću,* for surnames in -ić |
 | Formal, gender known (f) | `Poštovana gospođo {surname},` |
 | Formal, gender unknown | `Poštovani,` (or `Poštovani/Poštovana,`) |
 | Informal, first name, m, vocative known | `Dragi {vocative},` → *Dragi Ivane,* |
-| Informal, first name, f | `Draga {name},` → *Draga Ana,* |
-| Informal, gender or vocative unknown | `Dobar dan, {first} {last},` or `Bok, {first}!` only if the brand voice uses *ti* |
+| Informal, first name, f | `Draga {name},` → *Draga Ana,*; names in -ica: *Draga Ankice,* |
+| Informal, gender or vocative unknown | `Dobar dan,` (no name) or `Poštovani,`; `Bok, {first}!` only if the brand voice uses *ti* |
 | Push/notification text | avoid names in the vocative; *Vaša narudžba je poslana.* |
 
 IHJJ continues in lower case after the salutation comma; a capital letter is common in e-mails.
@@ -117,6 +130,8 @@ Details in `croatia:croatian-language` (e-mail reference).
 
 Conservative by design — it returns the nominative unless it is sure:
 
+- names in -ica from a curated set, male and female → -ice (*Ivica → Ivice*, *Ankica → Ankice*); any
+  other name in -ica (*Monica*) → unchanged with `confident=False`;
 - female or unknown name in -a → unchanged (*Ana*, *Ivana*);
 - male name ending in a vowel → unchanged (*Marko*, *Ante*, *Luka*, *Mario*);
 - male consonant-final names → only from a curated table (*Ivan → Ivane*, *Petar → Petre*,
@@ -124,16 +139,19 @@ Conservative by design — it returns the nominative unless it is sure:
 - deliberately **not** declined: names ending in -k/-g/-h/-c where palatalisation would apply
   (*Dominik*, *Patrik*), names with disputed forms (*Juraj*, *Domagoj*), and all foreign names
   (*John*) → returned unchanged with `confident=False`;
-- surnames → unchanged; `decline_ic=True` gives *Babiću* for male -ić surnames.
+- male surnames in -ić → *-iću* (*Babić → Babiću*); all other surnames, and all female surnames →
+  unchanged; `decline_ic=False` keeps -ić surnames in the nominative.
 
 ```text
 $ python3 scripts/hr_text.py vocative Petar --gender m       → Petre
 $ python3 scripts/hr_text.py vocative Dominik --gender m     → Dominik  (not confident - nominative kept)
+$ python3 scripts/hr_text.py vocative Ivica --gender m       → Ivice
 $ python3 scripts/hr_text.py greeting --first Ivan --last Horvat --gender m            → Poštovani gospodine Horvat,
+$ python3 scripts/hr_text.py greeting --first Ivan --last Babić --gender m             → Poštovani gospodine Babiću,
 $ python3 scripts/hr_text.py greeting --first Ivan --last Horvat --gender m --informal → Dragi Ivane,
 ```
 
-When `confident` is false in an informal greeting, fall back to *Dobar dan, Ime Prezime,* rather than
+When `confident` is false in an informal greeting, fall back to *Dobar dan,* without the name rather than
 printing a possibly wrong vocative. Let users correct how they are addressed if the product greets by
 name often (store an optional "vocative/how to address you" field).
 

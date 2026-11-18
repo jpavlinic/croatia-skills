@@ -1,7 +1,7 @@
-# Hrvatski vs srpski — nikad ne miješati
+# Hrvatski i srpski: nikad ne miješati
 
-Tekst mora biti dosljedno hrvatski. Srbizmi se uvlače na tri razine: glasovna
-(ekavica), sintaktička („da + prezent”), i leksička (riječi). Sve tri provjeri.
+Tekst mora biti dosljedno hrvatski. Srbizmi se uvlače na tri razine: glasovnoj
+(ekavica), sintaktičkoj („da + prezent”) i leksičkoj (riječi). Sve tri provjeri.
 
 ## 1. Ijekavica (ne ekavica)
 
@@ -46,8 +46,8 @@ infinitiv.
 ## 3. Futur i pitanja
 
 - Hrvatski: „Radit ću sutra.” / „Ja ću raditi.”
-- Srbizam: „Ja ću da radim sutra.”, „Radiću sutra.” (spojeno) — izbjegavaj.
-- Pitanje: „**Je li** to istina?”, „**Jeste li** dobili račun?” — ne „Da li
+- Srbizam: „Ja ću da radim sutra.”, „Radiću sutra.” (spojeno): izbjegavaj.
+- Pitanje: „**Je li** to istina?”, „**Jeste li** dobili račun?”, a ne „Da li
   je to istina?”, „Da li ste dobili račun?”.
 
 ## 4. Leksičke razlike (riječi)
@@ -97,15 +97,12 @@ infinitiv.
 | izveštaj | izvješće / izvještaj |
 | nivo | razina |
 | stepen | stupanj |
-| lift (razg.) | dizalo |
 | momenat | trenutak |
-| čas (= sat) | sat („čas” samo u izrazu „za čas”) |
+| čas (= školski sat, 60 minuta) | sat („čas” je hrvatska riječ u značenju ‘trenutak’: „u taj čas”, „za čas”, „čas posla”) |
 | dugme | gumb / tipka |
 | kafa | kava |
 | sijalica | žarulja |
-| frižider (razg.) | hladnjak |
 | šolja | šalica |
-| flaša | boca |
 | pertle | vezice |
 | patika | tenisica |
 
@@ -118,10 +115,10 @@ infinitiv.
 - **„je l'”, „jel”** → „je li”; **„da li”** → „je li” / glagol + li.
 - **enklitike i red riječi** ponekad odaju srpski; vidi gramatiku.
 - **mjeseci:** hrvatski koristi domaće nazive (siječanj, veljača, ožujak…), ne
-  internacionalne (januar, februar) — ti su srpski/bosanski.
+  internacionalne (januar, februar); ti su srpski i bosanski.
 
 ## 6. Brza provjera
 
 Ako vidiš ijednu od ovih: „mleko, da radim, da li, hiljada, tačno, fudbal,
-nedelja (za tjedan), januar, kašika, uopšte, organizovati, bezbedno” — tekst vuče na srpski; pročešljaj cijeli
+nedelja (za tjedan), januar, kašika, uopšte, organizovati, bezbedno”, tekst vuče na srpski; pročešljaj cijeli
 tekst jer rijetko dolaze same.

@@ -1,19 +1,19 @@
-# Vokabular: zamjene i anglicizmi
+# Vokabular: zamjene i anglizmi
 
 Dvije stvari: (1) tablica konkretnih riječi koje treba zamijeniti boljom
-hrvatskom inačicom, (2) vodič kako postupati s anglicizmima i kalkovima.
+hrvatskom inačicom, (2) vodič kako postupati s anglizmima i kalkovima.
 
 ## Tablica zamjena
 
 | Pogrešno / strano / slabije | Bolje hrvatski | Napomena |
 |---|---|---|
-| Tip: | Savjet: | u naslovima callout-ova i savjeta |
+| Tip: | Savjet: | u naslovima istaknutih okvira i savjeta |
 | efekt (kao „effect”) | učinak | „kumulativni efekt” → „kumulativni učinak”; ustaljeni nazivi ostaju (placebo-efekt, domino-efekt) |
 | kroz dan / kroz tjedan / kroz godinu | tijekom dana / tjedna / godine | samo u **vremenskom** značenju; „proći kroz vrata” ostaje |
 | grupa | skupina | „grupa ljudi”, „grupa korisnika” → „skupina”; glazbena grupa ostaje |
 | procesirati (zahtjev, podatke) | obraditi | „procesirati narudžbu” → „obraditi narudžbu” |
 | sjedeći posao | sjedilački posao | „sjedeći” je glagolski prilog, ne pridjev za posao |
-| drugačiji | drukčiji | obje su u rječniku, ali „drukčiji” je preporučenija |
+| drugačiji | drukčiji | obje su u rječniku, ali „drukčiji” je preporučljivija |
 | TL;DR | Ukratko | naslov sažetka |
 | sweet spot | zlatna sredina / optimum | |
 | pravilo palca | okvirno pravilo / grubo pravilo | „rule of thumb” je engleski idiom |
@@ -29,7 +29,7 @@ hrvatskom inačicom, (2) vodič kako postupati s anglicizmima i kalkovima.
 | isti (kao zamjenica) | on, ona, to | „isti je oštećen” → „oštećen je” |
 | biti u mogućnosti | moći | |
 | imati za cilj | htjeti, nastojati, cilj je | |
-| napraviti razliku | promijeniti stvari, biti presudan | „make a difference” |
+| napraviti razliku | mnogo značiti, biti presudan, nešto promijeniti | „make a difference” |
 | igrati ulogu (pretjerano) | utjecati, biti važan | ponekad je u redu, ali ne u svakoj rečenici |
 | zauzeti mjesto / uzeti mjesto | održati se, dogoditi se | „take place” |
 | aplicirati (za posao) | prijaviti se | IHJJ Jezični savjetnik |
@@ -47,16 +47,17 @@ hrvatskom inačicom, (2) vodič kako postupati s anglicizmima i kalkovima.
 | sesija (sastanak) | sastanak, termin | u IT-u „sesija” ostaje |
 | baziran na | utemeljen na, temelji se na | |
 | fokusirati se | usredotočiti se | „fokus” je razgovorno prihvatljiv |
-| support / podrška | podrška (korisnička podrška) | |
+| support | podrška (korisnička podrška) | |
 | benefiti | prednosti, pogodnosti | |
 | event | događaj, događanje | |
 | feedback | povratna informacija, mišljenje | |
 | deadline | rok | |
 | update | novost, ažuriranje | |
+| lift, frižider, flaša (razgovorno) | dizalo, hladnjak, boca | razgovorne posuđenice, nisu srbizmi |
 
-## Anglicizmi i kalkovi — kako postupati
+## Anglizmi i kalkovi: kako postupati
 
-Anglicizmi nisu svi jednaki. Ravnaj se ovako:
+Anglizmi nisu svi jednaki. Ravnaj se ovako:
 
 ### 1. Prevedi kad postoji prirodan hrvatski izraz
 
@@ -80,7 +81,7 @@ nije: npr. *bug* je u IT-u *pogreška* ili *bug*, nikad *buba* ili *kukac*).
 
 ### 3. Razbij kalkove rečenične strukture
 
-Najopasniji anglicizmi nisu pojedine riječi nego **prevedena engleska
+Najopasniji anglizmi nisu pojedine riječi nego **prevedena engleska
 sintaksa**. Primjeri kalkova i popravaka:
 
 - „Nije problem što ne možeš X. Problem je što pokušavaš X prije nego što…” →
@@ -92,9 +93,10 @@ sintaksa**. Primjeri kalkova i popravaka:
 
 ### 4. Pazi na „lažne prijatelje” i poluprijevode
 
-- „efektivno” (kao „effectively” = zapravo) → „zapravo / u stvari”
-- „eventualno” (HR znači „možda”, ne „na kraju”) — pazi na značenje
-- „kontrolirati” u smislu „provjeriti” je kalk; „provjeriti” je bolje
+- „efektivno” (kao „effectively” = zapravo) → „zapravo”
+- „eventualno” (u hrvatskome znači „možda”, ne „na kraju”): pazi na značenje
+- „kontrolirati” u smislu „upravljati” (engl. *control*) je kalk →
+  „upravljati”; u značenju „nadzirati, provjeravati” riječ je u redu
 - „definitivno” (kao „definitely”) → „svakako / sigurno”
 - „adresirati problem” → „pozabaviti se problemom / riješiti”
 

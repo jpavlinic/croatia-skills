@@ -14,7 +14,7 @@ Start every calendar or reminder list generated from this file with:
 
 Abbreviations: ZPDV = Zakon o porezu na dodanu vrijednost; ZPD = Zakon o
 porezu na dohodak; ZPDobit = Zakon o porezu na dobit; ZOD = Zakon o
-doprinosima; ZOR = Zakon o računovodstvu (NN 85/24, 145/24, 59/26); ZTP =
+doprinosima; ZoR = Zakon o računovodstvu (NN 85/24, 145/24, 59/26); ZTP =
 Zakon o turističkoj pristojbi; ZČTZ = Zakon o članarinama u turističkim
 zajednicama; ZF = Zakon o fiskalizaciji (NN 89/25); ZLP = Zakon o lokalnim
 porezima; ZR = Zakon o radu; "Pravilnik" = Pravilnik o porezu na dohodak
@@ -85,11 +85,11 @@ porezima; ZR = Zakon o radu; "Pravilnik" = Pravilnik o porezu na dohodak
 | Non-profit annual financial statements to FINA | Udruge and other non-profits | Within 60 days of year end (~1 March; 2025 statements: 2 Mar 2026); half-year by 30 July | Pravilnik o izvještavanju u neprofitnom računovodstvu (article **VERIFY**) |
 | Porez na nekretnine: report changes | Property owners | **31 March** (status on 31 March decides who pays); tax paid within 15 days of the decision | ZLP čl. 25 st. 1, čl. 49 st. 4, čl. 49.a |
 | CIT return (PD) and balance | CIT payers (calendar year) | Within 4 months: **30 April** | ZPDobit čl. 35 st. 1–2 |
-| GFI for statistics and other purposes | Businesses | **30 April** (a public-disclosure GFI filed by 30 April also counts) | ZOR čl. 50 st. 1–2 |
-| Izjava o neaktivnosti | Inactive businesses | 30 April | ZOR čl. 47 st. 9 |
-| Report of consolidation obligation | Parent companies | 30 April | ZOR čl. 52 st. 10 |
-| Closing the books | Businesses | Within 4 months of year end | ZOR čl. 12 st. 9 |
-| GFI for public disclosure | Businesses | Within 6 months: **30 June**; consolidated within 9 months (30 Sep) | ZOR čl. 47 st. 5–7 |
+| GFI for statistics and other purposes | Businesses | **30 April** (a public-disclosure GFI filed by 30 April also counts) | ZoR čl. 50 st. 1–2 |
+| Izjava o neaktivnosti | Inactive businesses | 30 April | ZoR čl. 47 st. 9 |
+| Report of consolidation obligation | Parent companies | 30 April | ZoR čl. 52 st. 10 |
+| Closing the books | Businesses | Within 4 months of year end | ZoR čl. 12 st. 9 |
+| GFI for public disclosure | Businesses | Within 6 months: **30 June**; consolidated within 9 months (30 Sep) | ZoR čl. 47 st. 5–7 |
 | Provisional income tax decision for citizens | Porezna uprava | Delivered by **30 June** | ZPD čl. 54 st. 2 |
 | Objection to the provisional decision | Taxpayers | **31 July** (or 30 days from late receipt); balance paid within 15 days after the objection deadline | ZPD čl. 54 st. 3, 4, 9 |
 | Flat-rate tourist tax | Renters (domaćinstvo, OPG) | By **31 July**, or in thirds: 31 Jul, 31 Aug, 30 Sep | ZTP čl. 17 st. 2 |
@@ -101,7 +101,7 @@ porezima; ZR = Zakon o radu; "Pravilnik" = Pravilnik o porezu na dohodak
 | Obligation | Deadline | Source |
 |---|---|---|
 | eVisitor guest check-in / check-out | Within **24 hours** of arrival / departure | ZTP čl. 22 st. 1 |
-| GFI after status change, liquidation, bankruptcy | Within 90 days | ZOR čl. 47 |
+| GFI after status change, liquidation, bankruptcy | Within 90 days | ZoR čl. 47 |
 
 ## Things that no longer exist
 
@@ -134,7 +134,7 @@ porezima; ZR = Zakon o radu; "Pravilnik" = Pravilnik o porezu na dohodak
 - Pravilnik o paušalnom oporezivanju: https://www.zakon.hr/c/podzakonski-propis/60049/
 - ZPDobit: https://www.zakon.hr/z/99/zakon-o-porezu-na-dobit
 - ZOD: https://www.zakon.hr/z/365/zakon-o-doprinosima
-- ZOR: https://www.zakon.hr/z/118/zakon-o-racunovodstvu
+- ZoR: https://www.zakon.hr/z/118/zakon-o-racunovodstvu
 - ZTP: https://www.zakon.hr/z/2071/zakon-o-turistickoj-pristojbi
 - ZČTZ: https://www.zakon.hr/z/341/zakon-o-clanarinama-u-turistickim-zajednicama
 - ZF: https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_89_1233.html

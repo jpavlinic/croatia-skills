@@ -108,10 +108,10 @@ take an option not to apply it in some cases. **VERIFY** Croatia's choice nearer
 - at least **2 copies**;
 - content: number and date; the renter's name, address and **OIB**; place of service; the guest's
   name; description and quantity (e.g. nights × unit); total amount; the note on the VAT exemption
-  (e.g. "PDV nije obračunan temeljem čl. 90. st. 1. Zakona o PDV-u");
+  (e.g. "PDV nije obračunat temeljem čl. 90. st. 1. Zakona o PDV-u");
 - "Tourist tax included" may be stated. It is not shown separately for flat-rate payers.
 
-**EP book (evidencija prometa, obrazac EP)**: record the daily total of all invoices issued,
+**EP book (Evidencija o prometu, Obrazac EP)**: record the daily total of all invoices issued,
 **including unpaid ones**. The yearly total goes on TZ-2.
 
 **Fiscalization**: Porezna uprava states that invoices of flat-rate renters in domaćinstvo **do not

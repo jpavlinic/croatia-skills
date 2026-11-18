@@ -9,12 +9,12 @@ disciplina provjere koja vrijedi za svaku temu.
    brojku, citat ili brend „iz glave”. Ako mijenjaš godinu studije, autora,
    iznos ili naziv, potvrdi ga na pouzdanom izvoru. Ako ne možeš provjeriti,
    ostavi izvornik i označi ga korisniku.
-2. **Matematika se mora zbrajati.** Provjeri doslovno svaki zbroj, umnožak,
+2. **Računica mora biti točna.** Provjeri doslovno svaki zbroj, umnožak,
    postotak i pretvorbu.
 3. **Brojčana tvrdnja mora odgovarati nabrajanju.** „Tri razloga” → točno tri
    stavke; „pet koraka” → pet koraka.
 
-## Matematičke provjere koje se najčešće ne slažu
+## Računi koji se najčešće ne slažu
 
 - **Zbrojevi u tablicama i primjerima:** zbroji sve retke i usporedi s
   navedenim „ukupno” (npr. 120 + 85 + 45 = 250, ne 240).

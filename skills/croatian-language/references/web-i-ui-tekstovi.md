@@ -5,18 +5,18 @@ obavijesti, i18n datoteke (`hr.json`, `messages/hr.ts`), meta opisi.
 
 ## Osnovna načela
 
-1. **Jedan način obraćanja kroz cijelu aplikaciju.** Ili „Vi” (Pošaljite,
-   Vaša narudžba) ili „ti” (Pošalji, tvoja narudžba). Neutralni oblici
-   (imenice, infinitiv u naslovu) rade s oba.
+1. **Jedan način obraćanja kroz cijelu aplikaciju.** Ili „vi” (Pošaljite,
+   vaša narudžba) ili „ti” (Pošalji, tvoja narudžba). Neutralni oblici
+   (imenice, infinitiv u naslovu) odgovaraju objema inačicama.
 2. **Sentence case:** „Zaboravljena lozinka”, ne „Zaboravljena Lozinka”.
-3. **Kratko i glagolom:** gumb kaže što se dogodi: „Spremi promjene”, „Pošalji
+3. **Kratko i glagolom:** gumb kaže što će se dogoditi: „Spremi promjene”, „Pošalji
    upit”, „Preuzmi račun”, ne „OK” ili „Potvrda”.
 4. **Gumbi u 2. licu jednine imperativa** („Spremi”, „Odustani”, „Prijavi
-   se”) su uvriježeni i u aplikacijama koje inače koriste „Vi”. Ako brend
-   dosljedno koristi Vi, može i „Spremite”, „Pošaljite”, ali tada svugdje.
+   se”) su uvriježeni i u aplikacijama koje inače koriste „vi”. Ako brend
+   dosljedno koristi „vi”, može i „Spremite”, „Pošaljite”, ali tada svugdje.
 5. **Bez „Vaš” svugdje:** „Unesite e-adresu”, „Potvrdite svoju lozinku”
    (povratno „svoj” kad je korisnik subjekt). „Vaš” ostaje kad je posvojnost
-   važna: „Vaša narudžba je poslana.”
+   važna: „Vaša je narudžba poslana.”
 6. **Bez nepotrebnog engleskog** gdje postoji ustaljen hrvatski izraz.
 
 ## Pojmovnik sučelja
@@ -55,7 +55,7 @@ obavijesti, i18n datoteke (`hr.json`, `messages/hr.ts`), meta opisi.
 | Previous | Prethodno |
 | Submit | Pošalji |
 | Confirm | Potvrdi |
-| Upload | Učitaj / Prenesi |
+| Upload | Prenesi / Pošalji datoteku |
 | Download | Preuzmi |
 | Share | Podijeli |
 | Copy | Kopiraj |
@@ -88,7 +88,7 @@ obavijesti, i18n datoteke (`hr.json`, `messages/hr.ts`), meta opisi.
 | Cookies | Kolačići |
 | Accept all / Reject all | Prihvati sve / Odbij sve |
 | Cookie settings | Postavke kolačića |
-| Legal notice / Imprint | Impressum / Podaci o tvrtki |
+| Legal notice / Imprint | Impresum / Podatci o tvrtki |
 | FAQ | Česta pitanja |
 | Blog post | Članak / Objava |
 | Link | Poveznica (u prozi može „link”) |
@@ -107,15 +107,15 @@ i nije pogrešno, ali drži jedan oblik u cijelom projektu.
 - Reci što se dogodilo i što korisnik može napraviti, bez krivnje:
   - „Lozinka mora imati najmanje 8 znakova.”
   - „E-adresa nije ispravna. Provjerite je li upisana bez razmaka.”
-  - „Ova e-adresa je već registrirana. Želite li se prijaviti?”
-  - „Veza s poslužiteljem nije uspjela. Pokušajte ponovno za nekoliko
+  - „Ta je e-adresa već registrirana. Želite li se prijaviti?”
+  - „Povezivanje s poslužiteljem nije uspjelo. Pokušajte ponovno za nekoliko
     trenutaka.”
 - Ne: ~~„Greška 500!!!”~~, ~~„Neispravan input”~~, ~~„Invalid email”~~.
 - „Pogreška” je normativno preporučeno, „greška” je razgovorno i prihvatljivo u
   opuštenom tonu.
-- Potvrde: „Promjene su spremljene.”, „Poruka je poslana. Javit ćemo Vam se u
+- Potvrde: „Promjene su spremljene.”, „Poruka je poslana. Javit ćemo vam se u
   roku od jednog radnog dana.”
-- Prazna stanja: „Još nemate narudžbi.”, „Ovdje će se pojaviti Vaše
+- Prazna stanja: „Još nemate narudžbi.”, „Ovdje će se pojaviti vaše
   obavijesti.”
 
 ## Obrasci
@@ -171,7 +171,7 @@ Primjer ICU poruke:
 
 - **Title:** prirodna fraza sentence caseom, ključna riječ naprijed, naziv
   brenda iza crte: „Najam stanova u Splitu – cijene i uvjeti | Primjer d.o.o.”.
-- **Meta opis:** jedna do dvije rečenice, Vi ili ti prema tonu stranice, s
+- **Meta opis:** jedna do dvije rečenice, vi ili ti prema tonu stranice, s
   pozivom na radnju („Zatražite besplatnu ponudu.”).
 - **Alt tekst:** opis slike na hrvatskom, bez „slika” na početku: „Ulaz u
   stambenu zgradu s biciklističkim parkiralištem”.
@@ -183,6 +183,6 @@ Primjer ICU poruke:
 
 - „Politika privatnosti”, „Uvjeti korištenja”, „Uvjeti prodaje”, „Pravo na
   jednostrani raskid ugovora” (pravo na odustanak), „Obrazac za jednostrani
-  raskid”, „Podaci o trgovcu”, „Kolačići”.
+  raskid”, „Podatci o trgovcu”, „Kolačići”.
 - Sadržaj pravnih stranica: `croatia:hr-legal-compliance`; ovaj skill pokriva
   samo jezik.

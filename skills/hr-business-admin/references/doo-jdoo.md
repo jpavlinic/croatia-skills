@@ -97,20 +97,20 @@ j.d.o.o.: only 3/4 of profit is distributable until capital reaches €2,500 (§
 
 ## 6. Accounting, annual financial statements (GFI), deadlines
 
-Zakon o računovodstvu (ZOR, NN 85/24, 145/24, 151/25, 59/26):
+Zakon o računovodstvu (ZoR, NN 85/24, 145/24, 151/25, 59/26):
 - **Double-entry bookkeeping** (dvojno knjigovodstvo), annual inventory, Croatian financial reporting standards
   (HSFI) for micro/small companies.
-- **Micro** = does not exceed two of: total assets €450,000; net revenue €900,000; 10 employees (ZOR čl. 5
+- **Micro** = does not exceed two of: total assets €450,000; net revenue €900,000; 10 employees (ZoR čl. 5
   st. 3). Micro and small companies prepare a balance sheet, P&L and notes only (čl. 18 st. 3).
 - **GFI for statistical purposes to FINA: by 30 April** for the previous year (balance sheet, P&L, additional
-  data) (ZOR čl. 50 st. 1).
+  data) (ZoR čl. 50 st. 1).
 - **Public disclosure (javna objava) of annual financial statements: within six months of year end** (30 June)
-  (ZOR čl. 47 st. 5); filing by 30 April can satisfy both (čl. 50 st. 2). **VERIFY** which documents your size
+  (ZoR čl. 47 st. 5); filing by 30 April can satisfy both (čl. 50 st. 2). **VERIFY** which documents your size
   class must publish.
 - **Statement of inactivity (Izjava o neaktivnosti)** by 30 April if there were no transactions and no assets or
-  liabilities (ZOR čl. 47 st. 9).
+  liabilities (ZoR čl. 47 st. 9).
 - **Retention:** bookkeeping documents behind the journal/general ledger and subsidiary ledgers **at least 11
-  years**, payslips 6 years, payroll records permanently (ZOR čl. 10, NN 151/25), unless the fiscalization law
+  years**, payslips 6 years, payroll records permanently (ZoR čl. 10, NN 151/25), unless the fiscalization law
   says otherwise (eRačun 6 years). Annual financial statements permanently.
 - In practice nearly every d.o.o. uses an accountant (računovodstveni servis). Market estimates (not official,
   2026): about €100–250/month for a small company with few invoices and no employees; more with payroll, VAT

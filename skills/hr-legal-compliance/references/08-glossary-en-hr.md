@@ -4,7 +4,7 @@ Use the official Croatian term in Croatian documents and give the English gloss 
 "Defined in" names the act whose Croatian text uses or defines the term. Terms marked **VERIFY** were not checked
 against the official Croatian text of that act.
 
-Abbreviations: GDPR = Opća uredba o zaštiti podataka (EU) 2016/679 (HR text); ZPDZ = Zakon o provedbi Opće uredbe;
+Abbreviations: GDPR = Opća uredba o zaštiti podataka (EU) 2016/679 (HR text); ZPDZ = Zakon o provedbi Opće uredbe o zaštiti podataka;
 ZZP = Zakon o zaštiti potrošača; ZOO = Zakon o obveznim odnosima; ZEK = Zakon o elektroničkim komunikacijama;
 ZET = Zakon o elektroničkoj trgovini; ZDS = Zakon o određenim aspektima ugovora o isporuci digitalnog sadržaja i
 digitalnih usluga; ZPDV = Zakon o porezu na dodanu vrijednost; ZoF = Zakon o fiskalizaciji; ZTD = Zakon o trgovačkim
@@ -142,7 +142,7 @@ društvima; DSA = Akt o digitalnim uslugama (EU) 2022/2065.
 | reverse charge | prijenos porezne obveze | ZPDV čl. 75; čl. 79 |
 | small taxpayer exemption | oslobođenje za male porezne obveznike | ZPDV čl. 90 |
 | One-Stop Shop (OSS) | sustav jedinstvene sabirne točke (OSS) (**VERIFY** PU wording) | ZPDV |
-| personal identification number | osobni identifikacijski broj (OIB) | Zakon o OIB-u |
+| personal identification number | osobni identifikacijski broj (OIB) | Zakon o osobnom identifikacijskom broju |
 | sole trader | obrt / obrtnik (paušalni obrt = flat-rate) | Zakon o obrtu |
 | limited liability company | društvo s ograničenom odgovornošću (d.o.o.); jednostavno d.o.o. (j.d.o.o.) | ZTD |
 | business name | tvrtka | ZTD čl. 17 ff. |
@@ -159,7 +159,7 @@ društvima; DSA = Akt o digitalnim uslugama (EU) 2022/2065.
 | intermediary service | usluga posredovanja | DSA čl. 3 |
 | hosting service | usluga smještaja informacija na poslužitelju | DSA čl. 3(g) |
 | online platform | internetska platforma | DSA čl. 3(i) |
-| notice and action | mehanizam prijave i postupanja | DSA čl. 16 |
+| notice and action | mehanizmi obavješćivanja i djelovanja | DSA čl. 16 |
 | statement of reasons | obrazloženje | DSA čl. 17 |
 | Digital Services Coordinator | koordinator za digitalne usluge (u RH: HAKOM) | DSA čl. 49; NN 67/25 |
 | AI system | sustav umjetne inteligencije (UI sustav) | AI Act čl. 3(1) (**VERIFY**) |

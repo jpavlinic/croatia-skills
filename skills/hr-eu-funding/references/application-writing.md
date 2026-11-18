@@ -64,28 +64,29 @@ Write the project as one chain; evaluators check that each link supports the nex
 | poziv na dostavu projektnih prijedloga (PDP) | call for proposals | |
 | javni poziv / natječaj | public call / tender-style call | national calls |
 | Upute za prijavitelje (UzP) | guidelines for applicants | |
-| trajni / otvoreni poziv | permanent / open call | until funds are used, batches |
+| trajni poziv (otvoreni postupak u modalitetu trajnog poziva) | rolling call | until funds are used, batches |
+| privremeni poziv (otvoreni postupak u modalitetu privremenog poziva) | call with a fixed deadline | |
 | privremena obustava poziva | temporary suspension | |
 | prijavitelj, partner, korisnik | applicant, partner, beneficiary | |
 | posredničko tijelo (PT1/PT2), upravljačko tijelo (UT) | intermediate body, managing authority | |
 | prihvatljivi troškovi | eligible costs | |
 | neprihvatljivi troškovi | ineligible costs | |
 | intenzitet potpore | aid intensity (% of eligible costs) | |
-| sufinanciranje, vlastito učešće | co-financing, own contribution | |
+| sufinanciranje, vlastiti udio | co-financing, own contribution | |
 | predujam | advance payment | often needs a guarantee |
 | zahtjev za nadoknadom sredstava (ZNS) | payment claim | |
 | pokazatelji (ostvarenja / rezultata) | indicators (output / result) | |
 | polazna / ciljna vrijednost | baseline / target | |
 | horizontalna načela | horizontal principles | |
-| načelo "ne nanosi bitnu štetu" (DNSH) | do no significant harm | Taxonomy Reg. 2020/852 Art. 17; CPR Art. 9(4) |
+| načelo „ne nanosi bitnu štetu” (DNSH) | do no significant harm | Taxonomy Reg. 2020/852 Art. 17; CPR Art. 9(4) |
 | klimatska provjera (climate proofing) | climate proofing | infrastructure |
 | ugovor o dodjeli bespovratnih sredstava | grant agreement | |
 | Opći uvjeti | general conditions | annex to contract |
 | financijska korekcija | financial correction | reduction of grant |
 | nepravilnost | irregularity | |
 | dvostruko financiranje | double financing | |
-| pojednostavljene troškovne opcije (POT/SCO) | simplified cost options | |
-| fiksna stopa, jedinični trošak, jednokratni iznos | flat rate, unit cost, lump sum | |
+| pojednostavljene troškovne opcije (PTO/SCO) | simplified cost options | |
+| paušalna stopa, jedinični trošak, jednokratni iznos | flat rate, unit cost, lump sum | CPR 2021/1060 Art. 53(1)(b)–(d); the 2014–2020 regulation (1303/2013 Art. 67) said *fiksna stopa* and *fiksni iznos* |
 | NOJN (neobveznik Zakona o javnoj nabavi) | beneficiary not bound by the Public Procurement Act | |
 | vidljivost | visibility / publicity | |
 | trajnost (održivost) projekta | durability | |

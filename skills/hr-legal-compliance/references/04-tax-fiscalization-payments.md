@@ -376,16 +376,16 @@ Temeljni kapital: 2.500,00 EUR, uplaćen u cijelosti · Uprava: Ivan Horvat
 IBAN: HR12 2340 0091 1100 0000 1 (Banka d.d.)
 
 RAČUN br.: 154/WEB1/1
-Datum i vrijeme izdavanja: 05.10.2026. 14:32
-Datum isporuke / razdoblje usluge: 05.10.2026. – 04.11.2026.
+Datum i vrijeme izdavanja: 5. 10. 2026. 14:32
+Datum isporuke / razdoblje usluge: 5. 10. 2026. – 4. 11. 2026.
 Mjesto izdavanja: Zagreb (internetska trgovina)
 
 Kupac: Ana Anić, Ulica 2, 21000 Split, Hrvatska   [OIB not required for consumers]
 
 | Opis                               | Kol. | Jed. cijena bez PDV-a | Stopa | Iznos bez PDV-a |
-| Pretplata "Pro" – mjesečna (SaaS)  | 1    | 16,00 EUR             | 25 %  | 16,00 EUR       |
+| Pretplata „Pro” – mjesečna (SaaS)  | 1    | 16,00 EUR             | 25 %  | 16,00 EUR       |
 
-Osnovica 25 %: 16,00 EUR · PDV 25 %: 4,00 EUR · UKUPNO ZA PLATITI: 20,00 EUR
+Osnovica 25 %: 16,00 EUR · PDV 25 %: 4,00 EUR · UKUPNO ZA PLAĆANJE: 20,00 EUR
 Način plaćanja: Kartica (online, Stripe)
 Oznaka operatera: WEB (OIB operatera povezan internim aktom)
 ZKI: 1a2b3c4d5e6f…   JIR: 9f8e7d6c-…-…
@@ -397,6 +397,12 @@ Račun je izdan elektroničkim putem i valjan je bez potpisa i pečata.
 - **Paušalist:** drop the PDV-ID, rate and VAT lines. Add "Obveznik nije u sustavu PDV-a; oslobođeno PDV-a temeljem čl. 90. st. 1. Zakona o PDV-u." Show the obrt name, owner and address instead of the court-registry data.
 - **EU B2B:** buyer's VAT ID, both VAT IDs shown, "Prijenos porezne obveze / reverse charge – čl. 17. st. 1. Zakona o PDV-u (čl. 196. Direktive 2006/112/EZ)". No JIR, no QR.
 - **OSS B2C:** customer-country VAT rate and amount. No JIR is needed; issuing one voluntarily is allowed.
+
+**Language slips common on real invoices** (do not copy them into generated ones):
+- "Za platiti", "Ukupno za platiti" → "Za plaćanje", "Ukupno za plaćanje": the standard avoids *za* + infinitive (IHJJ, matura.ihjj.hr/sintaksa.html).
+- "sa PDV-om" → "s PDV-om": *sa* stands only before s, z, š, ž and clusters such as ps-, ks- (`croatia:croatian-language`).
+- "€20,00", "EUR 20,00" → "20,00 €", "20,00 EUR": the sign or code follows the amount, after a space (`croatia:croatian-language`, typography).
+- "5.10.2026" → "5. 10. 2026.": a space after each dot and a dot after the year (IHJJ, pravopis.hr/pravilo/bjelina/54: "između sastavnica nadnevka: 24. 12. 1998.").
 
 ---
 

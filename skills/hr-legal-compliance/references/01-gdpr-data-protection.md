@@ -69,7 +69,7 @@ Art 5(2) adds **accountability**: you must be able to *prove* compliance.
 
 | SaaS processing | Recommended basis | Notes |
 |---|---|---|
-| Creating an account and logging in; delivering the app; storing the user's projects | **6(1)(b) contract** (izvršenje ugovora) | Includes steps before the contract at the user's request, such as sign-up. EDPB Guidelines 2/2019: only what is *objectively necessary* for the service. |
+| Creating an account and logging in; delivering the app; storing the user's projects | **6(1)(b) contract** (izvršavanje ugovora) | Includes steps before the contract at the user's request, such as sign-up. EDPB Guidelines 2/2019: only what is *objectively necessary* for the service. |
 | Free trial | 6(1)(b) | Trial terms are a contract, even an unpaid one. |
 | Billing, invoices, Stripe payment data, keeping invoices | 6(1)(b) for charging; **6(1)(c) legal obligation** (pravna obveza) for issuing, fiscalising and keeping invoices | Legal sources: ZoR Art 10, Zakon o PDV-u Art 79, Zakon o fiskalizaciji, OPZ Art 66. |
 | Security logs, rate limiting, fraud and abuse prevention | **6(1)(f) legitimate interest** (legitimni interes); Recital 49 names network security explicitly | Document a short legitimate-interest assessment (LIA). |
@@ -227,7 +227,7 @@ Totals from the AZOP register (https://azop.hr/upravne-novcane-kazne-3/):
 - **Layer 3:** a cookie policy and a sub-processor list.
 
 **Example short notice at sign-up (Croatian):**
-> *Voditelj obrade je [Naziv d.o.o.], OIB [..]. Vaše podatke obrađujemo radi izvršenja ugovora o korištenju usluge (čl. 6. st. 1. t. b) GDPR-a). Više o obradi, rokovima čuvanja i Vašim pravima pročitajte u [Politici privatnosti].*
+> *Voditelj obrade je [Naziv d.o.o.], OIB [..]. Vaše podatke obrađujemo radi izvršavanja ugovora o korištenju usluge (čl. 6. st. 1. t. b) GDPR-a). Više o obradi, rokovima čuvanja i Vašim pravima pročitajte u [Politici privatnosti].*
 
 (In English: "The controller is [Name d.o.o.], OIB [..]. We process your data to perform the contract for use of the service (Art 6(1)(b) GDPR). Read more about processing, retention periods and your rights in our [Privacy Policy].")
 

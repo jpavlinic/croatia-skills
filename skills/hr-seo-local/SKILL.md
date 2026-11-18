@@ -11,7 +11,8 @@ description: >-
   Overviews / AI Mode / ChatGPT answers in Croatian. Triggers: "SEO Hrvatska",
   "Croatian SEO", "ključne riječi", "istraživanje ključnih riječi",
   "pretraživanje", "Google Hrvatska", "hreflang hr", ".hr domena", "lokalni
-  SEO", "Google Business Profile Hrvatska", "Google moja tvrtka", "dijakritici",
+  SEO", "Google Business Profile Hrvatska", "Profil tvrtke na Googleu", "Google
+  moja tvrtka", "dijakritici",
   "citati", "imenici tvrtki", "NAP", "SEO za apartmane", "SEO za obrt", or any
   SEO, content or analytics task on a .hr site or hr locale.
 ---
@@ -89,7 +90,7 @@ Related skills in this plugin:
    September 2026), Bing 3.77%. Optimise for Google; keep Bing Webmaster Tools
    as a cheap extra.
 2. **Users type without diacritics.** Plan for `cevapi`, `racunovodja`,
-   `zlicarna`. Google usually connects the forms, but the SERPs can differ.
+   `slasticarnica`. Google usually connects the forms, but the SERPs can differ.
    Check both spellings in the SERP and in Search Console. Always write the
    content with correct diacritics; never misspell on purpose.
 3. **Inflection splits volume.** `stan zagreb`, `stanovi zagreb`, `najam
@@ -136,7 +137,7 @@ Related skills in this plugin:
 | Machine-translated pages | Low quality, calques, Serbian forms | Human edit with `croatia:croatian-language` |
 | Croatian text labelled `sr`/`bs` to "reach the region" | Duplicate, wrong language signal | Separate real localisation, or target the region with Croatian `hr` + `hr-BA` |
 | Doorway city pages (`vodoinstalater-[grad]` ×100) | Spam policy: doorway, scaled content | Few pages with unique local substance; service-area in GBP |
-| Wrong locative (`u Hvaru`, `na Splitu`) | Natives notice at once | Check u/na with `croatia:hr-localization` |
+| Wrong locative (`u Braču`, `na Splitu`, `u Rijeki`, `u Zadaru`) | Natives notice at once | Check u/na with `croatia:hr-localization` (note: `u Hvaru` is correct for the town, `na Hvaru` for the island) |
 | NAP differs from sudreg/obrtni registar | Weak local signals, verification trouble | Copy the legal name and address from the register |
 | Auto-redirect by IP or browser language | Google may not crawl other versions | Language switcher links; hreflang; no forced redirects |
 | `hreflang="hr-HR"` with no `x-default` or no return links | Annotations ignored | Reciprocal sets, self-reference, `x-default` |

@@ -85,7 +85,7 @@ Pure validation and formatting answers do not need the line.
 | BIC | 8 or 11 chars, e.g. `PBZGHR2X` | structure only | HNB VBDI/BIC table |
 | MB (DZS) | 8 digits | MOD 11, weights 8..2, r 0/1 → 0 | empirical + HUB "MOD11INI" (VERIFY) |
 | MBS | 9 digits | MOD 11,10 (empirical, VERIFY) | Zakon o sudskom registru |
-| MBO | digits | none known (VERIFY) | Obrtni registar |
+| MBO (matični broj obrta; not HZZO's 9-digit matični broj osigurane osobe) | digits | none known (VERIFY) | Obrtni registar |
 | JMBG | 13 digits DDMMYYYRRBBBK | weights 765432765432, sum%11 | Zakon o matičnom broju (NN 9/92) čl. 2 |
 | Poziv na broj | `HRnn` + up to 22 chars, P1-P2-P3(-P4) | per model (MOD11INI, ISO 7064, …) | HUB Jedinstveni pregled (01/2026) |
 | HUB-3 barcode | PDF417, 14 LF-separated UTF-8 fields, header `HRVHUB30`, amount 15-digit cents | lengths/charset | HUB Uputa, v6 (09/2022) |
@@ -138,7 +138,7 @@ contributions), `croatia:hr-business-admin` (registering companies/obrt), `croat
 
 | Fact | Goes stale when | Check |
 |---|---|---|
-| VBDI → bank/BIC table | bank mergers, renames | HNB page "Vodeći brojevi pružatelja platnih usluga" (snapshot 27.3.2025) |
+| VBDI → bank/BIC table | bank mergers, renames | HNB page "Vodeći brojevi pružatelja platnih usluga" (snapshot 27. 3. 2025.) |
 | Poziv na broj models | HUB revises the pregled (last: primjena 01/2026) | hub.hr → poziv na broj; sepa.hr |
 | HR68 revenue codes, budget accounts | every year (Naputak, e.g. NN 18/2026 + NN 39/2026) | narodne-novine.nn.hr, porezna-uprava.gov.hr |
 | HUB-3 barcode spec | new version after v6 (09/2022) | hub.hr → HUB 3 obrasci |

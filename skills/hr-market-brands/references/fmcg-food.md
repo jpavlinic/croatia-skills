@@ -23,7 +23,7 @@ outside retail. Use "Fortenova" only for what it still owns.
 | Podravka | Food group (Vegeta, Lino, Eva …), Koprivnica; owns Žito (Slovenia) | Listed on ZSE; state funds and pension funds major holders (VERIFY) | Active; added Belje and other agri companies 2025 | https://www.podravka.hr | 2026-10 |
 | Kraš | Confectionery (Kraš, Dorina, Bajadera, Domaćica …) | **Pivac Holding (Croatia) with Kappa Star Limited**: takeover bid 2026, after which they control about 97 % of shares (August 2026) | Active, new controlling owners | https://www.kras.hr/hr/o-nama/informacije-za-investitore/priopcenja-za-javnost ; https://www.poslovni.hr/burze/pivac-i-kappa-star-kontroliraju-97-posto-krasa-slijedi-li-odlazak-s-burze-4551045 | 2026-10 |
 | Dukat | Dairy | Lactalis (France) | Active (VERIFY) | https://www.dukat.hr | 2026-10 |
-| Vindija | Dairy and food (Varaždin; brands z'bregov, Cekin) | Croatian private | Active | https://www.vindija.hr | 2026-10 |
+| Vindija | Dairy and food (Varaždin; brands 'z bregov, Cekin) | Croatian private | Active | https://www.vindija.hr | 2026-10 |
 | Ledo | Ice cream and frozen food | **Nomad Foods** (since 2021), not Fortenova | Active | Fortenova source above | 2026-10 |
 | Franck | Coffee, tea, snacks (Zagreb) | Franck d.d., majority Ivero trade d.o.o. (SKDD data) | Active; expanding into BiH (2025) | https://www.fininfo.hr/Poduzece/Pregled/franck/Detaljno/124 | 2026-10 |
 | Jamnica | Mineral and spring water (Jamnica, Jana) | Fortenova; sale to Badel 1862 in negotiation | Active | see divestments | 2026-10 |

@@ -65,20 +65,20 @@ neradni-dani.com 2027, timeanddate.com 2027); the 2026 count of 252 working days
 
 | Blagdan | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
 |---|---|---|---|---|---|---|
-| Nova godina | 01.01. sri | 01.01. čet | 01.01. pet | *01.01. sub* | 01.01. pon | 01.01. uto |
-| Bogojavljenje ili Sveta tri kralja | 06.01. pon | 06.01. uto | 06.01. sri | 06.01. čet | *06.01. sub* | *06.01. ned* |
-| Uskrs | *20.04. ned* | *05.04. ned* | *28.03. ned* | *16.04. ned* | *01.04. ned* | *21.04. ned* |
-| Uskrsni ponedjeljak | 21.04. pon | 06.04. pon | 29.03. pon | 17.04. pon | 02.04. pon | 22.04. pon |
-| Praznik rada | 01.05. čet | 01.05. pet | *01.05. sub* | 01.05. pon | 01.05. uto | 01.05. sri |
-| Dan državnosti | 30.05. pet | *30.05. sub* | *30.05. ned* | 30.05. uto | 30.05. sri | 30.05. čet |
-| Tijelovo | 19.06. čet | 04.06. čet | 27.05. čet | 15.06. čet | 31.05. čet | 20.06. čet |
-| Dan antifašističke borbe | *22.06. ned* | 22.06. pon | 22.06. uto | 22.06. čet | 22.06. pet | *22.06. sub* |
-| Dan pobjede … i Dan hrvatskih branitelja | 05.08. uto | 05.08. sri | 05.08. čet | *05.08. sub* | *05.08. ned* | 05.08. pon |
-| Velika Gospa | 15.08. pet | *15.08. sub* | *15.08. ned* | 15.08. uto | 15.08. sri | 15.08. čet |
-| Svi sveti | *01.11. sub* | *01.11. ned* | 01.11. pon | 01.11. sri | 01.11. čet | 01.11. pet |
-| Dan sjećanja na žrtve Domovinskog rata … | 18.11. uto | 18.11. sri | 18.11. čet | *18.11. sub* | *18.11. ned* | 18.11. pon |
-| Božić | 25.12. čet | 25.12. pet | *25.12. sub* | 25.12. pon | 25.12. uto | 25.12. sri |
-| Sveti Stjepan | 26.12. pet | *26.12. sub* | *26.12. ned* | 26.12. uto | 26.12. sri | 26.12. čet |
+| Nova godina | 1. 1. sri. | 1. 1. čet. | 1. 1. pet. | *1. 1. sub.* | 1. 1. pon. | 1. 1. uto. |
+| Bogojavljenje ili Sveta tri kralja | 6. 1. pon. | 6. 1. uto. | 6. 1. sri. | 6. 1. čet. | *6. 1. sub.* | *6. 1. ned.* |
+| Uskrs | *20. 4. ned.* | *5. 4. ned.* | *28. 3. ned.* | *16. 4. ned.* | *1. 4. ned.* | *21. 4. ned.* |
+| Uskrsni ponedjeljak | 21. 4. pon. | 6. 4. pon. | 29. 3. pon. | 17. 4. pon. | 2. 4. pon. | 22. 4. pon. |
+| Praznik rada | 1. 5. čet. | 1. 5. pet. | *1. 5. sub.* | 1. 5. pon. | 1. 5. uto. | 1. 5. sri. |
+| Dan državnosti | 30. 5. pet. | *30. 5. sub.* | *30. 5. ned.* | 30. 5. uto. | 30. 5. sri. | 30. 5. čet. |
+| Tijelovo | 19. 6. čet. | 4. 6. čet. | 27. 5. čet. | 15. 6. čet. | 31. 5. čet. | 20. 6. čet. |
+| Dan antifašističke borbe | *22. 6. ned.* | 22. 6. pon. | 22. 6. uto. | 22. 6. čet. | 22. 6. pet. | *22. 6. sub.* |
+| Dan pobjede … i Dan hrvatskih branitelja | 5. 8. uto. | 5. 8. sri. | 5. 8. čet. | *5. 8. sub.* | *5. 8. ned.* | 5. 8. pon. |
+| Velika Gospa | 15. 8. pet. | *15. 8. sub.* | *15. 8. ned.* | 15. 8. uto. | 15. 8. sri. | 15. 8. čet. |
+| Svi sveti | *1. 11. sub.* | *1. 11. ned.* | 1. 11. pon. | 1. 11. sri. | 1. 11. čet. | 1. 11. pet. |
+| Dan sjećanja na žrtve Domovinskog rata … | 18. 11. uto. | 18. 11. sri. | 18. 11. čet. | *18. 11. sub.* | *18. 11. ned.* | 18. 11. pon. |
+| Božić | 25. 12. čet. | 25. 12. pet. | *25. 12. sub.* | 25. 12. pon. | 25. 12. uto. | 25. 12. sri. |
+| Sveti Stjepan | 26. 12. pet. | *26. 12. sub.* | *26. 12. ned.* | 26. 12. uto. | 26. 12. sri. | 26. 12. čet. |
 | **Holidays on Mon–Fri** | 11 | 9 | 8 | 10 | 10 | 11 |
 | **Working days (Mon–Fri)** | 250 | 252 | 253 | 250 | 251 | 250 |
 
@@ -179,8 +179,8 @@ Notes:
   next working day under the ZUP rule via OPZ čl. 4. **VERIFY** for the specific
   form, especially for payments (see `statutory-deadlines.md`).
 
-Script: `deadline 2026-12-10 15 --rule zup` → raw 25.12. (Christmas) → rolls
-over 26.12. (Sat, holiday) and 27.12. (Sun) → ends Monday 28.12.2026.
+Script: `deadline 2026-12-10 15 --rule zup` → raw 25. 12. (Christmas) → rolls
+over 26. 12. (Sat, holiday) and 27. 12. (Sun) → ends Monday 28. 12. 2026.
 
 ## 8. Payment (bank) working days
 

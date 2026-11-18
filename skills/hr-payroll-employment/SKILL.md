@@ -95,7 +95,7 @@ Status: researched 2026-10-25.
 |---|---|---|
 | Minimum wage (full time) | **EUR 1,050.00 gross/month** | Uredba, NN 132/2025 |
 | Contributions from salary | MIO I **15 %** + MIO II **5 %** (MIO I 20 % if pillar I only) | Zakon o doprinosima |
-| MIO I base reduction | EUR 300 (gross ≤ 700); 0.5 × (1,300 − gross) up to 1,300; MIO I only | Porezna uprava brochure; ZoD |
+| MIO I base reduction | EUR 300 (gross ≤ 700); 0.5 × (1,300 − gross) up to 1,300; MIO I only | Porezna uprava brochure; ZOD |
 | Employer health insurance | **16.5 %** on gross | Zakon o doprinosima |
 | Max monthly contribution base | EUR 11,958.00 (min. EUR 757.34; employed directors min. EUR 1,295.45; directors not insured elsewhere EUR 1,993.00, paid by the director) | Naredba NN 150/2025 |
 | Basic personal deduction | **EUR 600/month**; children 0.5/0.7/1.0/1.4…; dependant 0.5 | ZPD čl. 14 |

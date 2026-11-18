@@ -135,7 +135,7 @@ Estimate only; amounts other than taxes and court fees are market practice, not 
 | Notary: signature certification | a few euro per signature plus VAT and notary stamp duties; tariff 3 points for up to 4 copies, 1 point each extra (Tar. 19); point value historically 10 kn ≈ 1.33 € | Pravilnik o privremenoj javnobilježničkoj tarifi — **VERIFY** euro point value |
 | Notary: solemnisation / notarial deed | value-based (Tar. 12 scale; solemnisation 50 % of Tar. 12 if no separate act, Tar. 16), typically a few hundred euro for a flat | same — **VERIFY** |
 | Notary deposit (polog) | Tar. 12 scale applied to the deposited value (Tar. 33) | same — **VERIFY** |
-| Lawyer (contract + due diligence) | often 0.5–1 % or a fixed fee; regulated by the Odvjetnička tarifa | **VERIFY** current HOK tariff |
+| Lawyer (contract + due diligence) | often 0.5–1 % or a fixed fee; regulated by the Odvjetnička tarifa | **VERIFY** current Odvjetnička tarifa (Hrvatska odvjetnička komora) |
 | Agency commission | commonly 2–3 % + PDV per side; **no legal cap**; no advance; if both sides pay, total ≤ top of price list, one-side fee ≤ half of it | Zakon o posredovanju (NN 69/26) čl. 28–30 |
 | Land registry | 6.64 € + 26.54 € per right (filing fee halved if e-filed) | Uredba o Tarifi sudskih pristojbi |
 | Valuation for bank | ~150–500 € | market — **VERIFY** |

@@ -18,10 +18,13 @@ and the domain `primjer.hr`.
 - Use the form users search as the primary term, then let grammar carry the
   other forms: title `Apartmani na Hvaru uz more`, H1 `Apartmani na Hvaru`,
   body `apartman za četiri osobe u gradu Hvaru`.
-- Polite address: `Vi/Vaš` (capital) when the text addresses one reader
-  directly, `vi/vaš` for a group. Most web copy addresses the reader as one
-  person. Follow the site's existing convention if it is consistent;
-  otherwise apply `croatia:croatian-language`.
+- Polite address: text addressed to one concrete person (a letter, an e-mail
+  to one customer, a reply to a review) takes capital `Vi/Vaš` (IHJJ 4.1.3).
+  Titles, meta descriptions, landing pages and blog posts do not address a
+  concrete individual, so IHJJ prescribes lower-case `vi/vaš` there, while
+  capital `Vi` is a widespread house style on Croatian websites. Follow the
+  site's existing convention if it is consistent; otherwise use IHJJ's lower
+  case (see `croatia:croatian-language`).
 - Write the meta description as a natural sentence with a clear benefit; no
   keyword lists.
 - Run every Croatian title, meta and heading through `croatia:croatian-language`.

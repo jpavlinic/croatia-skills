@@ -35,7 +35,7 @@ Ugovor se sklapa na [određeno vrijeme od __ do __ / neodređeno vrijeme].
 ## Članak 4. – Najamnina (ZNS čl. 5. t. 3., čl. 9.)
 
 Slobodno ugovorena najamnina iznosi [__] eura mjesečno i plaća se unaprijed do [__]. dana u
-mjesecu na račun IBAN [__]. [Odredba o promjeni najamnine u skladu sa ZNS čl. 10. – 11.]
+mjesecu na račun IBAN [__]. [Odredba o promjeni najamnine u skladu s čl. 10. i 11. ZNS-a]
 
 ## Članak 5. – Troškovi stanovanja (ZNS čl. 5. t. 4.)
 
@@ -77,7 +77,7 @@ Podnajam nije dopušten bez prethodne pisane suglasnosti najmodavca.
 
 ## Članak 12. – Otkaz (ZNS čl. 19. – 23.)
 
-Najmodavac može otkazati ugovor iz razloga propisanih ZNS-om čl. 19., uz prethodnu pisanu
+Najmodavac može otkazati ugovor iz razloga propisanih čl. 19. ZNS-a, uz prethodnu pisanu
 opomenu i rok od 30 dana za otklanjanje razloga, osim u slučajevima kada opomena nije potrebna.
 Otkaz se daje pisanim putem s obrazloženjem, osobno uz potpis ili preporučenom pošiljkom; otkazni
 rok iznosi tri mjeseca (ZNS čl. 22.). Najmoprimac ugovor sklopljen na neodređeno vrijeme može
@@ -92,13 +92,13 @@ sklapanja, osim ako je ugovor potvrdio (solemnizirao) javni bilježnik.
 
 ## Članak 14. – Solemnizacija (neobvezno)
 
-Stranke su suglasne da se ugovor potvrdi kod javnog bilježnika radi stjecanja svojstva ovršne
+Ugovorne strane suglasne su da se ugovor potvrdi kod javnog bilježnika radi stjecanja svojstva ovršne
 isprave. Troškove snosi [__].
 
 ## Članak 15. – Završne odredbe
 
 Na odnose koji nisu uređeni ovim ugovorom primjenjuju se Zakon o najmu stanova i Zakon o obveznim
-odnosima. Sporove stranke rješavaju sporazumno, a ako to ne uspije, nadležan je sud u [__].
+odnosima. Sporove ugovorne strane rješavaju sporazumno, a ako to ne uspije, nadležan je sud u [__].
 Ugovor je sastavljen u [dva] istovjetna primjerka, od kojih svaka strana zadržava [jedan].
 
 Prilozi: 1. popis namještaja i opreme; 2. zapisnik o primopredaji; 3. preslika energetskog
