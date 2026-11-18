@@ -16,7 +16,7 @@ resident by one employer. Use `scripts/hr_salary.py` for numbers; this file expl
 | MIO I (pillar I) from salary | **15 %** (20 % if only in pillar I) | Zakon o doprinosima |
 | MIO II (pillar II) from salary | **5 %** | Zakon o doprinosima |
 | Health insurance on salary (employer) | **16.5 %** of gross, no cap | Zakon o doprinosima |
-| MIO I base reduction | EUR 300 for gross ≤ 700; 0.5 × (1,300 − gross) for 700.01–1,300; 0 above | ZoD (NN 114/23, from Dec 2023 pay); Porezna uprava brochure |
+| MIO I base reduction | EUR 300 for gross ≤ 700; 0.5 × (1,300 − gross) for 700.01–1,300; 0 above | ZOD (NN 114/23, from Dec 2023 pay); Porezna uprava brochure |
 | Basic personal deduction (osnovni osobni odbitak) | **EUR 600.00/month** | ZPD čl. 14 st. 1 (NN 152/24) |
 | Tax brackets | lower rate up to **EUR 5,000/month** (EUR 60,000/year), higher above | ZPD čl. 19 |
 | Rate ranges set by local units | municipality 15–20 / 25–30 %; town 15–21 / 25–31 %; large town or county seat 15–22 / 25–32 %; **Zagreb 15–23 / 25–33 %**; default 20/30 % | ZPD čl. 19.a |
@@ -106,7 +106,7 @@ workers employed all year in December (ZPD, article after čl. 45 – **VERIFY**
 | Assisted areas group I / Vukovar | **50 %** of the tax on salary or pension for residents (ZPD čl. 45 st. 1); youth relief is applied first (st. 7) | Annual assessment |
 | Returning emigrants | **100 %** of salary tax for 5 years for Croatian citizens back after 2+ years abroad, and certain emigrants/descendants (ZPD čl. 45 st. 3–5) | Annual assessment |
 | Croatian war invalids | tax reduced by the disability percentage (ZPD čl. 42) | Monthly |
-| Employer health exemption for young workers, etc. | Zakon o doprinosima provides exemptions from the 16.5 % (e.g. young persons hired on indefinite contracts; the Porezna uprava 2024 brochure example shows 0 health contribution for a "mlada osoba") | **VERIFY** conditions in ZoD before applying |
+| Employer health exemption for young workers, etc. | Zakon o doprinosima provides exemptions from the 16.5 % (e.g. young persons hired on indefinite contracts; the Porezna uprava 2024 brochure example shows 0 health contribution for a "mlada osoba") | **VERIFY** conditions in ZOD before applying |
 
 ## 5. Worked examples (computed by `hr_salary.py`, 2026)
 

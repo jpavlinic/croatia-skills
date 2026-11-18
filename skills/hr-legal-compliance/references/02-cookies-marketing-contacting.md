@@ -440,9 +440,9 @@ Implementation notes:
 
 | Naziv | Pružatelj | Svrha | Vrsta / kategorija | Trajanje | Privola |
 |---|---|---|---|---|---|
-| `SESSION` | [Naziv] (prva strana) | Održavanje prijave u aplikaciju | Nužni | Sesija | Ne |
+| `SESSION` | [Naziv] (prva strana) | Održavanje prijave korisnika (sesije) | Nužni | Sesija | Ne |
 | `XSRF-TOKEN` | [Naziv] | Zaštita od CSRF napada | Nužni | Sesija | Ne |
-| `cookie_consent` (localStorage) | [Naziv] | Pamćenje Vašeg izbora o kolačićima | Nužni | 6–12 mjeseci | Ne |
+| `cookie_consent` (localStorage) | [Naziv] | Pamćenje Vašeg izbora o kolačićima | Nužni | 6 – 12 mjeseci | Ne |
 | `__stripe_mid`, `__stripe_sid` | Stripe Payments Europe Ltd. (IE) | Sprječavanje prijevara pri plaćanju (samo stranica plaćanja) | Nužni (sigurnost) | 1 godina / 30 min | Ne (VERIFY) |
 | [plausible / umami]: nema kolačića | [self-hosted] | Zbirna statistika posjećenosti | Analitički | – | Da / prema odluci (VERIFY) |
 | `_ga`, `_ga_<ID>` | Google Ireland Ltd. | Analitika posjećenosti | Analitički | 2 godine | Da |
@@ -452,7 +452,7 @@ Below the table, include: controller identity and contact; recipients; transfers
 
 ### 7.3 Newsletter consent checkbox (unticked)
 
-> ☐ Želim primati [Naziv] newsletter s novostima, savjetima i ponudama za [proizvod] e-poštom (najviše [2] puta mjesečno). Privolu mogu povući u svakom trenutku poveznicom za odjavu u svakoj poruci. Više u [Politici privatnosti].
+> ☐ Želim e-poštom primati newsletter [Naziv] s novostima, savjetima i ponudama za [proizvod] (najviše [2] puta mjesečno). Privolu mogu povući u svakom trenutku poveznicom za odjavu u svakoj poruci. Više u [Politici privatnosti].
 
 Then send a double opt-in email:
 
@@ -460,7 +460,7 @@ Then send a double opt-in email:
 
 ### 7.4 Unsubscribe footer (marketing emails)
 
-> Ovu poruku šalje [Tvrtka d.o.o. / Obrt Naziv, vl. Ime Prezime], [adresa], OIB [ ], upisan u [sudski registar Trgovačkog suda u … / Obrtni registar], MBS [ ]. Primate je jer ste [se prijavili na naš newsletter / koristili probno razdoblje usluge [Naziv]].
+> Ovu poruku šalje [Tvrtka d.o.o. / Obrt Naziv, vl. Ime Prezime], [adresa], OIB [ ], [upisano u sudski registar Trgovačkog suda u …, MBS … / upisan u Obrtni registar, MBO …]. Primate je jer ste [se prijavili na naš newsletter / koristili probno razdoblje usluge [Naziv]].
 > **[Odjava jednim klikom]** · [Postavke obavijesti] · Odjavu možete zatražiti i odgovorom na ovu poruku ili na [privatnost@domena.hr]. Odjava je besplatna i provodi se odmah.
 
 ### 7.5 Soft opt-in notice at signup (trial registration form)
@@ -476,13 +476,13 @@ The notice must be adjacent to the email field, not buried in the ToS. Store the
 >
 > Poštovani gospodine [Prezime],
 >
-> javljam se jer se [Naziv tvrtke] bavi [djelatnost primatelja], a razvili smo [Naziv], alat koji [jedna rečenica koristi]. Ako Vas zanima, rado ću Vam pokazati demo od 15 minuta ili otvoriti besplatno probno razdoblje.
+> javljam se jer se [Naziv tvrtke] bavi [djelatnošću primatelja, u instrumentalu], a razvili smo [Naziv], alat koji [korist u jednoj rečenici]. Ako Vas zanima, rado ću Vam u 15 minuta pokazati kako radi ili Vam otvoriti besplatno probno razdoblje.
 >
 > Lijep pozdrav,
 > [Ime Prezime], [Tvrtka d.o.o.], [adresa], OIB [ ], [telefon]
 >
 > ---
-> *Zašto ste primili ovu poruku i kako se odjaviti:* Vaše poslovne kontaktne podatke (ime, prezime, poslovna e-adresa, funkcija) preuzeli smo s [mrežne stranice Vaše tvrtke / iz sudskog registra] i obrađujemo ih na temelju legitimnog interesa (čl. 6. st. 1. t. (f) GDPR-a) kako bismo Vam ponudili uslugu relevantnu za Vaše poslovanje. Voditelj obrade je [Tvrtka d.o.o.], [kontakt]. Podatke ne dijelimo s trećima osim s pružateljem usluge e-pošte [naziv, EU]. Čuvamo ih najviše [6] mjeseci ako ne odgovorite. **Imate pravo prigovora na ovu obradu u svakom trenutku. Odgovorite „ODJAVA” i više Vas nećemo kontaktirati** (Vaš ćemo kontakt zadržati samo na popisu za blokiranje slanja). Imate i pravo na pristup, ispravak, brisanje i ograničenje obrade te pravo na pritužbu Agenciji za zaštitu osobnih podataka (azop.hr). Više: [poveznica na obavijest].
+> *Zašto ste primili ovu poruku i kako se odjaviti:* Vaše poslovne kontaktne podatke (ime, prezime, poslovna e-adresa, funkcija) preuzeli smo s [mrežne stranice Vaše tvrtke / iz sudskog registra] i obrađujemo ih na temelju legitimnog interesa (čl. 6. st. 1. t. f) GDPR-a) kako bismo Vam ponudili uslugu relevantnu za Vaše poslovanje. Voditelj obrade je [Tvrtka d.o.o.], [kontakt]. Podatke ne dijelimo s trećima osim s pružateljem usluge e-pošte [naziv, EU]. Čuvamo ih najviše [6] mjeseci ako ne odgovorite. **U svakom trenutku imate pravo na prigovor na ovu obradu. Odgovorite na ovu poruku riječju „ODJAVA” i više Vas nećemo kontaktirati** (Vaš ćemo kontakt zadržati samo na popisu za blokiranje slanja). Imate i pravo na pristup, ispravak, brisanje i ograničenje obrade te pravo na pritužbu Agenciji za zaštitu osobnih podataka (azop.hr). Više: [poveznica na obavijest].
 
 Rules for using it:
 - Only for legal persons, never obrtnici.

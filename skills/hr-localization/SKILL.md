@@ -119,10 +119,11 @@ i18next: `key_one`, `key_few`, `key_other`. Test with 0, 1, 2, 5, 11, 12, 21, 22
   stored inflected forms.
 - Gender: past tense and adjectives agree (*prijavio / prijavila*). Use ICU `select`, the polite
   plural *Vi* form (*Jeste li sigurni?*), or neutral rewrites (*Prijava je uspjela.*).
-- Greetings: *Poštovani gospodine Horvat,* · *Poštovana gospođo Kovač,* · unknown gender *Poštovani,*
+- Greetings: *Poštovani gospodine Horvat,* · *Poštovani gospodine Babiću,* · *Poštovana gospođo Kovač,* · unknown gender *Poštovani,*
   · informal *Dragi Ivane,* / *Draga Ana,*. Female names and all female surnames stay in the
-  nominative; male surnames after *gospodine* may stay in the nominative (current usage; textbook
-  *Babiću* also correct). Only decline first names you are sure of (`vocative` helper).
+  nominative, except names in -ica, male and female, which take -ice (*Draga Ankice,* / *Dragi
+  Ivice,*); after *gospodine / doktore* male surnames in -ić are declined (*Babiću*) and other
+  male surnames stay in the nominative (IHJJ Jezični savjetnik). Only decline first names you are sure of (`vocative` helper).
 
 ### Places
 

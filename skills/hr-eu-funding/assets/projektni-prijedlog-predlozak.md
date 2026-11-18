@@ -22,7 +22,7 @@ figures: mark missing data [MISSING] and ask the user.
 | Davatelj (UT/PT1/PT2) / Grantor | [ ] | |
 | Vrsta poziva: rok / trajni poziv / Deadline type | [ ] | |
 | Rok za prijavu, provjereno dana / Deadline, checked on | [ ] / [datum] | |
-| Raspon potpore (min–max) / Grant range | [ ] | |
+| Raspon potpore (min. – maks.) / Grant range | [ ] | |
 | Intenzitet potpore / Aid intensity | [ ] % | |
 | Pravna osnova potpore (de minimis / GBER čl.) / State-aid basis | [ ] | |
 | Prihvatljivi prijavitelji / Eligible applicants | [ ] | |
@@ -49,7 +49,7 @@ figures: mark missing data [MISSING] and ask the user.
 ## 3. Ciljevi / Objectives
 
 - Opći cilj (povezan sa specifičnim ciljem poziva) / General objective linked to the call's specific objective: [ ]
-- Specifični ciljevi projekta (1–3, mjerljivi) / Specific objectives (1–3, measurable): [ ]
+- Specifični ciljevi projekta (1 – 3, mjerljivi) / Specific objectives (1–3, measurable): [ ]
 
 ## 4. Aktivnosti i elementi projekta / Activities and work packages
 
@@ -77,7 +77,7 @@ Vidi `proracun-predlozak.md`. / See `proracun-predlozak.md`.
 - Ukupni troškovi / Total costs: [ ] EUR
 - Prihvatljivi troškovi / Eligible costs: [ ] EUR
 - Traženi iznos bespovratnih sredstava / Grant requested: [ ] EUR ([ ] %)
-- Vlastito učešće i izvor (vlastita sredstva, kredit) / Own contribution and source: [ ] EUR
+- Vlastiti udio i izvor (vlastita sredstva, kredit) / Own contribution and source: [ ] EUR
 - Plan predfinanciranja do isplate / Pre-financing until reimbursement: [ ]
 
 ## 7. Provedbeni kapaciteti / Implementation capacity
@@ -105,11 +105,11 @@ Vidi `proracun-predlozak.md`. / See `proracun-predlozak.md`.
 - Ravnopravnost spolova i nediskriminacija / Gender equality and non-discrimination: [ ]
 - Pristupačnost za osobe s invaliditetom / Accessibility: [ ]
 - Održivi razvoj, energetska učinkovitost / Sustainable development: [ ]
-- Načelo "ne nanosi bitnu štetu" (6 okolišnih ciljeva) / DNSH (6 environmental objectives): [ ]
+- Načelo „ne nanosi bitnu štetu” (6 okolišnih ciljeva) / DNSH (6 environmental objectives): [ ]
 
 ## 11. Kontrolni popis prije predaje / Pre-submission checklist
 
-- [ ] Sve izjave potpisane od ovlaštene osobe / All declarations signed by the authorised person
+- [ ] Sve izjave potpisala je ovlaštena osoba / All declarations signed by the authorised person
 - [ ] Potvrda Porezne uprave unutar roka valjanosti / Tax certificate within validity
 - [ ] Izjava o potporama male vrijednosti uključuje sva povezana poduzeća / De minimis declaration covers linked enterprises
 - [ ] Ponude za svaku stavku proračuna / Offers for each budget line

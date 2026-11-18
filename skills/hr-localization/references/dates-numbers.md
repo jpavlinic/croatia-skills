@@ -54,7 +54,8 @@ Other runtimes (older browsers, Java, .NET, Android) may use older CLDR data; re
 - CLDR abbreviations have **no dot** (`25. lis 2026.`). There is no official IHJJ month-abbreviation
   list; in prose prefer the full name or the numeric date.
 - Weekdays: ponedjeljak, utorak, srijeda, četvrtak, petak, subota, nedjelja; short: pon, uto, sri,
-  čet, pet, sub, ned; narrow: p, u, s, č, p, s, n.
+  čet, pet, sub, ned; narrow: p, u, s, č, p, s, n. CLDR prints them without a dot (`pon`, `uto` …),
+  which is fine in a calendar grid; in running text an abbreviation takes a dot (*pon.*, *uto.*).
 
 ### Getting genitive vs nominative right
 
@@ -193,8 +194,9 @@ classic source of "prije 21 dana" / "prije 2 dan" bugs.
   `€1,234.56` pattern in a Croatian UI is a localisation bug (usually a hard-coded `'€' + amount`).
 - Whole euro amounts: `5 €` or `5,00 €` are both fine; be consistent per screen (prices on shelf
   labels/checkout usually show cents). Invoices and fiscal receipts: `croatia:hr-fiscalization-dev`.
-- Word forms: 1 euro, 2–4 eura, 5+ eura; "euro" does not change in the genitive plural
-  (`5 eura`, `21 euro`, `22 eura`). Cents: `1 cent, 2 centa, 5 centi`. Use plural rules (plurals.md).
+- Word forms: 1 euro, 2–4 eura, 5+ eura. *Euro* is declined like a masculine noun (G sg. *eura*,
+  G pl. *eura*), so the form after 2–4 and after 5+ is written the same; it is never left as *5 euro*
+  and never *5 euri* (`5 eura`, `21 euro`, `22 eura`). Cents: `1 cent, 2 centa, 5 centi`. Use plural rules (plurals.md).
 
 ### Percent, units, compact
 

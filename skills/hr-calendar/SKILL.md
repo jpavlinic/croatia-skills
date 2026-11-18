@@ -6,7 +6,7 @@ description: >-
   days (radni dani, fond sati), procedural deadlines that roll past Sundays and
   holidays (rok, računanje rokova, ZUP, ZPP), Sunday shop opening (radne
   nedjelje, rad trgovina nedjeljom, Zakon o trgovini), school holidays
-  (praznici škola, zimski/proljetni odmor), time zone Europe/Zagreb and DST, and
+  (školski praznici, zimski/proljetni odmor učenika), time zone Europe/Zagreb and DST, and
   recurring tax/filing deadlines (JOPPD, PDV, PO-SD, DOH, PD, GFI, doprinosi,
   turistička pristojba). Includes a Python script for holidays (.ics/JSON),
   working-day counts, Easter and deadline dates. Use for "holidays Croatia",
@@ -88,27 +88,27 @@ holiday list was different). Save `.ics` with
 ## Key facts
 
 **Public holidays** (Zakon o blagdanima, spomendanima i neradnim danima u RH,
-NN 110/19, 72/25, čl. 1): 1.1. Nova godina · 6.1. Bogojavljenje ili Sveta tri
-kralja · Uskrs · Uskrsni ponedjeljak · 1.5. Praznik rada · 30.5. Dan
-državnosti · Tijelovo (Easter + 60) · 22.6. Dan antifašističke borbe · 5.8. Dan
-pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja · 15.8. Velika
-Gospa · 1.11. Svi sveti · 18.11. Dan sjećanja na žrtve Domovinskog rata i Dan
-sjećanja na žrtvu Vukovara i Škabrnje · 25.12. Božić · 26.12. Sveti Stjepan.
+NN 110/19, 72/25, čl. 1): 1. 1. Nova godina · 6. 1. Bogojavljenje ili Sveta tri
+kralja · Uskrs · Uskrsni ponedjeljak · 1. 5. Praznik rada · 30. 5. Dan
+državnosti · Tijelovo (Easter + 60) · 22. 6. Dan antifašističke borbe · 5. 8. Dan
+pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja · 15. 8. Velika
+Gospa · 1. 11. Svi sveti · 18. 11. Dan sjećanja na žrtve Domovinskog rata i Dan
+sjećanja na žrtvu Vukovara i Škabrnje · 25. 12. Božić · 26. 12. Sveti Stjepan.
 
 | Year | Uskrs | Uskrsni pon. | Tijelovo | Holidays Mon–Fri | Working days |
 |---|---|---|---|---|---|
-| 2025 | 20.4. | 21.4. | 19.6. | 11 | 250 |
-| 2026 | 5.4. | 6.4. | 4.6. | 9 | 252 |
-| 2027 | 28.3. | 29.3. | 27.5. | 8 | 253 |
-| 2028 | 16.4. | 17.4. | 15.6. | 10 | 250 |
-| 2029 | 1.4. | 2.4. | 31.5. | 10 | 251 |
-| 2030 | 21.4. | 22.4. | 20.6. | 11 | 250 |
+| 2025 | 20. 4. | 21. 4. | 19. 6. | 11 | 250 |
+| 2026 | 5. 4. | 6. 4. | 4. 6. | 9 | 252 |
+| 2027 | 28. 3. | 29. 3. | 27. 5. | 8 | 253 |
+| 2028 | 16. 4. | 17. 4. | 15. 6. | 10 | 250 |
+| 2029 | 1. 4. | 2. 4. | 31. 5. | 10 | 251 |
+| 2030 | 21. 4. | 22. 4. | 20. 6. | 11 | 250 |
 
 - A holiday on a **Sunday (or Saturday) is not moved** (čl. 4). No bridge days
   by law.
-- **Not days off**: Veliki petak, Badnjak (24.12.), Stara godina (31.12.),
-  25.6. Dan neovisnosti, 8.10. Dan Hrvatskoga sabora (memorial days since 2020).
-- **Believers only** (čl. 3): Orthodox Christmas 7.1., Orthodox Easter Monday,
+- **Not days off**: Veliki petak, Badnjak (24. 12.), Stara godina (31. 12.),
+  25. 6. Dan neovisnosti, 8. 10. Dan Hrvatskoga sabora (memorial days since 2020).
+- **Believers only** (čl. 3): Orthodox Christmas 7. 1., Orthodox Easter Monday,
   one day each for Ramazanski and Kurban-bajram, Roš hašana and Jom kipur.
 - **Working day** = Monday–Friday that is not a holiday. Saturday is not a
   holiday, but offices and courts do not work, so a deadline ending on Saturday
@@ -125,11 +125,11 @@ sjećanja na žrtvu Vukovara i Škabrnje · 25.12. Božić · 26.12. Sveti Stjep
   museums, marinas, campsites, protected nature areas, markets, fairs, vending
   machines, online sales; kiosks 07–13 h (Zakon o trgovini čl. 57).
 - **Time zone** Europe/Zagreb, CET (UTC+1) / CEST (UTC+2); switch on the last
-  Sunday of March and October (2026: 29.3. and 25.10.; Uredba NN 13/22 covers
+  Sunday of March and October (2026: 29. 3. and 25. 10.; Uredba NN 13/22 covers
   2022–2026, **VERIFY** the decree for 2027+).
-- **School 2026/27** (Odluka NN 58/2026): 7.9.2026 – 15.6.2027; winter
-  24.12.2026 – 5.1.2027 and 22.–26.2.2027; spring 25.3. – 2.4.2027; summer from
-  16.6.2027. Local school days off vary.
+- **School 2026/27** (Odluka NN 58/2026): 7. 9. 2026. – 15. 6. 2027.; winter
+  24. 12. 2026. – 5. 1. 2027. and 22. – 26. 2. 2027.; spring 25. 3. – 2. 4. 2027.; summer from
+  16. 6. 2027. Local school days off vary.
 - **Months** (lower case): siječanj, veljača, ožujak, travanj, svibanj, lipanj,
   srpanj, kolovoz, rujan, listopad, studeni, prosinac; dates in genitive:
   "4. lipnja 2026.".
@@ -145,12 +145,12 @@ sjećanja na žrtvu Vukovara i Škabrnje · 25.12. Božić · 26.12. Sveti Stjep
 | Own contributions | Obrtnici, paušalisti | 15th for the previous month | ZOD čl. 67, 71 |
 | PDV, PDV-S, ZP | VAT payers | last day of the month after the period (was the 20th until 2025) | ZPDV čl. 85, 86, 88 (NN 151/25) |
 | eIzvještavanje (eRačun payments) | eRačun issuers | 20th for the previous month | ZF čl. 53 |
-| Paušalni porez | Paušalisti | 31.3., 30.6., 30.9., 31.12. | ZPD čl. 82 |
-| PO-SD | Paušalisti | 15.1. | ZPD čl. 82 st. 6 |
+| Paušalni porez | Paušalisti | 31. 3., 30. 6., 30. 9., 31. 12. | ZPD čl. 82 |
+| PO-SD | Paušalisti | 15. 1. | ZPD čl. 82 st. 6 |
 | DOH | Obrtnici with books | end of February | ZPD čl. 50 |
-| PD (porez na dobit) | Companies | 30.4. | ZPDobit čl. 35 |
-| GFI to FINA | Companies | 30.4. statistics / 30.6. public disclosure | ZOR čl. 50, 47 |
-| Tourist tax and membership (flat rate) | Private renters | 31.7. (or 31.7./31.8./30.9.) | ZTP čl. 17; ZČTZ čl. 11 |
+| PD (porez na dobit) | Companies | 30. 4. | ZPDobit čl. 35 |
+| GFI to FINA | Companies | 30. 4. statistics / 30. 6. public disclosure | ZoR čl. 50, 47 |
+| Tourist tax and membership (flat rate) | Private renters | 31. 7. (or 31. 7./31. 8./30. 9.) | ZTP čl. 17; ZČTZ čl. 11 |
 
 Deadlines ending on a Sunday, holiday or non-working day move to the next
 working day (ZUP čl. 81 via OPZ čl. 4); Intrastat (15th) does not move.

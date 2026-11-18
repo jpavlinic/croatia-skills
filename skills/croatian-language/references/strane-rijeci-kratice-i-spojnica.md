@@ -32,16 +32,17 @@ Oblici se pišu prema **izgovoru** u hrvatskome, a osnova ostaje izvorna:
 - **Nastavak na izvornu osnovu, bez spojnice i bez apostrofa:** Googlea,
   Googleu, Googleom; Facebooka; Netflixom; Bush – Busha – Bushem; Bosch –
   Boscha – Boschem; George – Georgea – Georgeem; Pierre – Pierrea.
-- **Nečitljivi završni -e ostaje:** Browne – Brownea – Browneom; Shakespeare
-  – Shakespearea – Shakespeareom.
+- **Završno -e koje se ne čita ostaje u pismu:** Browne – Brownea – Browneom;
+  Shakespeare – Shakespearea – Shakespeareom.
 - **Umetanje j** iza izgovornoga -i, -io, -ia: Verdi – Verdija, Botticelli –
   Botticellija, celebrity – celebrityja, Milwaukee – Milwaukeeja, Chelsea –
   Chelseaja, Eddie – Eddieja, Tokio – Tokija.
 - **Bez j** kad izgovor ne završava na i: Hemingway – Hemingwaya, Caravaggio
   – Caravaggia, Nagy – Nagya.
 - **Ženska imena na -a / -ah:** Sarah – Sare – Sari – Sarom; Oprah – Opre.
-  Ženska imena na suglasnik ili nečitljivi samoglasnik ne sklanjaju se:
-  „s Dolores”, „Mary je rekla”, ali posvojni pridjev *Maryn*.
+  Ženska imena koja u izgovoru ne završavaju na -a ne sklanjaju se:
+  „s Dolores”, „s Jeanette”, „s Mary”; posvojni se pridjev ipak tvori:
+  *Doloresin*, *Jeanettein*, *Maryn*.
 - **-ca, -co** zadržavaju c: Jessica – Jessice – Jessicom; Casablanca –
   Casablance.
 - Kod dvojbe o izgovoru (francuska, talijanska, mađarska imena) provjeri
@@ -97,7 +98,8 @@ kodu i podatcima: `croatia:hr-localization`.
 - **Kratica, slovo ili simbol + imenica → spojnica:** e-pošta, e-adresa,
   e-poruka, e-račun, e-bankarstvo, m-plaćanje, pH-vrijednost, Rh-faktor,
   C-dur, T-zona, V-izrez, Y-kromosom.
-  - Iznimka iz Jezičnoga savjetnika: **vitamin C**, ne „C-vitamin”.
+  - Jezični savjetnik preporučuje **vitamin C**; pravopis bilježi i
+    *C-vitamin*, pa ga u tuđem tekstu ne ispravljaj kao pravopisnu pogrešku.
 - **Dvije sastavnice za jedan pojam, prva se ne sklanja:** klima-uređaj,
   pilot-projekt, paket-aranžman, spomen-ploča, rang-lista, café-bar,
   jazz-glazba, student-servis.

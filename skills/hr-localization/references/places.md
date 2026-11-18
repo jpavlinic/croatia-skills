@@ -51,6 +51,14 @@ to the shorter form; the longer one is equally correct.
   Vinodolskom; u Malinskoj; u Makarskoj*.
 - Fleeting *a*: *Zadar – Zadra – u Zadru; Sisak – Siska; Karlovac – Karlovca; Bakar – Bakra; Supetar –
   Supetra; Ozalj – Ozlja*.
+- City districts follow local usage and must be looked up, not derived: *na Trešnjevci, na Jarunu,
+  na Peščenici, na Črnomercu, na Bačvicama, na Trsatu* but *u Dubravi, u Maksimiru, u Sesvetama,
+  u Trnju, u Novom Zagrebu* (native usage; the City of Zagreb's own pages write *na Trešnjevci* and
+  *u Dubravi*, zagreb.hr). Check each district against local usage before adding it to data.
+- Abroad: island states and islands mostly take *na* (*na Malti, na Cipru, na Islandu, na Kubi*), and
+  so does *na Kosovu*; other countries take *u* (*u Tajlandu*, and *u Irskoj* although it is an
+  island). The EU's own Croatian texts write "uvođenje eura na Cipru i na Malti" and "referendum u
+  Irskoj" (*Abeceda prava Europske unije*, op.europa.eu).
 
 ## 3. Direction vs location vs origin
 
@@ -74,8 +82,13 @@ sa Zlarina, sa Žirja, sa Suska*); otherwise *s* (*s Hvara, s Krka, s Brača, s 
 2. For known places, store the inflected forms with the record (`locative`, `genitive`, `from_form`)
    and use them in templates: `Najbolji restorani {locative}` → *Najbolji restorani na Hvaru*.
 3. For unknown places (user-entered villages), do not inflect automatically: *Smještaj – Mjesto: Ivinj*.
-4. Capitalisation: only the first word and proper-name parts are capitalised: *Slavonski Brod,
-   Biograd na Moru, Dugi otok, Plitvička jezera, Gorski kotar* (pravopis rules on multi-word names).
+4. Capitalisation: in names of settlements (cities, towns, villages) every word is capitalised except
+   prepositions and conjunctions: *Slavonski Brod, Biograd na Moru, Dugo Selo, Stari Grad, Velika Gorica,
+   Sveti Filip i Jakov*. In other geographic names (islands, regions, lakes, mountains) only the first
+   word and words that are themselves names are capitalised: *Dugi otok, Gorski kotar, Hrvatsko zagorje,
+   Plitvička jezera*. The two rules can give different spellings of the same words: *Plitvička jezera*
+   (the lakes, the national park) but *Plitvička Jezera* (the municipality and settlement). Source:
+   pravopis.hr 4.1.2.3.
 
 ## 5. Counties (županije) — ISO 3166-2:HR
 

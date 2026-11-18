@@ -38,7 +38,7 @@ SERP overlap (section 3), not by assumption.
 ### Diacritics (č, ć, đ, š, ž, dž)
 
 Many users, especially on mobile and in the diaspora, type without
-diacritics: `cevapi`, `kuca za odmor`, `zubar`, `racunovodja`, `vrtic`.
+diacritics: `cevapi`, `kuca za odmor`, `cistionica`, `racunovodja`, `vrtic`.
 
 - `č` and `ć` both become `c`; `š` → `s`; `ž` → `z`; `dž` → `dz`.
 - `đ` is typed as `d` **or** `dj` (`računovođa` → `racunovoda` /
@@ -118,8 +118,9 @@ queries, and Croatian users sometimes type ekavian or Serbian words
    them with `croatia:hr-localization`.
 3. **Expand intent.** Add modifiers Croatians use: `cijena`, `cjenik`,
    `iskustva`, `recenzije`, `najbolji`, `povoljno`, `jeftino`, `akcija`,
-   `blizu mene` (less used than in English; locals type the neighbourhood or
-   town), `radno vrijeme`, `kontakt`, `iznajmljivanje`, `prodaja`, `servis`,
+   `u blizini` (the usual Croatian form: `ljekarna u blizini`, `restorani u
+   blizini`; `blizu mene` is a calque of "near me" and rarer; locals mostly
+   type the neighbourhood or town), `radno vrijeme`, `kontakt`, `iznajmljivanje`, `prodaja`, `servis`,
    `popravak`, `kako`, `koliko košta`, `što je`.
 4. **Collect demand data.**
    - Search Console (first-party, the best source for an existing site).

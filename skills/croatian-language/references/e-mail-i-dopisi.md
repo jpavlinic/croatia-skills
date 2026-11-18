@@ -10,7 +10,7 @@ dopise na hrvatskom.
   svaki korisnik čita kao poruku sebi.
 - **Skupina kao skupina → vi, vas, vaš…** (malo slovo): „Dragi kolege, hvala
   vam na suradnji.”, „Poštovani roditelji, pozivamo vas…”, newsletter koji se
-  izrijekom obraća zajednici („Dragi svi”).
+  izrijekom obraća zajednici („Dragi čitatelji”).
 - **Na „ti”** samo kad je ton brenda takav ili kad se osobe poznaju; tada
   „ti, tebi, tvoj” malim slovom (veliko „Ti” samo u osobnoj čestitki).
 - Ne miješaj „Vi” i „ti” u istoj poruci.
@@ -28,13 +28,14 @@ dopise na hrvatskom.
 | Poslovno, poznajete se | Dragi Ivane, / Draga Ana, / Pozdrav, Ivane, |
 | Neformalno | Bok, Ana, / Bok Ana, |
 
-- **Vokativ:** imena u vokativu („Ivane”, „Marko”, „Ana”, „Petre”). Prezime iza
-  „gospodine/gospođo” u e-mailu se obično ne sklanja („gospodine Horvat”), ali
-  uz titulu se sklanja („doktore Babiću”). Ako nisi siguran u vokativ imena,
-  koristi „Poštovani gospodine Horvat,” ili samo „Poštovani,”.
-  **VERIFY:** sklonidba prezimena u vokativu („gospodine Horvat” /
-  „gospodine Horvate”) u praksi varira; provjeri u IHJJ-ovu Jezičnom
-  savjetniku. Vokativ imena u kodu i predlošcima: `croatia:hr-localization`.
+- **Vokativ:** imena u vokativu („Ivane”, „Marko”, „Ana”, „Petre”). Muško
+  prezime iza „gospodine”, „doktore”, „profesore”: prezimena na -ić sklanjaju
+  se („gospodine Kovačiću”, „doktore Babiću”), a vokativ ostalih prezimena
+  jednak je nominativu („gospodine Horvat”, „gospodine Kaliterna”) (IHJJ
+  Jezični savjetnik, „profesore Kovačić > profesore Kovačiću”). Kad
+  prezime stoji samo ili uz pridjev, ide vokativ: „dragi Babiću”. Ženska se
+  prezimena ne sklanjaju: „gospođo Kovač”. Ako nisi siguran u vokativ imena,
+  koristi „Poštovani gospodine Horvat,” ili samo „Poštovani,”. Vokativ imena u kodu i predlošcima: `croatia:hr-localization`.
 - **Iza oslovljavanja zarez, a tekst se nastavlja u novom retku malim slovom**
   (IHJJ: „Poštovani ravnatelju, ↵ molim Vas…”). U praksi je u e-mailovima
   uobičajeno i veliko slovo u novom retku; u tuđem tekstu ne ispravljaj, u
@@ -42,8 +43,11 @@ dopise na hrvatskom.
   („Poštovani!”), sljedeća rečenica počinje velikim slovom.
 - Ne „Poštovani g. Horvat” u oslovljavanju; kratica „g.” ide u adresu ili
   tekst, ne u vokativ.
-- „Dragi” / „Draga” prema muškarcu / ženi; za mješovitu skupinu „Dragi svi”,
-  „Drage kolegice i kolege”.
+- „Dragi” / „Draga” prema muškarcu / ženi; za mješovitu skupinu „Drage
+  kolegice i kolege”, „Dragi kolege”, „Poštovani”, neformalno „Pozdrav
+  svima”. „Dragi svi” doslovan je prijevod engleskoga *Dear all* i prema
+  IHJJ-u nije primjeren poslovnoj komunikaciji (Jezični savjetnik, „Dragi
+  svi > Poštovani kolege / Dragi kolege”).
 
 ## Uvodna rečenica
 
@@ -78,7 +82,7 @@ Bez engleskih kalkova:
 
 Kratko, jasno, Vi, aktivno. Primjeri:
 
-- Predmet: „Potvrda narudžbe br. 1024”, „Vaša lozinka je promijenjena”,
+- Predmet: „Potvrda narudžbe br. 1024”, „Lozinka je promijenjena”,
   „Potvrdite svoju e-adresu”.
 - „Hvala Vam na narudžbi. Poslat ćemo Vam obavijest čim paket krene.”
 - „Za potvrdu e-adrese kliknite na gumb ispod. Poveznica vrijedi 24 sata.”
@@ -107,6 +111,7 @@ Kratko, jasno, Vi, aktivno. Primjeri:
 | Mi bi htjeli | Mi bismo htjeli |
 | Da li ste dobili | Jeste li dobili |
 | Hvala za odgovor | Hvala na odgovoru |
+| Zahvaljujem se na odgovoru | Zahvaljujem na odgovoru |
 | Šaljem Vam u attachmentu | Šaljem Vam u privitku |
 | follow-up | podsjetnik, nastavak razgovora |
 | deadline | rok |
@@ -117,3 +122,4 @@ Kratko, jasno, Vi, aktivno. Primjeri:
 | Ukoliko imate pitanja | Ako imate pitanja |
 | Vezano za Vaš upit | U vezi s Vašim upitom |
 | Sa poštovanjem | S poštovanjem |
+| Dragi svi, | Poštovani kolege, / Dragi kolege, |

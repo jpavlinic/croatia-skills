@@ -57,7 +57,7 @@ legal pages; this skill covers only their language).
 
 ## Three layers of every review
 
-1. **Jezik**: pravopis, gramatika, vokabular, prirodan red riječi, anglicizmi,
+1. **Jezik**: pravopis, gramatika, vokabular, prirodan red riječi, anglizmi,
    srbizmi, interpunkcija, tipografija.
 2. **Logika**: zbrajaju li se brojke, odgovara li „tri razloga” nabrajanju,
    nema li proturječja ni dvostrukoga brojenja.
@@ -84,23 +84,26 @@ slovom kad se u pisanome tekstu obraćamo pojedincu i želimo mu izraziti
 poštovanje**, a **malim kad se obraćamo skupini ili ne konkretnomu
 pojedincu** ([pravopis.hr, 4.1.3.](https://pravopis.hr/pravilo/rijeci-iz-postovanja-i-pocasti/21/)).
 
-- **Jedna osoba → Vi, Vas, Vam, Vama, Vaš, Vaša, Vaše, Vašeg(a), Vašem(u),
-  Vašoj, Vašu, Vašim, Vaših, Vašima** u svim oblicima: „Hvala Vam na
+- **Tekst upućen jednoj određenoj osobi** (dopis, e-mail jednomu kupcu,
+  odgovor korisničke podrške) **→ Vi, Vas, Vam, Vama, Vaš, Vaša, Vaše,
+  Vašeg(a), Vašem(u), Vašoj, Vašu, Vašim, Vaših, Vašima** u svim oblicima,
+  prema IHJJ-u 4.1.3.: „Hvala Vam na
   prijavi.”, „Vaša je adresa potvrđena.”, „Ako niste Vi zatražili promjenu…”
 - **Skupina → vi, vas, vaš…**: „Dragi gosti, želimo vam ugodan boravak.”,
-  „Poštovani roditelji, pozivamo vas na sastanak.”, „Dragi svi, hvala vam.”
+  „Poštovani roditelji, pozivamo vas na sastanak.”, „Drage kolegice i
+  kolege, hvala vam.”
 - **Opća uputa koja se ne obraća konkretnomu čitatelju** (natpis, ambalaža,
   upute za uporabu, obavijest javnosti) → malo slovo, kao u primjeru IHJJ-a:
   „Poštovani, molimo vas da prije upotrebe pročitate upute!”
-- **Web-stranica, aplikacija, obrazac, transakcijski e-mail** obraćaju se
-  pojedinačnomu korisniku koji ih čita kao poruku sebi → **veliko V** („Vaša
-  je narudžba poslana.”, „Javit ćemo Vam se.”). To je ustaljena praksa u
-  korisničkim tekstovima. Kad nisi siguran obraća li se tekst jednoj osobi,
-  piši veliko V.
+- **Web-sučelje, članak i drugi tekst koji se ne obraća određenoj osobi:**
+  IHJJ propisuje **malo v** („Javit ćemo vam se.”, „Ovdje će se pojaviti vaše
+  obavijesti.”), a veliko V raširen je kućni stil na hrvatskim
+  web-stranicama. Slijedi postojeći dosljedni stil projekta; ako ga nema,
+  piši malo v prema IHJJ-u.
 - Veliko je samo zamjenica; glagoli ostaju mali („Prijavite se”).
 - **Slaganje je u množini:** „Vi ste bili u pravu”, „Jeste li zadovoljni?”;
   nikad „Vi ste bila”.
-- **Ne pretrpavaj tekst s „Vaš”.** Kad je osoba subjekt, ide povratno
+- **Ne pretrpavaj tekst zamjenicom „Vaš”.** Kad je osoba subjekt, ide povratno
   **svoj**: „Unesite svoju lozinku”, ili bez zamjenice: „Unesite lozinku.”
 - Na „ti” piše se malim slovom (veliko „Ti” samo u osobnoj čestitki ili
   posveti). Ne miješaj „Vi” i „ti” u istom tekstu.
@@ -156,7 +159,7 @@ Detaljno u `references/ceste-pogreske.md`.
 | gdje ideš? | kamo ideš? (gdje = mjesto, kamo = cilj, kuda = smjer) |
 | 10-tak, 50-tih | 10-ak, 50-ih |
 | menađer, buđet | menadžer, budžet (dž u posuđenicama) |
-| svjedođba, narudđba | svjedodžba, narudžba |
+| svjedođba, naruđba | svjedodžba, narudžba |
 | da li ste dobili | jeste li dobili |
 | hvala za pomoć | hvala na pomoći |
 | stol kojeg sam kupio | stol koji sam kupio (neživo: A = N) |
@@ -207,8 +210,15 @@ Detaljno u `references/gramatika-stil-prirodnost.md`.
   `references/web-i-ui-tekstovi.md`.
 - **s / sa:** „sa” ispred s, z, š, ž, ispred skupina poput ps-, ks-, pš- i
   ispred „mnom” (sa sestrom, sa psom, sa mnom); inače „s” (s kavom, s Vama).
+  Sredstvo ide bez prijedloga: „platite karticom”, ne „s karticom”.
+- **Futur:** „bit ću”, „vidjet ćemo”, „javit ću se”, ne „biti ću”, „vidjeti
+  ćemo”; infinitivi na -ći ostaju („ići ću”).
+- **Prijedlozi i veznici:** „unatoč kiši”, „sukladno zakonu” (dativ); „a da
+  ne”, ne „bez da”; „za čitanje”, ne „za čitati”; uzrok je „jer” ili „budući
+  da”, ne „pošto”; „zahvaljujem Vam”, ne „zahvaljujem se”.
 - **Posvojni pridjevi na -ov, -ev, -in** sklanjaju se imenički: „na Markovu
-  trgu”, „Anina prijatelja” (oblici „Markovome”, „Aninoga” razgovorni su).
+  trgu”, „Anina prijatelja” (pridjevna sklonidba, „na Markovome trgu”,
+  „Aninoga prijatelja”, prema IHJJ-u pripada razgovornomu stilu).
 
 ## Stil
 
@@ -242,7 +252,7 @@ informaciju od savjeta i uputi na stručnjaka.
    Vi ili vi; ti ili Vi).
 2. Provjeri činjenice i brojke.
 3. Prođi logiku.
-4. Prođi jezik: srbizmi → anglicizmi i kalkovi → gramatika → pravopis →
+4. Prođi jezik: srbizmi → anglizmi i kalkovi → gramatika → pravopis →
    zarez i veliko slovo → tipografija.
 5. Vrati ispravljen tekst; kod lekture i sažet popis izmjena po kategorijama,
    s istaknutim činjeničnim i logičkim ispravcima i otvorenim pitanjima.
@@ -253,9 +263,12 @@ informaciju od savjeta i uputi na stručnjaka.
   updated occasionally. Re-check the rules
   quoted here (Vi, crtica, bjelina/točka, neću) before relying on them for a
   publication standard.
-- Other normative works (e.g. Matica hrvatska's pravopis, the Babić–Ham–Moguš
-  school pravopis) differ in some details (ne ću/neću, pogrješka/pogreška).
-  When a client or publisher prescribes one of them, follow it consistently.
+- Other normative works differ in some details. The Babić–Finka–Moguš
+  pravopis (from the 2000 edition) and the Babić–Ham–Moguš school pravopis
+  prescribe *ne ću, pogrješka, zadatci*. Matica hrvatska's pravopis
+  (Badurina–Marković–Mićanović, 2007) has *neću, pogreška, zadaci*, so it
+  agrees with IHJJ on the first two. When a client or publisher prescribes
+  one of them, follow it consistently.
 - Word recommendations: IHJJ [Jezični savjetnik](https://jezicni-savjetnik.hr),
   [Bolje je hrvatski!](https://bolje.hr), Hrvatski jezični portal
   ([hjp.znanje.hr](https://hjp.znanje.hr)).

@@ -92,7 +92,7 @@ grep -nE "Ã|Ä|Å" messages/hr.json
 | `"25. listopad 2026."` | month in nominative: use formatter with day+month |
 | `€12.50` / `12.50 €` | `Intl.NumberFormat('hr',{style:'currency',currency:'EUR'})` |
 | `prije 21 dana`, `2 dan` | `Intl.RelativeTimeFormat('hr')` or ICU plural |
-| `Dobrodošli, Ivan` | no name, or vocative via helper / *Dobar dan, Ivan Horvat* |
+| `Dobrodošli, Ivan` | two bugs: the greeting is written as two words, *Dobro došli!*, and the name is not in the vocative. Use *Dobro došli!* without a name, or *Dobro došli, Ivane* via the helper |
 | `Apartmani u Hvar` | stored locative *na Hvaru* / *u Hvaru* |
 | list sorted č/ć/š/ž last | `Intl.Collator('hr')`, hr DB collation |
 | search for "cevapi" finds nothing | folded column / `und` level-1 collation |

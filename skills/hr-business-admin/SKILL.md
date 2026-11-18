@@ -103,7 +103,7 @@ not confirmed against a primary source or are still changing (notably the announ
   invoice note "prijenos porezne obveze" / "reverse charge" (čl. 79 st. 7); **PDV-ID needed even outside VAT** for
   EU B2B sales or foreign services bought; PDV, ZP, PDV-S due the **last day of the following month** from 2026.
 - **Companies:** j.d.o.o. max 5 members and 1 director, 1/4 of profit to reserves until €2,500 (ZTD čl. 390.a);
-  GFI to FINA by 30 April (ZOR čl. 50); records ≥ 11 years (ZOR čl. 10).
+  GFI to FINA by 30 April (ZoR čl. 50); records ≥ 11 years (ZoR čl. 10).
 - **Cash:** no business cash payments of €10,000 or more (AML law); €700 per invoice between fiscalization obligors.
 
 ## Be realistic

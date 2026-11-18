@@ -121,7 +121,8 @@ Deadlines calendar for reminders: `croatia:hr-calendar`.
 - **KPR – Knjiga prometa** (turnover book): the only record a paušalist keeps (ZPD čl. 82 st. 4; form KPR in
   the Pravilnik). Enter every receipt (cash and non-cash) with date, invoice number and amount. Most
   invoicing/fiscalization apps generate it. **VERIFY** the current KPR column layout in the Pravilnik.
-- **PO-SD – Izvješće o paušalnom dohotku od samostalnih djelatnosti** (PO-SD-Z for joint activity): filed
+- **PO-SD – Izvješće o paušalnom dohotku od samostalnih djelatnosti i uplaćenom paušalnom porezu na
+  dohodak** (PO-SD-Z for joint activity): filed
   electronically through **ePorezna** by **15 January** for the previous year (ZPD čl. 82 st. 6; TEB, Jan 2026:
   "nikako u papirnatom obliku"). It reports receipts by quarter and the resulting class; PU then sets the
   quarterly tax for the next year. A new PO-SD form applies from tax year 2025 (Pravilnik NN 16/25 čl. 4).

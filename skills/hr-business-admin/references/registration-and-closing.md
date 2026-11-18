@@ -13,7 +13,8 @@ Contents: 1 Opening an obrt · 2 Founding a d.o.o./j.d.o.o. · 3 After registrat
 
 - **Online:** **e-Obrt** (via e-Građani, needs a high-assurance e-identity such as eOI or bank token) or the
   **START** platform (gov.hr: for Croatian citizens with residence in Croatia; covers obrt, j.d.o.o., d.o.o.).
-  In person: the county office for the economy (ured državne uprave) or HOK service points.
+  In person: the county administrative department for the economy (upravni odjel županije nadležan za
+  gospodarstvo; in Zagreb the city office, gradski ured) or HOK service points.
 - Data: name of the obrt (must contain the owner's name and "obrt"), seat (can be at home – **VERIFY** building
   or zoning limits for activities with customers), activities (NKD), start date, tax regime (paušal / dohodak /
   dobit), whether it is main or other activity.

@@ -27,7 +27,6 @@ IHJJ ([5.5.1.](https://pravopis.hr/pravilo/jednorjecnice/33/),
 |---|---|
 | nebi, nebih, nebismo | ne bi, ne bih, ne bismo |
 | nemogu, neznam, nezna, netreba | ne mogu, ne znam, ne zna, ne treba |
-| ne mam, ni sam, ne moj | nemam, nisam, nemoj |
 | s nikim nisam razgovarao | ni s kim nisam razgovarao |
 
 ## 2. Kondicional
@@ -82,10 +81,11 @@ htjeli”, „Vi biste mogli”, „ja bih rekao”. Isto u „kad bismo”, „
   budžet, pidžama), riječi u kojima se č ispred *b* zvuči u dž: narudžba
   (naručiti), svjedodžba (svjedočiti), jednadžba (jednačiti); sufiks
   -džija (ćevabdžija).
-- **đ:** domaće riječi i jotacija od d: đak, anđeo, međa, između, rođendan,
-  gospođa, vođa, tuđ, smeđ, mlađi, slađi, rođak, Đakovo.
-- Pogrešno: ~~menađer~~, ~~buđet~~, ~~narudđba~~, ~~svjedođba~~, ~~džak~~
-  (za *đak*).
+- **đ:** jotacija od d u domaćim riječima (mlađi, slađi, rođen, rođak, međa,
+  između, vođa, tuđ, gospođa), u starim posuđenicama (đak, anđeo, đon) i u
+  imenima (Đakovo, Đurđevac).
+- Pogrešno: ~~menađer~~, ~~buđet~~, ~~naruđba~~, ~~svjedođba~~, ~~đep~~
+  (za *džep*), ~~đem~~ (za *džem*).
 
 ## 6. Gdje / kamo / kuda; odakle
 
@@ -129,6 +129,11 @@ htjeli”, „Vi biste mogli”, „ja bih rekao”. Isto u „kad bismo”, „
 mjestu (sa psom, sa Ksenijom, sa pšenicom), ispred „mnom” (sa mnom). Inače „s”: s
 kavom, s Vama, s prijateljem.
 
+Sredstvo ide bez prijedloga: „platite karticom”, „putujem vlakom”, „pišem
+olovkom” (ne „s karticom”, „s vlakom”). „S/sa” ide uz društvo („s
+prijateljem”) i način („s veseljem”) (IHJJ Jezični savjetnik, „s vlakom >
+vlakom”).
+
 ## 11. Pridjevi i posvojni pridjevi
 
 - **-ski / -ški / -čki / -ijski:** od zemljopisnih imena: Italija →
@@ -137,8 +142,11 @@ kavom, s Vama, s prijateljem.
   osječki, Zadar → zadarski. Kod dvojbe provjeri u
   [HJP-u](https://hjp.znanje.hr).
 - **Posvojni pridjevi na -ov, -ev, -in** u standardu se sklanjaju imenički:
-  „na Markovu trgu”, „Anina prijatelja”, „bratova auta” (oblici
-  „Markovome”, „Aninoga” razgovorni su; IHJJ Jezični savjetnik).
+  „na Markovu trgu”, „Anina prijatelja”, „bratova auta”. Pridjevna sklonidba
+  („na Markovome trgu”, „Aninoga prijatelja”, „bratovoga”) prema IHJJ-u
+  pripada razgovornomu funkcionalnom stilu (Jezični savjetnik, „Aninoga >
+  Anina”). U njegovanu je tekstu ispravi, a u opuštenome ostavi ako je
+  dosljedna.
 - **auto** je muškoga roda: „novi auto”, mn. „auti” (ne „novo auto”, „auta”).
 
 ## 12. Brojevi s nastavcima
@@ -161,6 +169,9 @@ kavom, s Vama, s prijateljem.
 | zadnji (vremenski) | posljednji („posljednji put”) |
 | obavezno | obvezno (IHJJ preporuka; obavezno je rašireno, budi dosljedan) |
 | nadam se da ste dobro | prihvatljivo u opuštenoj poruci, u službenoj izostavi |
+| pet satova vožnje, šest satova nastave | pet sati vožnje, šest sati nastave; *satovi* su ure i brojila („zidni satovi”) ([HJP](https://hjp.znanje.hr), *sat*) |
+| svo vrijeme | sve vrijeme (srednji rod od *sav* glasi *sve*) |
+| čim prije, čim više | što prije, što više |
 
 ## 14. Veliko i malo slovo (česte dvojbe)
 
@@ -171,3 +182,13 @@ kavom, s Vama, s prijateljem.
 - Višerječni nazivi ustanova: veliko samo prvo slovo i imena: Ministarstvo
   financija, Porezna uprava, Sveučilište u Zagrebu.
 - Nastavni predmet: Hrvatski jezik; naziv jezika: hrvatski jezik.
+
+## 15. Podatci ili podaci (-tci / -dci)
+
+- IHJJ u množini imenica na -tak, -tac, -dak, -dac piše *t* i *d*: **podatci,
+  zadatci, postotci, početci, dodatci, trenutci, predci, sudci**. Kod iznimno
+  čestih riječi dopušta i oblike bez *t* i *d*: *podaci, zadaci, postoci,
+  počeci, dodaci, gubici, trenuci, ostaci, nedostaci* te *preci, suci, sveci*
+  ([IHJJ 3.2.3.](https://pravopis.hr/pravilo/ispadanje-glasova/8/), napomene).
+- U svojem tekstu piši preporučene oblike na -tci / -dci. U tuđem tekstu
+  dopuštene oblike ne ispravljaj, ali ih ne miješaj u istom tekstu.

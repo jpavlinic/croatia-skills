@@ -95,6 +95,12 @@
   Shown on the obrtnica / registry extract. Length and check-digit rule could not be confirmed
   from a primary source – validate as digits only and **VERIFY**. For identification use the
   owner's OIB. Lookup: Obrtni registar public search (<https://pretrazivac-obrta.gov.hr>, **VERIFY**).
+- **Not the health-insurance MBO.** HZZO uses the same abbreviation for *matični broj osigurane
+  osobe*, the 9-digit identifier it assigns to every insured person (HZJZ reporting instructions,
+  *Žuta knjiga* v6.0, 2022: "Matični broj osigurane osobe (MBO) … dodjeljuje HZZO", field format N9;
+  HZZO's insurance-status check at ezdravstveno.hzzo.hr asks for "OIB" and "MBO"). That is the
+  meaning most people have in mind. In forms and UI write the full label: *Matični broj obrta (MBO)*
+  or *Matični broj osigurane osobe (MBO)*.
 
 ## 6. JMBG / MBG – jedinstveni matični broj građana (legacy)
 
@@ -111,7 +117,7 @@
   and in legacy databases (Pravilnik o OIB-u created MBG–OIB pairs, čl. 17, 21).
 - It **encodes date of birth and sex** – more sensitive than OIB. Do not ask for it in new
   systems unless a law requires it.
-- Fictitious example: `0101990330124` (01.01.1990, register 33, male).
+- Fictitious example: `0101990330124` (1. 1. 1990., register 33, male).
 
 ## 7. Legal-form suffixes in company names
 
@@ -130,6 +136,13 @@ legal form in words or abbreviation.
 | ustanova | ustanova (Zakon o ustanovama) | public/private institution |
 | udruga | udruga (Zakon o udrugama) | association / NGO |
 | zadruga | zadruga (Zakon o zadrugama) | cooperative |
+
+Spelling: the court register and almost all companies write the suffix closed up (*d.o.o.*,
+*j.d.o.o.*, *d.d.*). IHJJ's pravopis puts a space between the parts of an abbreviation (*d. o. o.*,
+*d. d.*): [Bjelina](https://pravopis.hr/pravilo/bjelina/54) ("između kratica i dijelova kratica") and
+[Spojnica](https://pravopis.hr/pravilo/spojnica/68) ("složenih kratica (dipl. ing., d. o. o.)"). In a
+company's name copy the spelling from the register. In running text either is defensible; pick one
+per document, and use a no-break space if you write *d. o. o.*
 
 Parsing tips: match suffixes case-insensitively, with or without spaces (`d. o. o.`, `D.O.O.`,
 `doo`), and check `j.d.o.o.` before `d.o.o.`; also seen: `d.o.o. u stečaju` (in bankruptcy),

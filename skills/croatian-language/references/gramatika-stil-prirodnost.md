@@ -56,6 +56,9 @@ dolaze **iza prve naglašene riječi ili prve sintagme** u rečenici:
   „javit ću Vam”. Spojeno „radiću” je srbizam.
 - Infinitivi na **-ći** ostaju: „ići ću”, „reći ćemo”, „doći će”.
 - S „ću” ispred nema krnjeg oblika: „ja ću raditi”.
+- Puni infinitiv ispred „ću” česta je pisana pogreška: ~~„biti ću”,
+  „vidjeti ćemo”, „javiti ću se”~~ → „bit ću”, „vidjet ćemo”, „javit ću se”
+  (IHJJ Jezični savjetnik, „otputovati će > otputovat će”).
 - Niječno: **neću, nećeš, neće** (spojeno prema IHJJ-u; „ne ću” propisuju
   neki drugi priručnici – ako ga projekt dosljedno rabi, ne miješaj).
 
@@ -109,7 +112,32 @@ dolaze **iza prve naglašene riječi ili prve sintagme** u rečenici:
 - **s / sa**: „sa” ispred s, z, š, ž (sa sestrom, sa zrakom, sa šećerom), ispred
   suglasničkih skupina kojima je jedan od tih glasova na drugom mjestu (sa psom,
   sa Ksenijom, sa pšenicom) i ispred „mnom” (sa mnom); inače „s” (s vodom,
-  s Vama, s kavom).
+  s Vama, s kavom). Sredstvo ide bez prijedloga: „platite karticom”, ne „s
+  karticom” (vidi `ceste-pogreske.md`, 10.).
+- **nasuprot, unatoč, usprkos + dativ**, ne genitiv: „unatoč kiši”, „usprkos
+  odluci”, „nasuprot kući” (IHJJ Jezični savjetnik, „nasuprot, unatoč,
+  usprkos”). Dativ ide i uz **sukladno** (sukladan čemu): „sukladno zakonu”,
+  ne „sukladno zakona”; tako i u Narodnim novinama: „sukladno Zakonu o
+  ravnopravnosti spolova”.
+- **bez da** je prevedenica njemačkoga *ohne dass*: ~~„Izišao je bez da nas
+  je pozdravio.”~~ → „Izišao je a da nas nije pozdravio.”, „Izišao je i nije
+  nas pozdravio.” (IHJJ Jezični savjetnik, „bez da > a da, i, a”).
+- **za + infinitiv** izbjegavaj: ~~„zanimljivo za čitati”~~ → „zanimljivo za
+  čitanje”, ~~„nemam ništa za reći”~~ → „nemam što reći”, ~~„kava za
+  ponijeti”~~ → „kava za van”, ~~„za platiti”~~ → „za plaćanje”
+  ([IHJJ, Hrvatski na maturi, sintaksa](https://matura.ihjj.hr/sintaksa.html)).
+- **pošto** je vremenski veznik („Pošto je položila sve ispite, otišla je
+  na ljetovanje.”). Za uzrok idu „jer”, „budući da”, „zato što” (IHJJ
+  Jezični savjetnik, „pošto i budući da / jer”).
+- **zahvaliti** znači izraziti zahvalnost („Zahvaljujem Vam na odgovoru.”),
+  a **zahvaliti se** uljudno odbiti („Zahvalio se na ponudi.”). Dakle ne
+  „Zahvaljujem se na odgovoru.” (IHJJ Jezični savjetnik, „zahvaliti i
+  zahvaliti se”).
+- **što prije, što više**, ne „čim prije”, „čim više” („Točno i netočno u
+  pisanju i govorenju”, *Bjelovarski učitelj* 1–3/2021,
+  [hrcak.srce.hr/file/395119](https://hrcak.srce.hr/file/395119)).
+- **sve vrijeme**, ne „svo vrijeme”: srednji rod pridjeva *sav* glasi *sve*
+  ([IHJJ, Hrvatski na maturi, morfologija](https://matura.ihjj.hr/morfologija.html)).
 
 ## Pasiv i nominalizacija (kalkovi s engleskog)
 
@@ -119,7 +147,7 @@ dolaze **iza prve naglašene riječi ili prve sintagme** u rečenici:
 - „**Biti u mogućnosti**” → „moći”. „**Vršiti** plaćanje” → „plaćati”.
 - „**Na dnevnoj bazi**” → „svakodnevno”, „jednom dnevno”.
 - „**Na kraju dana**” (at the end of the day) → „u konačnici”, „na kraju”.
-- „**Napraviti razliku**” → „promijeniti stvari”, „biti presudan”.
+- „**Napraviti razliku**” → „mnogo značiti”, „biti presudan”, „nešto promijeniti”.
 
 ## Citati i blockquote
 
@@ -128,7 +156,7 @@ dolaze **iza prve naglašene riječi ili prve sintagme** u rečenici:
   - Prije: `> "Tekst citata ovdje."`
   - Poslije: `> Tekst citata ovdje.`
 - **Unutarnji navodnici ostaju:** termini, ironija, citat unutar citata.
-- **Atribucija** iza citata ide s en crtom: `> Tekst. – izvor`.
+- **Izvor** iza citata piše se iza crtice: `> Tekst. – izvor`.
 - **Ne izmišljaj doslovne citate stvarnih osoba.** Ako tvrdnja nije
   provjeren doslovan citat, parafraziraj bez navodnika.
 

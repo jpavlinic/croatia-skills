@@ -7,6 +7,8 @@ Status: researched 2026-10-25.
 - Croatian: use the polite capital **Vi/Vaš/Vam/Vas** for one guest. For a group or family
   ("Dragi gosti"), use lower-case **vi/vaš/vam/vas**. The templates below address **one guest**.
   Adapt them for groups. Apply `croatia:croatian-language`.
+- Fill placeholders in the case the sentence needs: the first name in the vocative after *Dragi / Draga /
+  Bok* (*Dragi Ivane*, *Draga Ankice*; `croatia:hr-localization`), the place in the locative (*u Splitu*).
 - Replace everything in `[square brackets]`. Use clearly fictitious examples only (e.g. "Apartmani
   Primjer", `info@primjer.hr`).
 - Keep the facts consistent with the rješenje (type, category, capacity), the price list and the
@@ -31,8 +33,8 @@ zahvaljujemo Vam na rezervaciji. Ovim Vam potvrđujemo boravak:
 
 • Objekt: [naziv], [vrsta i kategorija prema rješenju, npr. apartman ***]
 • Adresa: [ulica i kućni broj, poštanski broj, mjesto]
-• Dolazak: [datum], od [15:00] sati
-• Odlazak: [datum], do [10:00] sati
+• Dolazak: [datum], od [15:00]
+• Odlazak: [datum], do [10:00]
 • Broj gostiju: [broj odraslih] odraslih, [broj djece] djece
 • Ukupna cijena: [iznos] EUR (turistička pristojba je uključena u cijenu)
 • Plaćanje: [npr. predujam od [iznos] EUR do [datum], ostatak pri dolasku gotovinom ili karticom /
@@ -99,7 +101,7 @@ Poštovani gospodine / Poštovana gospođo [prezime],
 
 Vaš se dolazak bliži pa Vam šaljemo sve što Vam je potrebno:
 
-1. Dolazak: od [15:00] sati. Ako stižete kasnije od [22:00], molimo Vas da nam to javite unaprijed.
+1. Dolazak: od [15:00]. Ako stižete kasnije od [22:00], molimo Vas da nam to javite unaprijed.
 2. Adresa i lokacija: [adresa], [poveznica na kartu]. [Kratki opis: npr. „bijela kuća sa zelenim
    škuretama, ulaz s istočne strane”.]
 3. Parkiranje: [mjesto, broj parkirnog mjesta, besplatno / uz naplatu].
@@ -160,13 +162,13 @@ PREDLOŽAK – nije pravni savjet. Prilagodite ga svom slučaju i dajte ga na pr
 KUĆNI RED – [naziv objekta]
 
 Dragi gosti,
-dobro došli! Kako bi boravak bio ugodan vama i vašim susjedima, molimo vas da poštujete sljedeća pravila:
+dobro došli! Kako bi boravak bio ugodan i vama i našim susjedima, molimo vas da poštujete sljedeća pravila:
 
-1. Dolazak i odlazak: dolazak od [15:00] do [22:00] sati, odlazak do [10:00] sati. Kasniji odlazak
+1. Dolazak i odlazak: dolazak od [15:00] do [22:00], odlazak do [10:00]. Kasniji odlazak
    moguć je uz prethodni dogovor.
 2. Prijava boravka: svi gosti moraju biti prijavljeni u sustav eVisitor u roku od 24 sata od dolaska.
    U smještajnoj jedinici smiju boraviti samo prijavljeni gosti, najviše [broj] osoba prema rješenju.
-3. Mir: od [22:00] do [07:00] sati molimo vas da poštujete noćni mir.
+3. Mir: od [22:00] do [07:00] molimo vas da poštujete noćni mir.
 4. Pušenje: pušenje u zatvorenim prostorijama nije dopušteno. [Dopušteno je na terasi / u dvorištu.]
 5. Kućni ljubimci: [nisu dopušteni / dopušteni su uz prethodni dogovor i doplatu od [iznos] EUR].
 6. Zabave i posjetitelji: zabave nisu dopuštene. Posjetitelji koji ne odsjedaju u objektu mogu
@@ -287,11 +289,53 @@ Kind regards,
 |---|---|---|
 | ID request | Molimo Vas da nam pošaljete podatke iz osobne isprave za sve goste kako bismo Vas mogli prijaviti u sustav eVisitor, što je zakonska obveza. Podatke upotrebljavamo samo u tu svrhu. | Please send us the ID details of all guests so we can register you in eVisitor, as required by law. We use the data only for this purpose. |
 | Day before arrival | Radujemo se što ćemo Vas sutra ugostiti! Šifra kutije za ključeve je [šifra]. Javite nam se ako Vam išta zatreba. | We look forward to welcoming you tomorrow! The key-box code is [code]. Let us know if you need anything. |
-| Check-out reminder | Podsjećamo Vas da je odlazak sutra do [10:00] sati. Ključ ostavite [mjesto]. Hvala Vam na boravku! | A reminder that check-out is tomorrow by [10 am]. Please leave the key [location]. Thank you for staying with us! |
+| Check-out reminder | Podsjećamo Vas da je odlazak sutra do [10:00]. Ključ ostavite [mjesto]. Hvala Vam na boravku! | A reminder that check-out is tomorrow by [10 am]. Please leave the key [location]. Thank you for staying with us! |
 | Review request (no incentive) | Hvala Vam što ste boravili kod nas. Bit će nam drago ako podijelite svoje iskustvo u recenziji. | Thank you for staying with us. We would be glad if you shared your experience in a review. |
 | Group (plural vi) | Dragi gosti, hvala vam na rezervaciji. Veselimo se vašem dolasku! | Dear guests, thank you for your booking. We look forward to your arrival! |
 
 **Croatian checks**: "e-adresa" or "e-pošta", not "mail"; "poveznica", not "link"; "mrežne
-stranice", not "web stranica" in formal text; "od 15:00 sati"; "50 %" with a space before %;
+stranice", not "web stranica" in formal text; "od 15:00" or "od 15 sati", not "od 15:00 sati" (IHJJ Jezični savjetnik, "11.30 sati > 11.30"); "50 %" with a space before %;
 "EUR" after the number; never "da + prezent" in place of the infinitive ("molimo Vas da pošaljete"
 is correct standard Croatian after "moliti"; avoid "trebate da pošaljete").
+
+## 6. Informal variant for booking-platform chat / Neformalna inačica za poruke na platformi
+
+Hosts mostly write in the platform's chat, where the formal letter above is too stiff. Two registers
+work; choose one at the first message and keep it for the whole thread (never mix *Vi* and *ti*,
+`croatia:croatian-language`):
+
+- **A family or a group → lower-case *vi*** (IHJJ pravopis 4.1.3: lower case when addressing a group).
+- ***ti*** only where the host's tone allows it and the guest writes that way first.
+
+Group or family (*vi*):
+
+```
+Dragi gosti,
+
+hvala vam na rezervaciji! Čekamo vas [datum] u [naziv objekta], dolazak je moguć od [15:00].
+Dan prije dolaska poslat ćemo vam upute i šifru kutije za ključeve.
+Za prijavu u eVisitor, koja je zakonska obveza, trebat će nam podatci iz osobnih isprava svih gostiju.
+Javite se ako vam išta zatreba.
+
+Lijep pozdrav,
+[ime]
+```
+
+One guest, informal (*ti*):
+
+```
+Bok, [ime u vokativu]!
+
+Hvala ti na rezervaciji. Čekamo te [datum] u [naziv objekta], dolazak je moguć od [15:00].
+Dan prije dolaska poslat ću ti upute i šifru kutije za ključeve.
+Za prijavu u eVisitor, koja je zakonska obveza, trebat će mi podatci iz osobnih isprava svih gostiju.
+Javi se ako ti išta zatreba.
+
+Lijep pozdrav,
+[ime]
+```
+
+EN (both cases): "Hi [name], thank you for booking! We look forward to seeing you on [date] at
+[property]; check-in is from [3 pm]. We will send directions and the key-box code the day before. To
+register you in eVisitor, which the law requires, we will need the ID details of all guests. Let us know
+if you need anything."

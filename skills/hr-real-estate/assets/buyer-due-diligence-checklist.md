@@ -44,7 +44,7 @@ Datum provjere / Date checked: ________
 - [ ] Jamstvo za pravne nedostatke, rok primopredaje, tko plaća porez / Warranties, handover, tax
 - [ ] Plaćanje tek nakon provjere ZK-a na dan isplate i osiguranog upisa / Pay only after same-day check and secured filing
 - [ ] Prijedlog za uknjižbu podnesen u roku od 60 dana / Registration filed within 60 days
-- [ ] Rješenje o porezu na promet plaćeno u roku od 15 dana / RETT paid within 15 days
+- [ ] Porez na promet nekretnina plaćen u roku od 15 dana od dostave rješenja / RETT paid within 15 days
 - [ ] Povrat poreza za prvu nekretninu (hrvatski državljani do 45 godina) – zahtjev u roku od 24 mjeseca / First-home refund applied for
 
 ## 5. Strani kupci / Foreign buyers

@@ -139,7 +139,11 @@ def decline(spec):
         forms[("sg", "L")] = stem + "u"
         forms[("sg", "I")] = stem + ("em" if palatal else "om")
         if cls == "m2":
-            pstem = stem + ("ev" if palatal else "ov")
+            if stem.endswith("c"):
+                # c -> č before -ev- (stric -> stričevi, zec -> zečevi)
+                pstem = stem[:-1] + "čev"
+            else:
+                pstem = stem + ("ev" if palatal else "ov")
         else:
             pstem = stem
         if cls == "m" and stem[-1] in SIBILARIZATION:
@@ -220,7 +224,9 @@ def decline(spec):
         forms[("sg", "D")] = stem + "u"
         forms[("sg", "A")] = lemma
         forms[("sg", "L")] = stem + "u"
-        forms[("sg", "I")] = stem + ("om" if lemma.endswith("o") else "em")
+        # -om after -o and after an extended oblique stem in -en/-et (ime -> imenom, dijete -> djetetom)
+        hard = lemma.endswith("o") or (bool(extra) and stem.endswith(("en", "et")))
+        forms[("sg", "I")] = stem + ("om" if hard else "em")
         forms[("pl", "N")] = stem + "a"
         if _cluster_end(stem):
             forms[("pl", "G")] = None
@@ -359,6 +365,11 @@ def self_test():
     eq("nož I", f[("sg", "I")], "nožem")
     eq("nož pl N", f[("pl", "N")], "noževi")
 
+    _, f, _ = decline("stric:m2")
+    eq("stric I", f[("sg", "I")], "stricem")
+    eq("stric pl N", f[("pl", "N")], "stričevi")
+    eq("stric pl L", f[("pl", "L")], "stričevima")
+
     _, f, _ = decline("apartman:m")
     eq("apartman pl N", f[("pl", "N")], "apartmani")
     eq("apartman pl G", f[("pl", "G")], "apartmana")
@@ -395,6 +406,11 @@ def self_test():
     eq("selo pl N", f[("pl", "N")], "sela")
     _, f, _ = decline("more:n")
     eq("more I", f[("sg", "I")], "morem")
+    _, f, _ = decline("ime:n:imen")
+    eq("ime G", f[("sg", "G")], "imena")
+    eq("ime I", f[("sg", "I")], "imenom")
+    _, f, _ = decline("vrijeme:n:vremen")
+    eq("vrijeme I", f[("sg", "I")], "vremenom")
     _, f, _ = decline("pismo:n")
     eq("pismo pl G skipped", f[("pl", "G")], None)
 

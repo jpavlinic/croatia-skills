@@ -70,7 +70,9 @@ Status: researched 2026-10-25. Every entry carries a source URL and "checked 202
    marketing copy unless the owner does ("naruči Woltom" is colloquial; in copy
    write "naruči putem Wolta").
 5. **Mock data prefers fictional businesses**: "Primjer d.o.o.", "Trgovina
-   Primjer", "Pekara Primjer", `ana.horvat@primjer.hr`. Use real brands only
+   Primjer", "Pekara Primjer", `ana.horvat@primjer.hr`. Company suffixes are
+   written as in the court register (*d.o.o.*, *d.d.*); the pravopis form is
+   *d. o. o.* (see `croatia:hr-identifiers`, legal-form suffixes). Use real brands only
    where realism needs them (e.g. a dropdown of real banks or couriers, a payment
    method list), and then only current ones from these references.
 6. **Date anything that goes stale**: prices (in euro, with the year; Croatia has

@@ -26,7 +26,7 @@ HR kk VVVVVVV AAAAAAAAAA        21 characters, no spaces in data
 
 ## Bank codes and BIC – snapshot
 
-Source: HNB, *Vodeći brojevi pružatelja platnih usluga*, page updated **27.3.2025**:
+Source: HNB, *Vodeći brojevi pružatelja platnih usluga*, page updated **27. 3. 2025.**:
 <https://www.hnb.hr/temeljne-funkcije/platni-promet/vodeci-brojevi-pruzatelja-platnih-usluga>
 (downloadable table on the same page). Credit institutions list with OIB/MB:
 <https://www.hnb.hr/temeljne-funkcije/supervizija/popis-kreditnih-institucija>.
