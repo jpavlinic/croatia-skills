@@ -91,7 +91,8 @@ lokalnim kontekstom.
 
 ## 5. Srpski i bosanski oblici iz višejezičnih modela
 
-Modeli se uče na hrvatskim, srpskim i bosanskim tekstovima zajedno, pa se uvlače:
+Modeli se uče na hrvatskim, srpskim i bosanskim tekstovima zajedno, pa u
+hrvatski tekst lako prenesu oblike iz drugih dvaju standarda:
 ekavica (*vreme*), „da + prezent”, *tačno*, *uopšte*, *hiljada*, *nedelja*
 (za tjedan), *bezbednost*, *obezbediti*, *organizovati*, *tokom*, *januar*.
 Vidi `hrvatski-vs-srpski.md`.

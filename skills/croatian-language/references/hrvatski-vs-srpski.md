@@ -1,11 +1,20 @@
-# Hrvatski i srpski: nikad ne miješati
+# Hrvatski i srpski: dosljedno hrvatski standard
 
-Tekst mora biti dosljedno hrvatski. Srbizmi se uvlače na tri razine: glasovnoj
-(ekavica), sintaktičkoj („da + prezent”) i leksičkoj (riječi). Sve tri provjeri.
+Hrvatski i srpski bliski su jezici, svaki sa svojim standardom. Oblici u
+lijevom stupcu tablica ispravni su u srpskome, ali nisu dio hrvatskoga
+standarda, pa u hrvatskom tekstu ide desni stupac. Takav se oblik u hrvatskome
+tekstu zove srbizam: to je opis podrijetla, a ne ocjena. Razlike su na tri
+razine: glasovnoj (ekavica), sintaktičkoj („da + prezent”) i leksičkoj
+(riječi). Provjeri sve tri.
+
+Cilj je dosljednost, ne vrednovanje jezika. Ako je tekst namijenjen srpskoj
+publici, piše se na srpskom standardu, a ne na hrvatskom (vidi
+`croatia:hr-seo-local`, `international-regional.md`).
 
 ## 1. Ijekavica (ne ekavica)
 
-Hrvatski je ijekavski. Gdje srpski (ekavica) ima „e”, hrvatski ima „ije”/„je”:
+Hrvatski standard je ijekavski. Srpski standard ima ekavicu i ijekavicu, a u
+Srbiji prevladava ekavica. Gdje ekavica ima „e”, hrvatski ima „ije”/„je”:
 
 | Srpski (ekavica) | Hrvatski (ijekavica) |
 |---|---|
@@ -28,9 +37,9 @@ Pazi na duge i kratke jat-reflekse: dijete (dugo, „ije”) ali djeca (kratko,
 
 ## 2. Infinitiv, ne „da + prezent”
 
-Ovo je najčešći skriveni srbizam. Hrvatski preferira infinitiv:
+Ovu je razliku najlakše previdjeti. Hrvatski standard preferira infinitiv:
 
-| Srpski | Hrvatski |
+| Srpski standard | Hrvatski standard |
 |---|---|
 | idem da radim | idem raditi |
 | moram da kažem | moram reći |
@@ -46,13 +55,14 @@ infinitiv.
 ## 3. Futur i pitanja
 
 - Hrvatski: „Radit ću sutra.” / „Ja ću raditi.”
-- Srbizam: „Ja ću da radim sutra.”, „Radiću sutra.” (spojeno): izbjegavaj.
+- Srpski standard: „Ja ću da radim sutra.”, „Radiću sutra.” (spojeno); u
+  hrvatskom tekstu ne.
 - Pitanje: „**Je li** to istina?”, „**Jeste li** dobili račun?”, a ne „Da li
   je to istina?”, „Da li ste dobili račun?”.
 
 ## 4. Leksičke razlike (riječi)
 
-| Srpski | Hrvatski |
+| Srpski standard | Hrvatski standard |
 |---|---|
 | hiljada | tisuća |
 | hleb | kruh |
@@ -106,19 +116,21 @@ infinitiv.
 | pertle | vezice |
 | patika | tenisica |
 
-## 5. Tvorbeni i pravopisni signali srbizma
+## 5. Tvorbene i pravopisne razlike
 
-- **-isati / -ovati:** srpsko „organizovati, kontrolisati” → hrvatsko
+- **-isati / -ovati:** srpski „organizovati, kontrolisati”, hrvatski
   „organizirati, kontrolirati” (-irati).
-- **„po”-konstrukcije:** „po pitanju” je srpski/kalk → „u vezi s”, „što se tiče”.
-- **Ijekavica u prezentu:** srpsko „razumem, umem” → hrvatsko „razumijem, umijem”.
+- **„po”-konstrukcije:** umjesto „po pitanju” hrvatski standard ima „u vezi
+  s”, „što se tiče”.
+- **Ijekavica u prezentu:** ekavsko „razumem, umem”, hrvatsko „razumijem, umijem”.
 - **„je l'”, „jel”** → „je li”; **„da li”** → „je li” / glagol + li.
-- **enklitike i red riječi** ponekad odaju srpski; vidi gramatiku.
+- **enklitike i red riječi** ponekad se razlikuju; vidi gramatiku.
 - **mjeseci:** hrvatski koristi domaće nazive (siječanj, veljača, ožujak…), ne
-  internacionalne (januar, februar); ti su srpski i bosanski.
+  internacionalne (januar, februar), kojima se služe srpski i bosanski.
 
 ## 6. Brza provjera
 
 Ako vidiš ijednu od ovih: „mleko, da radim, da li, hiljada, tačno, fudbal,
-nedelja (za tjedan), januar, kašika, uopšte, organizovati, bezbedno”, tekst vuče na srpski; pročešljaj cijeli
-tekst jer rijetko dolaze same.
+nedelja (za tjedan), januar, kašika, uopšte, organizovati, bezbedno”, tekst
+se udaljio od hrvatskoga standarda. Provjeri cijeli tekst jer takvi oblici
+obično ne dolaze sami.

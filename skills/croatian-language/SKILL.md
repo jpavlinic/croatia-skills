@@ -18,8 +18,9 @@ description: >-
 # Croatian language: writing and proofreading
 
 Write and correct Croatian so it reads like the work of an educated native
-speaker: correct by the standard, natural, free of English calques and of
-Serbian forms. The norm is the *Hrvatski pravopis* of the Institut za hrvatski
+speaker: correct by the standard, natural, free of English calques, and
+consistently in the Croatian standard rather than the closely related Serbian
+one. The norm is the *Hrvatski pravopis* of the Institut za hrvatski
 jezik (IHJJ, [pravopis.hr](https://pravopis.hr)). Where the standard allows
 variants (e.g. thousands separator, spacing around a range dash), follow the
 project's own house style if it has a consistent one (CLAUDE.md, a style
@@ -186,9 +187,10 @@ i AI teksta u `references/strojni-prijevod-i-ai-tekst.md`.
 | kreirati, aplicirati | izraditi, prijaviti se |
 | TL;DR | Ukratko |
 
-## Nikad ne miješati sa srpskim
+## Dosljedno hrvatski standard (ne srpski)
 
-Detaljno u `references/hrvatski-vs-srpski.md`.
+Hrvatski i srpski bliski su jezici s različitim standardima; u hrvatskom tekstu
+ide hrvatski. Detaljno u `references/hrvatski-vs-srpski.md`.
 
 1. **Ijekavica:** mlijeko, vrijeme, dijete, htjeti (ne mleko, vreme).
 2. **Infinitiv, ne „da + prezent”:** „moram reći”, „želim probati”.

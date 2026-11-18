@@ -46,14 +46,14 @@ dolaze **iza prve naglašene riječi ili prve sintagme** u rečenici:
 
 - „**Je li** narudžba stigla?”, „**Jeste li** zadovoljni?”, „**Imate li**
   pitanja?” (glagol + li).
-- „Da li” je srbizam; „jel” i „jel'” su razgovorni.
+- „Da li” pripada srpskomu standardu; „jel” i „jel'” su razgovorni.
 - Pazi: „**jeli**” je glagolski pridjev od „jesti” („Jesu li jeli?”), nije
   upitna čestica.
 
 ## Futur
 
 - Infinitivi na **-ti** gube „i” kad „ću” ide iza: „radit ću”, „vidjet ćemo”,
-  „javit ću Vam”. Spojeno „radiću” je srbizam.
+  „javit ću Vam”. Spojeno „radiću” pripada srpskomu standardu.
 - Infinitivi na **-ći** ostaju: „ići ću”, „reći ćemo”, „doći će”.
 - S „ću” ispred nema krnjeg oblika: „ja ću raditi”.
 - Puni infinitiv ispred „ću” česta je pisana pogreška: ~~„biti ću”,
