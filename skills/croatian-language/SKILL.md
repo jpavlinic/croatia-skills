@@ -34,7 +34,12 @@ Status: researched 2026-10-25.
 2. Work in three layers (below). For short texts you write yourself (an
    e-mail, a UI string) return only the clean text; for proofreading return
    the corrected text plus a short list of changes.
-3. Load a reference only when needed:
+3. **Writing or translating a short text** (a button, card, heading, help text,
+   notification or meta description), and always when the source is English:
+   read `references/prirodni-kratki-tekst.md` first and run its recipe on every
+   line before you return it. Correct grammar is not enough; this is where
+   translated-sounding Croatian slips through.
+4. Load any other reference only when needed:
 
 | Need | Reference | Grep hints |
 |---|---|---|
@@ -47,6 +52,7 @@ Status: researched 2026-10-25.
 | Machine-translation / AI-text smells | `references/strojni-prijevod-i-ai-tekst.md` | `od strane`, `vršiti`, `Title Case` |
 | E-mails, letters, salutations | `references/e-mail-i-dopisi.md` | `Poštovani`, `pozdrav`, `vokativ` |
 | UI strings, forms, error messages, i18n plurals, meta texts | `references/web-i-ui-tekstovi.md` | `Spremi`, `plural`, `alt` |
+| Short texts that read like a translation (recipe, back-translation test) | `references/prirodni-kratki-tekst.md` | `kalk`, `svaki na svojoj`, `ugrađeni` |
 | Fact, number and logic checks | `references/cinjenice-brojke-i-provjera.md` | `zbroj`, `PDV`, `studij` |
 | Proofreading a Markdown/MDX article | `references/lektura-blog-workflow.md` | `frontmatter`, `flag` |
 

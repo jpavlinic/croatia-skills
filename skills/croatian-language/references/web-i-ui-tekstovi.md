@@ -26,6 +26,7 @@ obavijesti, i18n datoteke (`hr.json`, `messages/hr.ts`), meta opisi.
 | Home | Početna |
 | About us | O nama |
 | Contact | Kontakt |
+| Contact us / Get in touch (gumb) | Javite nam se / Pišite nam (ne „Kontaktirajte nas”, vidi `vokabular-i-anglicizmi.md`) |
 | Log in / Sign in | Prijava / Prijavi se |
 | Log out | Odjava / Odjavi se |
 | Sign up / Register | Registracija / Registriraj se |

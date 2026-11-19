@@ -43,7 +43,7 @@ hrvatskom inačicom, (2) vodič kako postupati s anglizmima i kalkovima.
 | lead (prodaja) | potencijalni kupac, upit | |
 | implementirati | provesti, uvesti, ugraditi | u IT kontekstu „implementirati” je prihvatljivo |
 | kreirati | izraditi, stvoriti, napraviti | |
-| kontaktirati nekoga | javiti se komu, obratiti se komu | „kontaktirajte nas” je prihvatljivo, „javite nam se” prirodnije |
+| kontaktirati koga („Kontaktirajte nas”) | javiti se komu, obratiti se komu („Javite nam se”, „Pišite nam”) | IHJJ: *kontaktirati* ide samo s instrumentalom, u značenju ‘biti u kontaktu’ („kontaktirati sa zaposlenicima”); „kontaktirati koga” nije standardno ([Hrvatski na maturi, sintaksa](https://matura.ihjj.hr/sintaksa.html); Jezični savjetnik, *kontaktirati*) |
 | sesija (sastanak) | sastanak, termin | u IT-u „sesija” ostaje |
 | baziran na | utemeljen na, temelji se na | |
 | fokusirati se | usredotočiti se | „fokus” je razgovorno prihvatljiv |
