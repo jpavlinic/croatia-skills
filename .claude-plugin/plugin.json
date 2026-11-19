@@ -1,6 +1,6 @@
 {
   "name": "croatia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Croatia skills for Claude: Croatian language, legal compliance (not legal advice), identifiers (OIB, IBAN, HUB-3), localization, calendar, brands, fiscalization, business admin, payroll, tourism rentals, local SEO, real estate and EU funding.",
   "author": {
     "name": "jpavlinic"
